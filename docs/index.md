@@ -4,7 +4,7 @@
     style="display: block; 
            margin-left: auto;
            margin-right: auto;
-           width: 500px;
+           width: 150px;
            border-radius: 14px;"
     src="/website_fr/img/CFFDRS_banner.png" 
     alt="CFFDRS logo">
