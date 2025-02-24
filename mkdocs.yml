@@ -1,0 +1,22 @@
+site_name: PG-MCEDIF
+nav:
+    - Accueil: accueil.md
+    - Code: code.md
+    - Tutoriels: tutoriels.md
+    - Ressources: ressources.md
+    - Contacter: contacter.md
+    - English: https://cffdrs.github.io/website_en/home/
+not_in_nav: |
+    index.md
+    contacter/*
+    code/*
+theme:
+    name: mkdocs
+    custom_dir: custom_theme/
+    locale: fr
+    color_mode: dark
+    nav_style: dark
+    user_color_mode_toggle: false
+extra_css: [style.css]
+plugins:
+    - search
