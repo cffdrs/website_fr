@@ -1,3 +1,3 @@
-Website for NG-CFFDRS
+site web pour PG-MCEDIF
 
-# https://cffdrs.github.io/website_en/
+# https://cffdrs.github.io/website_fr/
