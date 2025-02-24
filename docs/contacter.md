@@ -1,4 +1,5 @@
 ## Inscription à la newsletter
+[Newsletter Form (Microsoft Forms)](https://forms.office.com/r/jmT8HVrsK8)
 
 ## Groupe de risque d'incendie
 ### Membres
