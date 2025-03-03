@@ -12,7 +12,7 @@ Ceux qui ne sont pas familiers avec la MCEDIF peuvent en savoir plus en consulta
 
 
 ## Mise à jour des renseignements
-<a href="../contacter/#inscription-à-la-newsletter" target="_self">Inscription à la newsletter</a>
+<a href="../contacter/#inscription-a-la-newsletter" target="_self">Inscription à la newsletter</a>
 
 ### Mars 2025
 Le [premier bulletin](../documents/Newsletter1_FR_FWI2025_final.pdf)📥 est désormais disponible. Il présente les nouvelles fonctionnalités de l'indice Forêt-Météo (IFM2025), notamment l'utilisation de données horaires et les nouveaux intrants et indices pour le danger d'incendie dans les prairies.
