@@ -132,12 +132,12 @@
 <p>L’IFM2025 fait partie d’un programme plus vaste visant à mettre à jour la méthode canadienne d’évaluation des dangers d’incendie de forêt (MCEDIF). Trois langages de programmation différents sont disponibles : R, Python et C. Ces trois langages produisent les mêmes résultats, vous pouvez donc choisir celui qui répond à vos besoins.</p>
 <p>Les fichiers, les entrées, les formats et les sorties sont décrits ci-dessous de manière générale pour les trois langues. Tout écart par rapport à un langage spécifique est indiqué.</p>
 <p>Le code IFM2025 a été écrit et testé à l’origine en utilisant des tableaux de données et des fichiers .csv comme entrées. Ainsi, la sortie génère des tableaux de données simples qui peuvent ensuite être exportés. Les utilisateurs peuvent configurer les types de fichiers d’entrée et de sortie en fonction de leurs propres flux de données.</p>
-<p>Un ensemble de données de test est disponible en ligne ici:</p>
+<p>Un ensemble de données de test est disponible en ligne ici :</p>
 <p><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/wx_prf.csv">https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/wx_prf.csv</a> (en anglais) </p>
 <p>Remarque sur les termes : </p>
 <p>Les calculs du système d’IFM ont été conçus à l’origine pour être effectués à partir des données enregistrées par les stations météorologiques locales. Par conséquent, les descriptions ci-dessous font référence aux données des stations météorologiques. En réalité, toutes les données météorologiques qui présentent une estimation représentative du temps selon les paramètres standard requis pour l’entrée du système IFM peuvent être utilisées (p. ex. données maillées et données de prévision). Voir le <a href="https://ostrnrcan-dostrncan.canada.ca/handle/1845/219568">guide météo</a> afin d’obtenir une description des normes d’entrée des données météorologiques, pour le système IFM. </p>
 <h3 id="executer-lifm2025">Exécuter l’IFM2025</h3>
-<p>Page principale où se trouve tout le code relatif au développement de la PG-MCEDIF: </p>
+<p>Page principale où se trouve tout le code relatif au développement de la PG-MCEDIF : </p>
 <p><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main">https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main</a> (en anglais)</p>
 <p>Pour chaque langage de programmation, deux scripts sont nécessaires afin de générer des sorties d’IFM2025 : </p>
 <ol>
@@ -337,7 +337,7 @@ C : stdlib.h, stdbool.h, string.h </p>
 </table>
 <h3 id="resultats">Résultats</h3>
 <p>Des colonnes sont ajoutées au tableau des données d’entrée et un deuxième tableau de données récapitulatives est généré.</p>
-<p>Colonnes de sortie qui sont ajoutées au tableau des données météorologiques horaires: </p>
+<p>Colonnes de sortie qui sont ajoutées au tableau des données météorologiques horaires : </p>
 <table>
 <thead>
 <tr>
