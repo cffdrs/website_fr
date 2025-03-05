@@ -11,14 +11,14 @@ MCEDIF1992
 - [PCI1992 mises à jour et révisions (GLC-X-10)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/247839)
 
 Documentation MCEDIF plus actuelle et historique peut être trouvée sur le  
-[Dépôt ouvert des sciences et technologie (DOST) de RNCan](https://ostrnrcan-dostrncan.canada.ca/accueil).
+[dépôt ouvert des sciences et technologie (DOST) de RNCan](https://ostrnrcan-dostrncan.canada.ca/accueil).
 
 [Livre rouge de l'association canadienne des chefs de pompiers (ACCP)](https://cafc.ca/page/redbook2021fr)
 
 ## Cartes
 [Système canadien d'information sur les feux de végétation (SCIFV)](https://cwfis.cfs.nrcan.gc.ca/accueil)  
 [Centre interservices des feux de forêt du Canada (CIFFC)](https://ciffc.ca) (en anglais)  
-[Atlas forestier du système national d'information sur les forêts (SNIF)](https://ca.nfis.org/map/atlas.html)
+[Atlas forestier du système national d'information sur les forêts (SNIF)](https://ca.nfis.org/map/atlas.html?language=fr)
 
 ## Aperçu
 [Feux de forêt](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/feux-foret)  
