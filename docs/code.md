@@ -18,7 +18,7 @@ Les fichiers, les entrées, les formats et les sorties sont décrits ci-dessous 
 
 Le code IFM2025 a été écrit et testé à l’origine en utilisant des tableaux de données et des fichiers .csv comme entrées. Ainsi, la sortie génère des tableaux de données simples qui peuvent ensuite être exportés. Les utilisateurs peuvent configurer les types de fichiers d’entrée et de sortie en fonction de leurs propres flux de données.
 
-Un ensemble de données de test est disponible en ligne ici:
+Un ensemble de données de test est disponible en ligne ici :
 
 [https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/wx_prf.csv](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/wx_prf.csv) (en anglais) 
 
@@ -28,7 +28,7 @@ Les calculs du système d’IFM ont été conçus à l’origine pour être effe
 
 ### Exécuter l’IFM2025 
 
-Page principale où se trouve tout le code relatif au développement de la PG-MCEDIF: 
+Page principale où se trouve tout le code relatif au développement de la PG-MCEDIF : 
 
 [https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main) (en anglais)
 
@@ -129,7 +129,7 @@ La version C peut être exécutée à partir de la ligne de commande avec les ar
 
 Des colonnes sont ajoutées au tableau des données d’entrée et un deuxième tableau de données récapitulatives est généré.
 
-Colonnes de sortie qui sont ajoutées au tableau des données météorologiques horaires: 
+Colonnes de sortie qui sont ajoutées au tableau des données météorologiques horaires : 
 
 | Colonne | Description |
 | --- | --- |
