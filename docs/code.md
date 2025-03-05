@@ -10,13 +10,13 @@ Remarque : bien que certains liens vers la MCEDIF actuelle et la MCEDIF2025 se
 
 ## Informations sur le code IFM2025 
 
-La ressource suivante décrit les fichiers et les exigences nécessaires pour générer des sorties pour la prochaine génération du système d’IFM (ci-après dénommé IFM2025). 
+La ressource suivante décrit les fichiers et les exigences nécessaires pour générer des sorties pour la prochaine génération du système d’IFM (ci-après dénommé IFM2025).
 
-L’IFM2025 fait partie d’un programme plus vaste visant à mettre à jour la méthode canadienne d’évaluation des dangers d’incendie de forêt (MCEDIF). Trois langages de programmation différents sont disponibles : R, Python et C. Ces trois langages produisent les mêmes résultats, vous pouvez donc choisir celui qui répond à vos besoins. 
+L’IFM2025 fait partie d’un programme plus vaste visant à mettre à jour la méthode canadienne d’évaluation des dangers d’incendie de forêt (MCEDIF). Trois langages de programmation différents sont disponibles : R, Python et C. Ces trois langages produisent les mêmes résultats, vous pouvez donc choisir celui qui répond à vos besoins.
 
-Les fichiers, les entrées, les formats et les sorties sont décrits ci-dessous de manière générale pour les trois langues. Tout écart par rapport à un langage spécifique est indiqué. 
+Les fichiers, les entrées, les formats et les sorties sont décrits ci-dessous de manière générale pour les trois langues. Tout écart par rapport à un langage spécifique est indiqué.
 
-Le code IFM2025 a été écrit et testé à l’origine en utilisant des tableaux de données et des fichiers .csv comme entrées. Ainsi, la sortie génère des tableaux de données simples qui peuvent ensuite être exportés. Les utilisateurs peuvent configurer les types de fichiers d’entrée et de sortie en fonction de leurs propres flux de données. 
+Le code IFM2025 a été écrit et testé à l’origine en utilisant des tableaux de données et des fichiers .csv comme entrées. Ainsi, la sortie génère des tableaux de données simples qui peuvent ensuite être exportés. Les utilisateurs peuvent configurer les types de fichiers d’entrée et de sortie en fonction de leurs propres flux de données.
 
 Un ensemble de données de test est disponible en ligne ici:
 
@@ -24,7 +24,7 @@ Un ensemble de données de test est disponible en ligne ici:
 
 Remarque sur les termes : 
 
-Les calculs du système d’IFM ont été conçus à l’origine pour être effectués à partir des données enregistrées par les stations météorologiques locales. Par conséquent, les descriptions ci-dessous font référence aux données des stations météorologiques. En réalité, toutes les données météorologiques qui présentent une estimation représentative du temps selon les paramètres standard requis pour l’entrée du système IFM peuvent être utilisées (p. ex. données maillées et données de prévision). Voir le guide météo afin d’obtenir une description des normes d’entrée des données météorologiques, pour le système IFM. 
+Les calculs du système d’IFM ont été conçus à l’origine pour être effectués à partir des données enregistrées par les stations météorologiques locales. Par conséquent, les descriptions ci-dessous font référence aux données des stations météorologiques. En réalité, toutes les données météorologiques qui présentent une estimation représentative du temps selon les paramètres standard requis pour l’entrée du système IFM peuvent être utilisées (p. ex. données maillées et données de prévision). Voir le [guide météo](https://ostrnrcan-dostrncan.canada.ca/handle/1845/219568) afin d’obtenir une description des normes d’entrée des données météorologiques, pour le système IFM. 
 
 ### Exécuter l’IFM2025 
 
@@ -72,7 +72,7 @@ En-têtes de colonnes et structure des données d’entrée :
 | `rh` | Humidité relative en pourcentage, en chiffre (0-100) |
 | `ws` | Vitesse du vent en km/h, en chiffre |
 | `prec` | Précipitations (pluie) mesurées en millimètres (mm), en chiffre |
-| `solrad` | Rayonnement solaire mesuré en kW/m2 (kilowatts par mètre carré) pour les codes des herbacés, en chiffre. Entrée OPTIONNELLE, l’IFM2025 génère la méthode par défaut. (en savoir plus sur les capteurs de rayonnement solaire et les exigences minimales) |
+| `solrad` | Rayonnement solaire mesuré en kW/m2 (kilowatts par mètre carré) pour les codes des herbacés, en chiffre. Entrée OPTIONNELLE, l’IFM2025 génère la méthode par défaut. ([MCEDIF rayonnement solaire IFM (draft)](../documents/MCEDIF2025_rayonnement-solaire-IFM.pdf)) |
 | `percent_cured` | Pourcentage d’herbacés fanés dans les prairies ouvertes, mesuré en pourcentage pour les codes d’herbacés, en chiffre (0-100). Entrée OPTIONNELLE, l’IFM2025 génère la méthode par défaut | 
 
 En plus des variables météorologiques, la fonction permettant de générer des sorties d’IFM2025 horaires nécessite le fuseau horaire où la station météorologique est située et la valeur de démarrage pour les codes d’humidité (p. ex. ICL de 85, IH [indice de l’humus] de 6 et IS [indice de sécheresse] de 15). Voir la section suivante pour savoir où ils sont utilisés. 
@@ -141,16 +141,16 @@ Colonnes de sortie qui sont ajoutées au tableau des données météorologiques 
 | `solrad` | Rayonnement solaire mesuré en kW/m2 (kilowatts par mètre carré) pour les codes d’herbacés, généré automatiquement s’il n’est pas indiqué dans l’entrée (en chiffre). (doit être calculé à l’aide de make_inputs.c s’il n’est pas donné) |
 | `percent_cured` | pourcentage de combustibles fanés (morts) dans les prairies, généré automatiquement s’il n’est pas indiqué dans l’entrée. Utilisé exclusivement dans les calculs relatifs aux prairies. Pourcentage sous forme de nombre (0-100). (doit être calculé à l’aide de make_inputs.c s’il n’est pas donné) |
 | `grass_fuel_load` | La quantité de combustible herbacé standard est intégrée aux codes Python et R, soit 0,35 kg/m2. (doit être calculée à l’aide de make_inputs.c si elle n’est pas donnée, elle génère une colonne associée à la valeur standard) |
-| `ffmc` |  |
-| `dmc` |  |
-| `dc` |  |
-| `isi` |  |
-| `bui` |  |
-| `fwi` |  |
+| `ffmc` | Indice du combustible léger (ICL) |
+| `dmc` | Indice de l'humus (IH) |
+| `dc` | Indice de sécheresse (IS) |
+| `isi` | Indice de propagation initiale (IPI) |
+| `bui` | Indice du combustible disponible (ICD) |
+| `fwi` | Indice forêt-météo (IFM) |
 | `dsr` |  |
-| `gfmc` |  |
-| `gsi` |  |
-| `gfwi` |  |
+| `gfmc` | Indice d'humidité de l'herbe (IHH) |
+| `gsi` | Indice de propagation dans l'herbe (IPH) |
+| `gfwi` | Indice du danger d'incendie pour l'herbe (IDIH) |
 
 Les résultats horaires d’IFM2025 peuvent être résumés de différentes manières, et pour inciter les utilisateurs à réfléchir aux résumés qui seraient pertinents dans leur situation, une fonction du fichier « util » résume la journée en quelques mesures de base. 
 
@@ -193,15 +193,15 @@ Résumé quotidien des sorties :
 | `wind_speed_smoothed` |  Vitesse du vent (km/h), double précision. La vitesse horaire du vent enregistrée en fonction d’une moyenne de 10 minutes peut être erronée d’une heure à l’autre, ce qui rend difficile l’estimation de la durée d’une fenêtre de brûlage. Pour estimer la durée d’une fenêtre de brûlage et l’heure de pointe, la vitesse du vent horaire est ajustée et l’PSI est recalculé en fonction de la vitesse du vent ajustée et de l’ICLitesse du vent (km/h), double précision. La vitesse horaire du vent enregistrée en fonction d’une moyenne de 10 minutes peut être erronée d’une heure à l’autre, ce qui rend difficile l’estimation de la durée d’une fenêtre de brûlage. Pour estimer la durée d’une fenêtre de brûlage et l’heure de pointe, la vitesse du vent horaire est ajustée et l’PSI est recalculé en fonction de la vitesse du vent ajustée et de l’ICL |
 | `peak_isi_smoothed` | Indice de propagation initiale (IPI) maximal recalculé en fonction de l’ICL et de la vitesse du vent ajustée à partir de wind_speed_smoothed; en chiffre pour une double précision. En chiffre, double précision |
 | `ffmc` | Indice du combustible léger correspondant l’ICL à l’heure de pointe. En chiffre, double précision |
-| `dmc` |  |
-| `dc` |  |
-| `isi` |  |
-| `bui` |  |
-| `fwi` |  |
+| `dmc` | Indice de l'humus (IH) |
+| `dc` | Indice de sécheresse (IS) |
+| `isi` | Indice de propagation initiale (IPI) |
+| `bui` | Indice du combustible disponible (ICD) |
+| `fwi` | Indice forêt-météo (IFM) |
 | `dsr` |  |
-| `gfmc` |  |
-| `gsi` |  |
-| `gfwi` |  |
+| `gfmc` | Indice d'humidité de l'herbe (IHH) |
+| `gsi` | Indice de propagation dans l'herbe (IPH) |
+| `gfwi` | Indice du danger d'incendie pour l'herbe (IDIH) |
 
 ## Licence
 
