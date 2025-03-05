@@ -1,5 +1,5 @@
 ## Inscription à la newsletter
-[Newsletter Form (Microsoft Forms)](https://forms.office.com/r/jmT8HVrsK8)
+[Formulaire de bulletin (Microsoft Forms)](https://forms.office.com/r/jmT8HVrsK8)
 
 ## Groupe de risque d'incendie
 ### Membres
@@ -9,7 +9,7 @@ Analyste de la mobilisation de la recherche
 
 **Jonathan Boucher**  
 Chercheur scientifique sur les feux de végétation  
-[Biographie](contacter/Jonathan_Boucher.md)  
+<a href="../contacter/Jonathan_Boucher" target="_self">Biographie</a>  
 [jonathan.boucher@nrcan-rncan.gc.ca](mailto:jonathan.boucher@NRCan-RNCan.gc.ca)  
 
 **Luke Collins**  
@@ -18,17 +18,17 @@ Research Scientist
 
 **Anne Cotton-Gagnon** (elle, elle | she, her)  
 Agente de recherche sur les feux de végétation  
-[Biographie](contacter/Anne_Cotton-Gagnon.md)  
+<a href="../contacter/Anne_Cotton-Gagnon" target="_self">Biographie</a>  
 [anne.cotton-gagnon@nrcan-rncan.gc.ca](mailto:anne.cotton-gagnon@NRCan-RNCan.gc.ca)  
 
 **Patrick Deane** (he, him | il, lui)  
 Forest Fire Research Specialist   
-[Biographie](contacter/Patrick_Deane.md)  
+<a href="../contacter/Patrick_Deane" target="_self">Biographie</a>  
 [patrick.deane@nrcan-rncan.gc.ca](mailto:Patrick.Deane@NRCan-RNCan.gc.ca)  
 
 **Chelene Hanes**  
 Chercheuse scientifique en feux de forêt  
-[Biographie](contacter/Chelene_Hanes.md)  
+<a href="../contacter/Chelene_Hanes" target="_self">Biographie</a>  
 [chelene.hanes@nrcan-rncan.gc.ca](mailto:chelene.hanes@nrcan-rncan.gc.ca)  
 
 **Natasha Jurko**  
@@ -50,6 +50,7 @@ IT Analyst
 **Kevin Siu** (he, him | il, lui)  
 Programmeur analyste en incendie  
 *Superviseur du site Web*  
+<a href="../contacter/Kevin_Siu" target="_self">Biographie</a>  
 [kevin.siu@nrcan-rncan.gc.ca](mailto:kevin.siu@nrcan-rncan.gc.ca)
 
 **Steve Taylor**  
