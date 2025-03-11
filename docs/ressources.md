@@ -1,3 +1,5 @@
+<a href="https://cffdrs.github.io/website_en/resources/" target="_self" style="float: right;"> English </a>
+
 ## Rapports
 [Prochaine generation MCEDIF (PG-MCEDIF)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245411)
 

@@ -1,3 +1,5 @@
+<a href="https://cffdrs.github.io/website_en/contact/Kevin_Siu/" target="_self" style="float: right;"> English </a>
+
 ## Kevin Siu
 (he, him | il, lui)  
 Programmeur analyste en incendie  

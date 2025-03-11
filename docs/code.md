@@ -1,3 +1,5 @@
+<a href="https://cffdrs.github.io/website_en/code/" target="_self" style="float: right;"> English </a>
+
 ## Dépôt de code 
 
 Le [dépôt GitHub de la PG-MCEDIF](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main) (en anglais) contient le code actualisé des modules MCEDIF2025 dans trois langages de programmation : R, C et Python. Les trois langues contiennent les mêmes équations et exécutent les mêmes tâches. Le choix dépend des exigences de votre système. 

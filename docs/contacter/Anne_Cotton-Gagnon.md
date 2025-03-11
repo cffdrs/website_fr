@@ -1,3 +1,4 @@
+<a href="https://cffdrs.github.io/website_en/contact/Anne_Cotton-Gagnon/" target="_self" style="float: right;"> English </a>
 
 <img 
     style="height: 200px;

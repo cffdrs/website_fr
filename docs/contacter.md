@@ -1,3 +1,5 @@
+<a href="https://cffdrs.github.io/website_en/contact/" target="_self" style="float: right;"> English </a>
+
 ## Inscription à la newsletter
 [Formulaire de bulletin (Microsoft Forms)](https://forms.office.com/r/jmT8HVrsK8)
 
