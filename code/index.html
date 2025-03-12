@@ -21,6 +21,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script>
     <base target="_blank">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400&family=Roboto+Mono&display=swap');
+    </style>
     </head>
 
     <body>
@@ -95,24 +98,55 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="2"><a href="#depot-de-code" class="nav-link" target="_self">Dépôt de code</a>
-              <ul class="nav flex-column">
-              </ul>
+            <li class="nav-item" data-bs-level="1">
+                    <a href="#code" class="nav-link" target="_self"> (Début) </a>
+                <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2">
+                    <a href="#depot-de-code" class="nav-link" target="_self">Dépôt de code</a>
+                <ul class="nav flex-column">
+                </ul>
             </li>
-            
-            <li class="nav-item" data-bs-level="2"><a href="#documentation" class="nav-link" target="_self">Documentation</a>
-              <ul class="nav flex-column">
-              </ul>
+            <li class="nav-item" data-bs-level="2">
+                    <a href="#documentation" class="nav-link" target="_self">Documentation</a>
+                <ul class="nav flex-column">
+                </ul>
             </li>
-            
-            <li class="nav-item" data-bs-level="2"><a href="#informations-sur-le-code-ifm2025" class="nav-link" target="_self">Informations sur le code IFM2025</a>
-              <ul class="nav flex-column">
-              </ul>
+            <li class="nav-item" data-bs-level="2">
+                    <a href="#informations-sur-le-code-ifm2025" class="nav-link" target="_self">Informations sur le code IFM2025</a>
+                <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#executer-lifm2025" class="nav-link" target="_self">Exécuter l’IFM2025</a>
+                <ul class="nav flex-column">
+                </ul>
             </li>
-            
-            <li class="nav-item" data-bs-level="2"><a href="#licence" class="nav-link" target="_self">Licence</a>
-              <ul class="nav flex-column">
-              </ul>
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#progiciels" class="nav-link" target="_self">Progiciels</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#intrants" class="nav-link" target="_self">Intrants</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#calcul-des-composants-du-systeme-difm-et-fichier-de-synthese" class="nav-link" target="_self">Calcul des composants du système d’IFM et fichier de synthèse</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#resultats" class="nav-link" target="_self">Résultats</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2">
+                    <a href="#licence" class="nav-link" target="_self">Licence</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+                </ul>
             </li>
         </ul>
     </div>
@@ -120,6 +154,7 @@
     <div class="col-md-9" role="main">
 
 <p><a href="https://cffdrs.github.io/website_en/code/" target="_self" style="float: right;"> English </a></p>
+<h1 id="code">Code</h1>
 <h2 id="depot-de-code">Dépôt de code</h2>
 <p>Le <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main">dépôt GitHub de la PG-MCEDIF</a> (en anglais) contient le code actualisé des modules MCEDIF2025 dans trois langages de programmation : R, C et Python. Les trois langues contiennent les mêmes équations et exécutent les mêmes tâches. Le choix dépend des exigences de votre système. </p>
 <h2 id="documentation">Documentation</h2>
@@ -157,7 +192,7 @@ C : <strong>util.c</strong>, <strong>util.h</strong></p>
 <p>R : lubridate et data.table<br />
 Python : datetime, logging, math, numpy, pandas, os.path, sys<br />
 C : stdlib.h, stdbool.h, string.h </p>
-<h3 id="intrants">INTRANTS</h3>
+<h3 id="intrants">Intrants</h3>
 <p>Les intrants de l’IFM2025 comprennent des variables météorologiques horaires et une estimation du traitement. Pour en savoir plus sur les intrants du système d’IFM, cliquez ici. </p>
 <p>En-têtes de colonnes et structure des données d’entrée : </p>
 <table>
