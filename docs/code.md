@@ -1,5 +1,7 @@
 <a href="https://cffdrs.github.io/website_en/code/" target="_self" style="float: right;"> English </a>
 
+# Code
+
 ## Dépôt de code 
 
 Le [dépôt GitHub de la PG-MCEDIF](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main) (en anglais) contient le code actualisé des modules MCEDIF2025 dans trois langages de programmation : R, C et Python. Les trois langues contiennent les mêmes équations et exécutent les mêmes tâches. Le choix dépend des exigences de votre système. 
@@ -55,7 +57,7 @@ R : lubridate et data.table
 Python : datetime, logging, math, numpy, pandas, os.path, sys  
 C : stdlib.h, stdbool.h, string.h 
 
-### INTRANTS 
+### Intrants 
 
 Les intrants de l’IFM2025 comprennent des variables météorologiques horaires et une estimation du traitement. Pour en savoir plus sur les intrants du système d’IFM, cliquez ici. 
 

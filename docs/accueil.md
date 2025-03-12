@@ -1,5 +1,7 @@
 <a href="https://cffdrs.github.io/website_en/home/" target="_self" style="float: right;"> English </a>
 
+# Accueil
+
 ## À propos
 
 La [Méthode canadienne d’évaluation des dangers d’incendie de forêt (MCEDIF)](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/methode-canadienne-evaluation-dangers-incendie-foret) est la principale source d’information sur les incendies à la disposition de toutes les [agences de gestion des incendies de forêt](https://ciffc.ca/mobilization-stats/member-agencies) (en anglais) au Canada. Elle est largement utilisée comme outil de sécurité et de sensibilisation, tant à l’échelle régionale qu’en bordure de feu. La MCEDIF fait l’objet de révisions approfondies sous le nom de [MCEDIF de prochaine génération (PG-MCEDIF)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245411). Elle sera mise à la disposition des praticiens en 2024, 2025 et les années suivantes. L’objectif principal est de répondre aux besoins évolutifs des utilisateurs avancés, tout en conservant sa simplicité et son efficacité.
