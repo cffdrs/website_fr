@@ -95,7 +95,7 @@ html {
 .navbar a.nav-link {
     font-family: "Mono45 Headline Bold", "DM Mono", monospace;
     font-size: 22px;
-    text-transform: capitalize;
+    text-transform: none;
     font-weight: bold;
     padding-left: 20px!important;
 }
