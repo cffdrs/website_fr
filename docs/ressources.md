@@ -2,6 +2,11 @@
 
 # Ressources
 
+## Bulletin
+- [Mars 2025](../documents/Newsletter1_FR_FWI2025_final.pdf)📥
+
+<a href="../contacter/#inscription-a-la-newsletter" target="_self">Inscription à la newsletter</a>
+
 ## Rapports
 [Prochaine generation MCEDIF (PG-MCEDIF)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245411)
 

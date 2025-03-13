@@ -4,7 +4,7 @@ nav:
     - Code: code.md
     - Tutoriels: tutoriels.md
     - Ressources: ressources.md
-    - Contacter: contacter.md
+    - Nous contacter: contacter.md
 not_in_nav: |
     index.md
     contacter/*

@@ -12,14 +12,17 @@ Ce site web est destiné à :
 - centraliser l’accès au code et à la documentation
 - héberger des tutoriels pour les nouveaux utilisateurs
 
+<a href="../contacter/#inscription-a-la-newsletter" target="_self">Inscription à la newsletter</a>
+
 Ceux qui ne sont pas familiers avec la MCEDIF peuvent en savoir plus en consultant [la page de la MCEDIF du gouvernement du Canada](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/methode-canadienne-evaluation-dangers-incendie-foret). Pour de l’information officielle sur les incendies de forêt au Canada, visitez les [pages du gouvernement du Canada sur les feux de végétation](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation).
 
 
 ## Mise à jour des renseignements
-<a href="../contacter/#inscription-a-la-newsletter" target="_self">Inscription à la newsletter</a>
 
 ### Mars 2025
-Le [premier bulletin](../documents/Newsletter1_FR_FWI2025_final.pdf)📥 est désormais disponible. Il présente les nouvelles fonctionnalités de l'indice Forêt-Météo (IFM2025), notamment l'utilisation de données horaires et les nouveaux intrants et indices pour le danger d'incendie dans les prairies.
+Le 
+<a href="../ressources/#bulletin" target="_self">premier bulletin</a>
+est désormais disponible. Il présente les nouvelles fonctionnalités de l'indice Forêt-Météo (IFM2025), notamment l'utilisation de données horaires et les nouveaux intrants et indices pour le danger d'incendie dans les prairies.
 
 ### Janvier 2025
 Le module du système d’indice forêt-météo (IFM) écrit en Python et en R peut actuellement être testé par les utilisateurs (le travail sur le langage C est en cours). La publication des autres modules de la MCEDIF (p. ex. systèmes PCI, AHC, et FIF) est provisoirement prévue pour l’automne 2025. 
