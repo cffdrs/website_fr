@@ -1,11 +1,12 @@
 <a href="https://cffdrs.github.io/website_en/contact/Patrick_Deane/" target="_self" style="float: right;"> English </a>
 
 <img 
-    style="height: 200px;
+    style="height: 250px;
            border-radius: 10px;
+           margin: auto;
            float: left;
-           margin: 20px 25px 0px 0px;"
-    src="/website_fr/contacter/pdeane.jpg" 
+           margin-right: 25px"
+    src="../pdeane.jpg" 
     alt="Patrick Deane">
 </img>
 

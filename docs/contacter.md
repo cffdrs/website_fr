@@ -37,6 +37,7 @@ Chercheuse scientifique en feux de forêt
 
 **Natasha Jurko**  
 Spécialiste de la physique des feux de forêt  
+*Point de contact*  
 [natasha.jurko@nrcan-rncan.gc.ca](mailto:natasha.jurko@NRCan-RNCan.gc.ca)  
 
 **Samuel Lacarte** (he, him | il, lui)  
