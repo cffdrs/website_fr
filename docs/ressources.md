@@ -11,7 +11,13 @@
 [Prochaine generation MCEDIF (PG-MCEDIF)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245411)
 
 - [MCEDIF2025 rayonnement solaire IFM (draft)](../documents/MCEDIF2025_rayonnement-solaire-IFM.pdf)📥
-- [PG-MCEDIF protocole d'échantillonnage terrain](https://ca.nfis.org/fss/fss?command=retrieveByName&fileName=Field_Guide_of_NG_Protocol_french.pdf&fileNameSpace=docs/nfi&format=xml&promptToSave=true)📥
+
+Guides de terrain
+
+- [Manuel terrain : L'échantillonnage des combustibles dans le contexte de la PG-MCEDIF](https://ca.nfis.org/fss/fss?command=retrieveByName&fileName=Field_Guide_of_NG_Protocol_french.pdf&fileNameSpace=docs/nfi&format=xml&promptToSave=true)📥
+- [Guide de la méthode canadienne de PCI 3ème édition (livre rouge)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/222604)
+- [Guide pratique pour prédire le comportement des incendies dans les prairies à herbes hautes de l'Ontario (livre jaune)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/246080) (en anglais)
+
 
 MCEDIF1992
 
@@ -26,7 +32,7 @@ Documentation MCEDIF plus actuelle et historique peut être trouvée sur le
 
 ## Cartes
 [Système canadien d'information sur les feux de végétation (SCIFV)](https://cwfis.cfs.nrcan.gc.ca/accueil)  
-[Centre interservices des feux de forêt du Canada (CIFFC)](https://ciffc.ca) (en anglais)  
+[Centre interservices des feux de forêt du Canada (CIFFC)](https://ciffc.ca) (le français suit)  
 [Atlas forestier du système national d'information sur les forêts (SNIF)](https://ca.nfis.org/map/atlas.html?language=fr)
 
 ## Aperçu
