@@ -3,7 +3,7 @@
 # Ressources
 
 ## Bulletin
-- [Mars 2025](../documents/Newsletter1_FR_FWI2025_final.pdf)📥
+- [Volume 1, Bulletin 1 (Mars 2025)](../documents/Newsletter1_FR_FWI2025_final.pdf)📥
 
 <a href="../contacter/#inscription-a-la-newsletter" target="_self">Inscription à la newsletter</a>
 
@@ -33,7 +33,8 @@ Documentation MCEDIF plus actuelle et historique peut être trouvée sur le
 ## Cartes
 [Système canadien d'information sur les feux de végétation (SCIFV)](https://cwfis.cfs.nrcan.gc.ca/accueil)  
 [Centre interservices des feux de forêt du Canada (CIFFC)](https://ciffc.ca) (le français suit)  
-[Atlas forestier du système national d'information sur les forêts (SNIF)](https://ca.nfis.org/map/atlas.html?language=fr)
+[Atlas forestier du système national d'information sur les forêts (SNIF)](https://ca.nfis.org/map/atlas.html?language=fr)  
+[Global Wildfire Information System (GWIS)](https://gwis.jrc.ec.europa.eu/) (en anglais)
 
 ## Aperçu
 [Feux de forêt](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/feux-foret)  
