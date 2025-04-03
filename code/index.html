@@ -262,7 +262,7 @@ C : stdlib.h, stdbool.h, string.h </p>
 <h3 id="calcul-des-composants-du-systeme-difm-et-fichier-de-synthese">Calcul des composants du système d’IFM et fichier de synthèse</h3>
 <p>La fonction du fichier NG_FWI est conçue pour générer des sorties du système d’IFM pour une station à la fois, mais peut s’adapter à une entrée correctement formatée pour plusieurs stations, dans les versions R et Python. Exception : la version C nécessite la saisie d’une seule année pour une station donnée. </p>
 <p>La fonction permettant de générer des sorties d’IFM2025 se trouve dans le fichier NG_FWI et se présente comme suit : </p>
-<p>R : </p>
+<p>R :</p>
 <pre><code class="language-r">hFWI(df_wx, timezone, ffmc_old, dmc_old, dc_old)
 </code></pre>
 <table>
@@ -455,14 +455,14 @@ C : stdlib.h, stdbool.h, string.h </p>
 </table>
 <p>Les résultats horaires d’IFM2025 peuvent être résumés de différentes manières, et pour inciter les utilisateurs à réfléchir aux résumés qui seraient pertinents dans leur situation, une fonction du fichier « util » résume la journée en quelques mesures de base. </p>
 <p>Fonction permettant de générer des résumés quotidiens : </p>
-<p>R (trouvé dans util.r) : </p>
+<p>R (trouvé dans util.r) :</p>
 <pre><code class="language-r">generate_daily_summaries &lt;- function(hourly_data) {} 
 </code></pre>
-<p>Lorsque : hourly_data = le cadre de données de sortie généré par NG_FWI </p>
+<p>Lorsque : hourly_data = le cadre de données de sortie généré par NG_FWI  </p>
 <p>Python (trouvé dans util.py) : </p>
 <pre><code class="language-python">def generate_daily_summaries(hourly_data): 
 </code></pre>
-<p>Lorsque : hourly_data = les données de sortie générées par NG_FWI </p>
+<p>Lorsque : hourly_data = les données de sortie générées par NG_FWI  </p>
 <p>C (trouvé dans util.h) :</p>
 <pre><code class="language-c">hourly_data = le cadre de données de sortie généré par NG_FWI
 </code></pre>
