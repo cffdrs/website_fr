@@ -2,17 +2,17 @@
 
 # Code
 
-## Dépôt de code 
+## Dépôt de code
 
 Le [dépôt GitHub de la PG-MCEDIF](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main) (en anglais) contient le code actualisé des modules MCEDIF2025 dans trois langages de programmation : R, C et Python. Les trois langues contiennent les mêmes équations et exécutent les mêmes tâches. Le choix dépend des exigences de votre système. 
 
-## Documentation 
+## Documentation
 
 Code et documentation technique relatifs au dépôt de code de la PG-MCEDIF. L’information comprend des précisions concernant les fichiers nécessaires à l’exécution de chaque langage de programmation. 
 
 Remarque : bien que certains liens vers la MCEDIF actuelle et la MCEDIF2025 se trouvent ici et dans la section sur le transfert de technologie, de nombreuses autres sources d’information et de publications concernant l’utilisation de la MCEDIF et la documentation historique se trouvent sur le dépôt ouvert de la [S et T de RNCan (DOST)](https://ostrnrcan-dostrncan.canada.ca/accueil). 
 
-## Informations sur le code IFM2025 
+## Informations sur le code IFM2025
 
 La ressource suivante décrit les fichiers et les exigences nécessaires pour générer des sorties pour la prochaine génération du système d’IFM (ci-après dénommé IFM2025).
 
@@ -30,7 +30,7 @@ Remarque sur les termes :
 
 Les calculs du système d’IFM ont été conçus à l’origine pour être effectués à partir des données enregistrées par les stations météorologiques locales. Par conséquent, les descriptions ci-dessous font référence aux données des stations météorologiques. En réalité, toutes les données météorologiques qui présentent une estimation représentative du temps selon les paramètres standard requis pour l’entrée du système IFM peuvent être utilisées (p. ex. données maillées et données de prévision). Voir le [guide météo](https://ostrnrcan-dostrncan.canada.ca/handle/1845/219568) afin d’obtenir une description des normes d’entrée des données météorologiques, pour le système IFM. 
 
-### Exécuter l’IFM2025 
+### Exécuter l’IFM2025
 
 Page principale où se trouve tout le code relatif au développement de la PG-MCEDIF : 
 
@@ -57,7 +57,7 @@ R : lubridate et data.table
 Python : datetime, logging, math, numpy, pandas, os.path, sys  
 C : stdlib.h, stdbool.h, string.h 
 
-### Intrants 
+### Intrants
 
 Les intrants de l’IFM2025 comprennent des variables météorologiques horaires et une estimation du traitement. Pour en savoir plus sur les intrants du système d’IFM, cliquez ici. 
 
@@ -83,13 +83,13 @@ En plus des variables météorologiques, la fonction permettant de générer des
 
 Les en-têtes de colonne peuvent être en minuscules ou en majuscules, tandis que le format de sortie est paramétré en majuscules. 
 
-### Calcul des composants du système d’IFM et fichier de synthèse 
+### Calcul des composants du système d’IFM et fichier de synthèse
 
 La fonction du fichier NG_FWI est conçue pour générer des sorties du système d’IFM pour une station à la fois, mais peut s’adapter à une entrée correctement formatée pour plusieurs stations, dans les versions R et Python. Exception : la version C nécessite la saisie d’une seule année pour une station donnée. 
 
 La fonction permettant de générer des sorties d’IFM2025 se trouve dans le fichier NG_FWI et se présente comme suit : 
 
-R : 
+R :
 ```r
 hFWI(df_wx, timezone, ffmc_old, dmc_old, dc_old)
 ```
@@ -129,7 +129,7 @@ La version C peut être exécutée à partir de la ligne de commande avec les ar
 | `input file` | nom du fichier .csv contenant les données d’une seule station au cours d’une année |
 | `output file` | nom du fichier dans lequel les résultats doivent être enregistrés |
 
-### Résultats 
+### Résultats
 
 Des colonnes sont ajoutées au tableau des données d’entrée et un deuxième tableau de données récapitulatives est généré.
 
@@ -160,13 +160,13 @@ Les résultats horaires d’IFM2025 peuvent être résumés de différentes mani
 
 Fonction permettant de générer des résumés quotidiens : 
 
-R (trouvé dans util.r) : 
+R (trouvé dans util.r) :
 
 ```r
 generate_daily_summaries <- function(hourly_data) {} 
 ```
 
-Lorsque : hourly_data = le cadre de données de sortie généré par NG_FWI 
+Lorsque : hourly_data = le cadre de données de sortie généré par NG_FWI  
 
 Python (trouvé dans util.py) : 
 
@@ -174,7 +174,7 @@ Python (trouvé dans util.py) :
 def generate_daily_summaries(hourly_data): 
 ```
 
-Lorsque : hourly_data = les données de sortie générées par NG_FWI 
+Lorsque : hourly_data = les données de sortie générées par NG_FWI  
 
 C (trouvé dans util.h) :
 

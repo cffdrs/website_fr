@@ -17,6 +17,7 @@ Guides de terrain
 - [Manuel terrain : L'échantillonnage des combustibles dans le contexte de la PG-MCEDIF](https://ca.nfis.org/fss/fss?command=retrieveByName&fileName=Field_Guide_of_NG_Protocol_french.pdf&fileNameSpace=docs/nfi&format=xml&promptToSave=true)📥
 - [Guide de la méthode canadienne de PCI 3ème édition (livre rouge)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/222604)
 - [Guide pratique pour prédire le comportement des incendies dans les prairies à herbes hautes de l'Ontario (livre jaune)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/246080) (en anglais)
+- [Guide sur les conditions météorologiques de la MCEDIF](https://ostrnrcan-dostrncan.canada.ca/handle/1845/219568) (en anglais)
 
 
 MCEDIF1992
