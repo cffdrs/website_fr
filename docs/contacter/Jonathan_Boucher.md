@@ -16,6 +16,6 @@ Ph.D
 Chercheur scientifique sur les feux de végétation  
 Centre de foresterie des Laurentides  
 [jonathan.boucher@nrcan-rncan.gc.ca](mailto:jonathan.boucher@NRCan-RNCan.gc.ca)  
-[Research Gate](https://www.researchgate.net/profile/Jonathan-Boucher-3)  
+[ResearchGate](https://www.researchgate.net/profile/Jonathan-Boucher-3)  
 
 ---

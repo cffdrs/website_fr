@@ -16,5 +16,5 @@ Ing.f. Biol. M.Sc.
 Vegetation Fires Research Officer  
 Centre de foresterie des Laurentides  
 [anne.cotton-gagnon@nrcan-rncan.gc.ca](mailto:anne.cotton-gagnon@NRCan-RNCan.gc.ca)  
-[Research Gate](https://www.researchgate.net/profile/Anne-Cotton-Gagnon)
+[ResearchGate](https://www.researchgate.net/profile/Anne-Cotton-Gagnon)
 ---
