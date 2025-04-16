@@ -9,6 +9,7 @@
 ### Membres
 **Gabrielle Ayres** (she, her | elle, elle)  
 Analyste de la mobilisation de la recherche  
+<a href="../contacter/Gabrielle_Ayres" target="_self">Biographie</a>  
 [gabrielle.ayres@nrcan-rncan.gc.ca](mailto:gabrielle.ayres@nrcan-rncan.gc.ca)  
 
 **Jonathan Boucher**  
