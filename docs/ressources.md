@@ -33,7 +33,7 @@ Documentation MCEDIF plus actuelle et historique peut être trouvée sur le
 
 ## Cartes
 [Système canadien d'information sur les feux de végétation (SCIFV)](https://cwfis.cfs.nrcan.gc.ca/accueil)  
-[Centre interservices des feux de forêt du Canada (CIFFC)](https://ciffc.ca) (le français suit)  
+[Centre interservices des feux de forêt du Canada (CIFFC)](https://ciffc.net)  
 [Atlas forestier du système national d'information sur les forêts (SNIF)](https://ca.nfis.org/map/atlas.html?language=fr)  
 [Global Wildfire Information System (GWIS)](https://gwis.jrc.ec.europa.eu/) (en anglais)
 
