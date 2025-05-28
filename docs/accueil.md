@@ -18,7 +18,12 @@ Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations offi
 
 L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](https://github.com/cffdrs) (en anglais), tandis que la documentation R se trouve sur la [page CRAN de la MCEDIF](https://cran.r-project.org/web/packages/cffdrs/) (en anglais).
 
-## Mise à jour des renseignements
+## Annonces
+
+### Mai 2025
+Natasha Jurko et Sam LaCarte ont animé un webinaire présentant les composantes d'herbes de l'IFM (IFM2025) le 22 mai. Il s'agissait du premier d'une série de webinaires destinés à faciliter les discussions avec le groupe sur les risques d'incendie. L'enregistrement sera mis à la disposition du public sur ce site web au début du mois de juin. En attendant, veuillez nous <a href="../contacter" target="_self">envoyer un courriel</a> si vous souhaitez avoir accès à l'enregistrement.
+
+## Annonces précédentes
 
 ### Mars 2025
 Le 
