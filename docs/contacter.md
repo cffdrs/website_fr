@@ -1,9 +1,14 @@
 <a href="https://cffdrs.github.io/website_en/contact/" target="_self" style="float: right;"> English </a>
 
-# Contacter
+# Nous joindre
 
-## Inscription à la newsletter
-[Formulaire de bulletin (Microsoft Forms)](https://forms.office.com/r/jmT8HVrsK8)
+La MCEDIF-PG est en cours de mise à jour par le Groupe sur les risques d'incendie du [Service canadien des forêts](https://ressources-naturelles.canada.ca/organisation/corporate-overview/services-forestier-canada). Pour toute question relative au code, veuillez consulter la section « Feedback and Bug Reports » (Commentaires et rapports de bogues) du [fichier README du référentiel](https://github.com/nrcan-cfs-fire/cffdrs-ng?tab=readme-ov-file#readme). 
+
+Pour toute autre question d'ordre scientifique ou général, ou pour tout commentaire sur le site Web, veuillez envoyer un courriel à :
+
+[firedanger-dangerincendie@nrcan-rncan.gc.ca](mailto:firedanger-dangerincendie@nrcan-rncan.gc.ca)
+
+Tous vos commentaires visant à améliorer cette ressource sont les bienvenus!
 
 ## Groupe de risque d'incendie
 ### Membres
@@ -38,7 +43,6 @@ Chercheuse scientifique en feux de forêt
 
 **Natasha Jurko**  
 Spécialiste de la physique des feux de forêt  
-*Point de contact*  
 [natasha.jurko@nrcan-rncan.gc.ca](mailto:natasha.jurko@NRCan-RNCan.gc.ca)  
 
 **Samuel Lacarte** (he, him | il, lui)  
@@ -55,7 +59,6 @@ IT Analyst
 
 **Kevin Siu** (he, him | il, lui)  
 Programmeur analyste en incendie  
-*Superviseur du site Web*  
 <a href="../contacter/Kevin_Siu" target="_self">Biographie</a>  
 [kevin.siu@nrcan-rncan.gc.ca](mailto:kevin.siu@nrcan-rncan.gc.ca)
 

@@ -12,10 +12,11 @@ Ce site web est destiné à :
 - centraliser l’accès au code et à la documentation
 - héberger des tutoriels pour les nouveaux utilisateurs
 
-<a href="../contacter/#inscription-a-la-newsletter" target="_self">Inscription à la newsletter</a>
+Pour recevoir nos bulletins d'information directement dans votre boîte de réception, remplissez <a href="../ressources/#inscription" target="_self">ce formulaire</a>. Nous ne partagerons pas vos données et ne vous enverrons que des informations relatives à la MCEDIF. Inscrivez-vous à notre liste de diffusion pour recevoir par courriel les dernières nouvelles concernant la MCEDIF 2025.
 
-Ceux qui ne sont pas familiers avec la MCEDIF peuvent en savoir plus en consultant [la page de la MCEDIF du gouvernement du Canada](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/methode-canadienne-evaluation-dangers-incendie-foret). Pour de l’information officielle sur les incendies de forêt au Canada, visitez les [pages du gouvernement du Canada sur les feux de végétation](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation).
+Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations officielles sur les incendies forestiers au Canada, consultez les pages officielles du gouvernement du Canada sous la rubrique <a href="../ressources/#apercu" target="_self">Ressources#Aperçu</a>. 
 
+L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](https://github.com/cffdrs) (en anglais), tandis que la documentation R se trouve sur la [page CRAN de la MCEDIF](https://cran.r-project.org/web/packages/cffdrs/) (en anglais).
 
 ## Mise à jour des renseignements
 

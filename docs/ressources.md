@@ -5,7 +5,10 @@
 ## Bulletin
 - [Volume 1, Bulletin 1 (Mars 2025)](../documents/Newsletter1_FR_FWI2025_final.pdf)📥
 
-<a href="../contacter/#inscription-a-la-newsletter" target="_self">Inscription à la newsletter</a>
+### Inscription
+Pour recevoir nos bulletins directement dans votre boîte de réception, remplissez le formulaire ci-dessous. Nous ne partagerons pas vos données et ne vous enverrons que des informations relatives à la MCEDIF.
+
+[Formulaire de bulletin (Microsoft Forms)](https://forms.office.com/r/jmT8HVrsK8)
 
 ## Rapports
 [Prochaine generation MCEDIF (PG-MCEDIF)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245411)
