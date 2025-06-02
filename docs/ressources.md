@@ -32,8 +32,6 @@ MCEDIF1992
 Documentation MCEDIF plus actuelle et historique peut être trouvée sur le  
 [dépôt ouvert des sciences et technologie (DOST) de RNCan](https://ostrnrcan-dostrncan.canada.ca/accueil).
 
-[Livre rouge de l'association canadienne des chefs de pompiers (ACCP)](https://cafc.ca/page/redbook2021fr)
-
 ## Cartes
 [Système canadien d'information sur les feux de végétation (SCIFV)](https://cwfis.cfs.nrcan.gc.ca/accueil)  
 [Centre interservices des feux de forêt du Canada (CIFFC)](https://ciffc.net)  

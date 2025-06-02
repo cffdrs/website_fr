@@ -12,7 +12,7 @@ Ce site web est destiné à :
 - centraliser l’accès au code et à la documentation
 - héberger des tutoriels pour les nouveaux utilisateurs
 
-Pour recevoir nos bulletins d'information directement dans votre boîte de réception, remplissez <a href="../ressources/#inscription" target="_self">ce formulaire</a>. Nous ne partagerons pas vos données et ne vous enverrons que des informations relatives à la MCEDIF. Inscrivez-vous à notre liste de diffusion pour recevoir par courriel les dernières nouvelles concernant la MCEDIF 2025.
+Inscrivez-vous à <a href="../ressources/#inscription" target="_self">notre liste de diffusion</a> pour recevoir par courriel les dernières nouvelles concernant la MCEDIF 2025.
 
 Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations officielles sur les incendies forestiers au Canada, consultez les pages officielles du gouvernement du Canada sous la rubrique <a href="../ressources/#apercu" target="_self">Ressources#Aperçu</a>. 
 
