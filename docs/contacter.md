@@ -10,8 +10,7 @@ Pour toute autre question d'ordre scientifique ou général, ou pour tout commen
 
 Tous vos commentaires visant à améliorer cette ressource sont les bienvenus!
 
-## Groupe de risque d'incendie
-### Membres
+## Membres du groupe de risque d'incendie
 **Gabrielle Ayres** (she, her | elle, elle)  
 Analyste de la mobilisation de la recherche  
 <a href="../contacter/Gabrielle_Ayres" target="_self">Biographie</a>  
