@@ -102,40 +102,35 @@
                     <a href="#code" class="nav-link" target="_self"> (Début) </a>
                 <ul class="nav flex-column">
             <li class="nav-item" data-bs-level="2">
-                    <a href="#depot-de-code" class="nav-link" target="_self">Dépôt de code</a>
+                    <a href="#referentiel" class="nav-link" target="_self">Référentiel</a>
                 <ul class="nav flex-column">
                 </ul>
             </li>
             <li class="nav-item" data-bs-level="2">
+                    <a href="#indice-foret-meteo-2025" class="nav-link" target="_self">Indice forêt-météo 2025</a>
+                <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#scripts" class="nav-link" target="_self">Scripts</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#packages" class="nav-link" target="_self">Packages</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#pour-commencer" class="nav-link" target="_self">Pour commencer</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#format" class="nav-link" target="_self">Format</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3">
                     <a href="#documentation" class="nav-link" target="_self">Documentation</a>
-                <ul class="nav flex-column">
-                </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2">
-                    <a href="#informations-sur-le-code-ifm2025" class="nav-link" target="_self">Informations sur le code IFM2025</a>
-                <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="3">
-                    <a href="#executer-lifm2025" class="nav-link" target="_self">Exécuter l’IFM2025</a>
-                <ul class="nav flex-column">
-                </ul>
-            </li>
-            <li class="nav-item" data-bs-level="3">
-                    <a href="#progiciels" class="nav-link" target="_self">Progiciels</a>
-                <ul class="nav flex-column">
-                </ul>
-            </li>
-            <li class="nav-item" data-bs-level="3">
-                    <a href="#intrants" class="nav-link" target="_self">Intrants</a>
-                <ul class="nav flex-column">
-                </ul>
-            </li>
-            <li class="nav-item" data-bs-level="3">
-                    <a href="#calcul-des-composants-du-systeme-difm-et-fichier-de-synthese" class="nav-link" target="_self">Calcul des composants du système d’IFM et fichier de synthèse</a>
-                <ul class="nav flex-column">
-                </ul>
-            </li>
-            <li class="nav-item" data-bs-level="3">
-                    <a href="#resultats" class="nav-link" target="_self">Résultats</a>
                 <ul class="nav flex-column">
                 </ul>
             </li>
@@ -155,46 +150,47 @@
 
 <p><a href="https://cffdrs.github.io/website_en/code/" target="_self" style="float: right;"> English </a></p>
 <h1 id="code">Code</h1>
-<h2 id="depot-de-code">Dépôt de code</h2>
-<p>Le <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main">dépôt GitHub de la PG-MCEDIF</a> (en anglais) contient le code actualisé des modules MCEDIF2025 dans trois langages de programmation : R, C et Python. Les trois langues contiennent les mêmes équations et exécutent les mêmes tâches. Le choix dépend des exigences de votre système. </p>
-<h2 id="documentation">Documentation</h2>
-<p>Code et documentation technique relatifs au dépôt de code de la PG-MCEDIF. L’information comprend des précisions concernant les fichiers nécessaires à l’exécution de chaque langage de programmation. </p>
-<p>Remarque : bien que certains liens vers la MCEDIF actuelle et la MCEDIF2025 se trouvent ici et dans la section sur le transfert de technologie, de nombreuses autres sources d’information et de publications concernant l’utilisation de la MCEDIF et la documentation historique se trouvent sur le dépôt ouvert de la <a href="https://ostrnrcan-dostrncan.canada.ca/accueil">S et T de RNCan (DOST)</a>. </p>
-<h2 id="informations-sur-le-code-ifm2025">Informations sur le code IFM2025</h2>
-<p>La ressource suivante décrit les fichiers et les exigences nécessaires pour générer des sorties pour la prochaine génération du système d’IFM (ci-après dénommé IFM2025).</p>
-<p>L’IFM2025 fait partie d’un programme plus vaste visant à mettre à jour la méthode canadienne d’évaluation des dangers d’incendie de forêt (MCEDIF). Trois langages de programmation différents sont disponibles : R, Python et C. Ces trois langages produisent les mêmes résultats, vous pouvez donc choisir celui qui répond à vos besoins.</p>
-<p>Les fichiers, les entrées, les formats et les sorties sont décrits ci-dessous de manière générale pour les trois langues. Tout écart par rapport à un langage spécifique est indiqué.</p>
-<p>Le code IFM2025 a été écrit et testé à l’origine en utilisant des tableaux de données et des fichiers .csv comme entrées. Ainsi, la sortie génère des tableaux de données simples qui peuvent ensuite être exportés. Les utilisateurs peuvent configurer les types de fichiers d’entrée et de sortie en fonction de leurs propres flux de données.</p>
-<p>Un ensemble de données de test est disponible en ligne ici :</p>
-<p><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/wx_prf.csv">https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/wx_prf.csv</a> (en anglais) </p>
-<p>Remarque sur les termes : </p>
-<p>Les calculs du système d’IFM ont été conçus à l’origine pour être effectués à partir des données enregistrées par les stations météorologiques locales. Par conséquent, les descriptions ci-dessous font référence aux données des stations météorologiques. En réalité, toutes les données météorologiques qui présentent une estimation représentative du temps selon les paramètres standard requis pour l’entrée du système IFM peuvent être utilisées (p. ex. données maillées et données de prévision). Voir le <a href="https://ostrnrcan-dostrncan.canada.ca/handle/1845/219568">guide météo</a> afin d’obtenir une description des normes d’entrée des données météorologiques, pour le système IFM. </p>
-<h3 id="executer-lifm2025">Exécuter l’IFM2025</h3>
-<p>Page principale où se trouve tout le code relatif au développement de la PG-MCEDIF : </p>
-<p><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main">https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main</a> (en anglais)</p>
-<p>Pour chaque langage de programmation, deux scripts sont nécessaires afin de générer des sorties d’IFM2025 : </p>
+<h2 id="referentiel">Référentiel</h2>
+<p>Le <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main">référentiel GitHub cffdrs-ng</a> (en anglais) contient le code à jour des modules MCEDIF2025 dans trois langages de programmation : R, Python et C. Les trois langages contiennent les mêmes équations et effectuent les mêmes tâches. Vous pouvez choisir celui qui vous convient le mieux en fonction de la configuration de votre système.</p>
+<h2 id="indice-foret-meteo-2025">Indice forêt-météo 2025</h2>
+<p><a href="https://cwfis.cfs.nrcan.gc.ca/renseignements/sommaire/fwi">L'indice canadien de risque d'incendie de forêt (IFM)</a> est un sous-système important du MCEDIF. L'IFM2025 est la prochaine génération de la méthode IFM correspondant au MCEDIF2025. On décrit ci-après les fichiers, les intrants, les paramètres et les résultats de manière générale pour les trois langues, en soulignant les variations propres à chacune.</p>
+<h3 id="scripts">Scripts</h3>
+<p>Chaque langage de programmation dispose de trois scripts nécessaires à la génération des résultats IFM2025 :</p>
 <ol>
 <li>
-<p>IFM de PG : Contient les fonctions et les équations permettant de générer des sorties d’IFM2025.</p>
+<p>« NG_FWI » contient les fonctions et les équations permettant de générer les résultats IFM2025  </p>
 <p>R : <strong>NG_FWI.r</strong><br />
 Python : <strong>NG_FWI.py</strong><br />
-C : <strong>NG_FWI.c</strong></p>
+C : <strong>NG_FWI.c</strong>  </p>
 </li>
 <li>
-<p>util : Inclut des fonctions de base qui ne font pas partie des équations de l’IFM2025, mais qui génèrent de l’information intermédiaire pour le calcul des composantes de l’IFM2025 (p. ex. heure du lever et du coucher du soleil et nombre d’heures d’ensoleillement). Ce script comprend également le processus de génération du résumé quotidien.</p>
+<p>« util » comprend les fonctions de base qui ne font pas partie des équations FWI2025, mais qui génèrent des informations intermédiaires pour le calcul des composants FWI2025 (par ex. heure du lever et du coucher du soleil, nombre d'heures d'ensoleillement)  </p>
 <p>R : <strong>util.r</strong><br />
 Python : <strong>util.py</strong><br />
-C : <strong>util.c</strong>, <strong>util.h</strong></p>
+C : <strong>util.c</strong>, <strong>util.h</strong>  </p>
+</li>
+<li>
+<p>« daily_summaries » comprend le processus de génération du résumé quotidien des résultats  </p>
+<p>R : <strong>daily_summaries.r</strong><br />
+Python : <strong>daily_summaries.py</strong><br />
+C : (<em>en cours de développement</em>)  </p>
 </li>
 </ol>
-<h3 id="progiciels">Progiciels</h3>
-<p>Chaque langage est associé à des dépendances de bibliothèque ou de progiciel. Il doit être installé avant l’exécution de NG_FWI.</p>
-<p>R : lubridate et data.table<br />
-Python : datetime, logging, math, numpy, pandas, os.path, sys<br />
-C : stdlib.h, stdbool.h, string.h </p>
-<h3 id="intrants">Intrants</h3>
-<p>Les intrants de l’IFM2025 comprennent des variables météorologiques horaires et une estimation du traitement. Pour en savoir plus sur les intrants du système d’IFM, cliquez ici. </p>
-<p>En-têtes de colonnes et structure des données d’entrée : </p>
+<h3 id="packages">Packages</h3>
+<p>Les scripts IFM2025 nécessitent différents ensembles de bibliothèques ou de packages spécifiques à chaque langage. Ceux-ci doivent être installés avant d'exécuter « NG_FWI ».  </p>
+<p>R : <code>lubridate</code>, <code>data.table</code><br />
+Python : <code>datetime</code>, <code>logging</code>, <code>math</code>, <code>numpy</code>, <code>pandas</code>, <code>os.path</code>, <code>sys</code><br />
+C : <code>stdlib.h</code>, <code>stdbool.h</code>, <code>string.h</code></p>
+<h3 id="pour-commencer">Pour commencer</h3>
+<p>Le <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main">référentiel GitHub cffdrs-ng</a> (en anglais) comprend également un script tutoriel et des données de test. Consultez la section <a href="../tutoriels" target="_self">Tutoriels#IFM</a> horaire pour obtenir un aperçu étape par étape du flux de travail avec des données horaires. La documentation ci-dessous fournit des détails sur les fonctions spécifiques et les exigences en matière de données.</p>
+<h3 id="format">Format</h3>
+<p>Le code IFM2025 est écrit et testé à l'aide de données d'intrant sous forme de tableau/matrice, généralement importées sous forme de fichiers CSV (valeurs séparées par des virgules, .csv). Les résultats sont également présentés sous la même forme de tableau/matrice. Les utilisateurs peuvent configurer les types de fichiers d'intrant et de résultat en fonction de leurs flux de données individuels.</p>
+<h3 id="documentation">Documentation</h3>
+<h4 id="indice-horaire-de-risque-dincendie">Indice horaire de risque d'incendie</h4>
+<p>La fonction <code>hFWI()</code> du fichier « NG_FWI » est conçue pour générer les résultats de la méthode IFM pour une station à la fois. Les versions R et Python peuvent également fournir les résultats pour plusieurs stations avec des entrées correctement formatées. La version C ne peut traiter que les entrées d'une seule année pour une station donnée.</p>
+<h5 id="donnees-dintrants">Données d'intrants</h5>
+<p>Le système d'indice de risque d'incendie a été initialement conçu pour être calculé à partir des données enregistrées par les <em>stations météorologiques</em> locales. Par conséquent, les descriptions ci-dessous font référence aux données des stations météorologiques comme intrants. En réalité, toutes les données météorologiques collectées ou calculées (par ex. données d'ensemble, données de prévision, etc.) qui comprennent les variables standard requises comme intrants pour la méthode IFM peuvent être utilisées. Voir le <a href="https://ostrnrcan-dostrncan.canada.ca/handle/1845/219568">Guide météorologique</a> pour une description des normes d'entrée des données météorologiques pour la méthode IFM.  </p>
+<p>Les lignes du cadre de données doivent correspondre à des données horaires consécutives. Les colonnes et les types de données du cadre de données d'entrée sont les suivants :  </p>
 <table>
 <thead>
 <tr>
@@ -205,27 +201,27 @@ C : stdlib.h, stdbool.h, string.h </p>
 <tbody>
 <tr>
 <td><code>id</code></td>
-<td>Identifiant de la station météorologique; numéro unique pour la station, texte ou numéro</td>
+<td>Identifiant de la station météorologique, numéro unique attribué à la station, texte ou chiffre</td>
 </tr>
 <tr>
 <td><code>lat</code></td>
-<td>Latitude. Emplacement de la station météorologique, en degrés décimaux (double précision)</td>
+<td>Latitude de la station météorologique, en degrés décimaux (°) (double précision)</td>
 </tr>
 <tr>
 <td><code>long</code></td>
-<td>Longitude. Emplacement de la station météorologique, en degrés décimaux (double précision)</td>
+<td>Longitude de la station météorologique, en degrés décimaux (°) (double précision)</td>
 </tr>
 <tr>
 <td><code>yr</code></td>
-<td>Année de relevé de la station météorologique (AAAA)</td>
+<td>Année de la lecture de la station météorologique, nombre AAAA</td>
 </tr>
 <tr>
 <td><code>mon</code></td>
-<td>Mois du relevé de la station météorologique; M ou MM (doit être cohérent dans l’ensemble du jeu de données)</td>
+<td>Mois de la lecture de la station météorologique, nombre M ou MM (doit être cohérent dans l'ensemble des données)</td>
 </tr>
 <tr>
 <td><code>day</code></td>
-<td>Jour du relevé de la station météorologique, DD ou D (doit être cohérent dans l’ensemble du jeu de données)</td>
+<td>Jour de la lecture de la station météorologique, nombre DD ou D (doit être cohérent dans l'ensemble des données)</td>
 </tr>
 <tr>
 <td><code>hr</code></td>
@@ -233,37 +229,35 @@ C : stdlib.h, stdbool.h, string.h </p>
 </tr>
 <tr>
 <td><code>temp</code></td>
-<td>Température en °Celsius, en chiffre</td>
+<td>Température en degrés Celsius (°C), nombre</td>
 </tr>
 <tr>
 <td><code>rh</code></td>
-<td>Humidité relative en pourcentage, en chiffre (0-100)</td>
+<td>Humidité relative en pourcentage (%), nombre (0-100)</td>
 </tr>
 <tr>
 <td><code>ws</code></td>
-<td>Vitesse du vent en km/h, en chiffre</td>
+<td>Vitesse du vent en kilomètres par heure (km/h), nombre</td>
 </tr>
 <tr>
 <td><code>prec</code></td>
-<td>Précipitations (pluie) mesurées en millimètres (mm), en chiffre</td>
+<td>Précipitations (pluie) mesurées en millimètres (mm), nombre</td>
 </tr>
 <tr>
 <td><code>solrad</code></td>
-<td>Rayonnement solaire mesuré en kW/m2 (kilowatts par mètre carré) pour les codes des herbacés, en chiffre. Entrée OPTIONNELLE, l’IFM2025 génère la méthode par défaut. (<a href="../documents/MCEDIF2025_rayonnement-solaire-IFM.pdf">MCEDIF rayonnement solaire IFM (draft)</a>)</td>
+<td>Rayonnement solaire mesuré en kilowatts par mètre carré (kW/m^2) pour les codes de prairie, nombre. Entrée FACULTATIVE, IFM2025 la générera selon la méthode par défaut. (<a href="../documents/MCEDIF2025_rayonnement-solaire-IFM.pdf">MCEDIF rayonnement solaire IFM (draft)</a>📥)</td>
 </tr>
 <tr>
 <td><code>percent_cured</code></td>
-<td>Pourcentage d’herbacés fanés dans les prairies ouvertes, mesuré en pourcentage pour les codes d’herbacés, en chiffre (0-100). Entrée OPTIONNELLE, l’IFM2025 génère la méthode par défaut</td>
+<td>Pourcentage de fané des graminées dans les prairies ouvertes, mesuré en pourcentage pour les codes de prairies, nombre (0-100). Entrée FACULTATIVE, l'IFM2025 la générera selon la méthode par défaut</td>
 </tr>
 </tbody>
 </table>
-<p>En plus des variables météorologiques, la fonction permettant de générer des sorties d’IFM2025 horaires nécessite le fuseau horaire où la station météorologique est située et la valeur de démarrage pour les codes d’humidité (p. ex. ICL de 85, IH [indice de l’humus] de 6 et IS [indice de sécheresse] de 15). Voir la section suivante pour savoir où ils sont utilisés. </p>
-<p>Les en-têtes de colonne peuvent être en minuscules ou en majuscules, tandis que le format de sortie est paramétré en majuscules. </p>
-<h3 id="calcul-des-composants-du-systeme-difm-et-fichier-de-synthese">Calcul des composants du système d’IFM et fichier de synthèse</h3>
-<p>La fonction du fichier NG_FWI est conçue pour générer des sorties du système d’IFM pour une station à la fois, mais peut s’adapter à une entrée correctement formatée pour plusieurs stations, dans les versions R et Python. Exception : la version C nécessite la saisie d’une seule année pour une station donnée. </p>
-<p>La fonction permettant de générer des sorties d’IFM2025 se trouve dans le fichier NG_FWI et se présente comme suit : </p>
-<p>R :</p>
-<pre><code class="language-r">hFWI(df_wx, timezone, ffmc_old, dmc_old, dc_old)
+<p>Les en-têtes de colonne peuvent être en minuscules ou en majuscules, le format des résultats est défini en majuscules.  </p>
+<p>En plus des variables météorologiques, la fonction permettant de générer des résultats IFM2025 horaires nécessite le fuseau horaire dans lequel se trouve la station météo et la valeur de démarrage pour les codes d'humidité (par ex. ICL de 85, IH de 6 et IS de 15). Voir la section suivante pour savoir où cela est spécifié.  </p>
+<h5 id="parametres-de-la-fonction">Paramètres de la fonction</h5>
+<p>R :  </p>
+<pre><code class="language-r">hFWI(df_wx, timezone, ffmc_old = 85, dmc_old = 6, dc_old = 15)
 </code></pre>
 <table>
 <thead>
@@ -275,28 +269,28 @@ C : stdlib.h, stdbool.h, string.h </p>
 <tbody>
 <tr>
 <td><code>df_wx</code></td>
-<td>cadre de données ou tableau formaté (peut avoir plusieurs années et stations, doit être séquentiel dans le temps au cours d’une année donnée)</td>
+<td>Cadre de données ou tableau formaté (peut comporter plusieurs années et stations, doit être séquentiel dans le temps au cours d'une année donnée)</td>
 </tr>
 <tr>
 <td><code>timezone</code></td>
-<td>fuseau horaire dans lequel se trouve la station météorologique, exprimé en nombre d’heures de décalage par rapport à UTC (p. ex., pour les stations situées à l’heure normale du Centre, le fuseau horaire est fixé à -6)</td>
+<td>Fuseau horaire dans lequel se trouve la station météorologique, exprimé en nombre d'heures de décalage par rapport à l'UTC (par ex. pour les stations situées dans le fuseau horaire Central Standard, le fuseau horaire est réglé sur -6)</td>
 </tr>
 <tr>
 <td><code>ffmc_old</code></td>
-<td>la valeur initiale du code d’humidité fine des combustibles (p. ex. 85, valeur par défaut)</td>
+<td>Valeur de démarrage de l'indice du combustible léger (p. ex. 85, valeur par défaut)</td>
 </tr>
 <tr>
 <td><code>dmc_old</code></td>
-<td>la valeur initiale de l’indice de l’humus (IH) (p. ex. 6, valeur par défaut)</td>
+<td>Valeur de démarrage de l'indice de l'humus (par ex. 6, valeur par défaut)</td>
 </tr>
 <tr>
 <td><code>dc_old</code></td>
-<td>la valeur initiale de l’indice de sécheresse (IS) (p. ex. 15, valeur par défaut)</td>
+<td>Valeur de démarrage de l'indice de sécheresse (par ex. 15, valeur par défaut)</td>
 </tr>
 </tbody>
 </table>
-<p>Python :</p>
-<pre><code class="language-python">hFWI(df_wx, timezone, ffmc_old=85, dmc_old=6, dc_old=15, silent=False)
+<p>Python:  </p>
+<pre><code class="language-python">hFWI(df_wx, ffmc_old = 85, dmc_old = 6, dc_old = 15, silent = False)
 </code></pre>
 <table>
 <thead>
@@ -308,32 +302,32 @@ C : stdlib.h, stdbool.h, string.h </p>
 <tbody>
 <tr>
 <td><code>df_wx</code></td>
-<td>cadre de données ou tableau formaté (peut avoir plusieurs années et stations, doit être séquentiel dans le temps au cours d’une année donnée)</td>
+<td>Cadre de données ou tableau formaté (peut comporter plusieurs années et stations, doit être séquentiel dans le temps au cours d'une année donnée)</td>
 </tr>
 <tr>
 <td><code>timezone</code></td>
-<td>fuseau horaire dans lequel se trouve la station météorologique, exprimé en nombre d’heures de décalage par rapport à UTC (p. ex., pour les stations situées à l’heure normale du Centre, le fuseau horaire est fixé à -6)</td>
+<td>Fuseau horaire dans lequel se trouve la station météorologique</td>
 </tr>
 <tr>
 <td><code>ffmc_old</code></td>
-<td>la valeur initiale du code d’humidité fine des combustibles (p. ex. 85, valeur par défaut)</td>
+<td>Valeur de démarrage de l'indice du combustible léger (par ex. 85, valeur par défaut)</td>
 </tr>
 <tr>
 <td><code>dmc_old</code></td>
-<td>la valeur initiale de l’indice de l’humus (IH) (p. ex. 6, valeur par défaut)</td>
+<td>Valeur de démarrage de l'indice de l'humus (par ex. 6, valeur par défaut)</td>
 </tr>
 <tr>
 <td><code>dc_old</code></td>
-<td>la valeur initiale de l’indice de sécheresse (IS) (p. ex. 15, valeur par défaut)</td>
+<td>Valeur de démarrage de l'indice de sécheresse (par ex. 15, valeur par défaut)</td>
 </tr>
 <tr>
 <td><code>silent</code></td>
-<td>imprimer les messages de progression afin de surveiller le script. Vrai ou Faux; Faux par défaut</td>
+<td>Imprimer les messages de progression pour surveiller le script. Vrai ou faux, faux par défaut</td>
 </tr>
 </tbody>
 </table>
-<p>C :  </p>
-<p>La version C peut être exécutée à partir de la ligne de commande avec les arguments suivants, dans l’ordre : </p>
+<p>C:<br />
+La version C peut être exécutée à partir de la ligne de commande avec les arguments suivants dans l'ordre :  </p>
 <table>
 <thead>
 <tr>
@@ -344,33 +338,32 @@ C : stdlib.h, stdbool.h, string.h </p>
 <tbody>
 <tr>
 <td><code>local GMToffset</code></td>
-<td></td>
+<td>Fuseau horaire dans lequel se trouve la station météorologique</td>
 </tr>
 <tr>
 <td><code>starting FFMC</code></td>
-<td></td>
+<td>Valeur de démarrage de l'indice du combustible léger (par ex. 85)</td>
 </tr>
 <tr>
 <td><code>starting DMC</code></td>
-<td></td>
+<td>Valeur de démarrage de l'indice de l'humus (par ex. 6)</td>
 </tr>
 <tr>
 <td><code>starting DC</code></td>
-<td></td>
+<td>Valeur de démarrage de l'indice de sécheresse (par ex. 15)</td>
 </tr>
 <tr>
 <td><code>input file</code></td>
-<td>nom du fichier .csv contenant les données d’une seule station au cours d’une année</td>
+<td>Nom du fichier .csv contenant les données d'une seule station sur une année</td>
 </tr>
 <tr>
 <td><code>output file</code></td>
-<td>nom du fichier dans lequel les résultats doivent être enregistrés</td>
+<td>Nom du fichier dans lequel les résultats sont enregistrés</td>
 </tr>
 </tbody>
 </table>
-<h3 id="resultats">Résultats</h3>
-<p>Des colonnes sont ajoutées au tableau des données d’entrée et un deuxième tableau de données récapitulatives est généré.</p>
-<p>Colonnes de sortie qui sont ajoutées au tableau des données météorologiques horaires : </p>
+<h5 id="description-des-resultats">Description des résultats</h5>
+<p>Les résultats sont également au même format que les données d'entrée, avec les colonnes suivantes ajoutées :  </p>
 <table>
 <thead>
 <tr>
@@ -381,92 +374,93 @@ C : stdlib.h, stdbool.h, string.h </p>
 <tbody>
 <tr>
 <td><code>timestamp</code></td>
-<td>date et heure des variables météorologiques et d’IFM. Format : AAAA-MM-JJ HH:MM:SS. (pas en langage C)</td>
+<td>Date et heure de la variable météorologique et IFM. Horodatage AAAA-MM-JJ HH:MM:SS. (pas en C)</td>
 </tr>
 <tr>
 <td><code>date</code></td>
-<td>AAAA-MM-JJ Type de date (sans hh:mm:ss). (pas en langage C)</td>
+<td>AAAA-MM-JJ Type de date (sans hh:mm:ss). (pas en C)</td>
 </tr>
 <tr>
 <td><code>sunrise</code></td>
-<td>Heure du lever du soleil en fonction de la latitude, de la longitude et de la date (heure décimale). (pas en langage C)</td>
+<td>Heure du lever du soleil en fonction de la latitude, de la longitude et de la date en heure militaire (heure décimale). (pas en C)</td>
 </tr>
 <tr>
 <td><code>sunset</code></td>
-<td>Heure du coucher du soleil en fonction de la latitude, de la longitude et de la date (heure décimale). (pas en langage C)</td>
+<td>Heure du coucher du soleil en fonction de la latitude, de la longitude et de la date en heure militaire (heure décimale). (pas en C)</td>
 </tr>
 <tr>
 <td><code>sunlight_hours</code></td>
-<td>Nombre d’heures entre le lever et le coucher du soleil (heure décimale). (pas en langage C)</td>
+<td>Nombre d'heures (hr) entre le lever et le coucher du soleil (heure décimale). (pas en C)</td>
 </tr>
 <tr>
 <td><code>solrad</code></td>
-<td>Rayonnement solaire mesuré en kW/m2 (kilowatts par mètre carré) pour les codes d’herbacés, généré automatiquement s’il n’est pas indiqué dans l’entrée (en chiffre). (doit être calculé à l’aide de make_inputs.c s’il n’est pas donné)</td>
+<td>Rayonnement solaire mesuré en kilowatts par mètre carré (kW/m^2) pour les codes de prairie, généré automatiquement s'il manque dans les intrants (nombre). (doit être calculé à l'aide de make_inputs.c s'il n'est pas fourni)</td>
 </tr>
 <tr>
 <td><code>percent_cured</code></td>
-<td>pourcentage de combustibles fanés (morts) dans les prairies, généré automatiquement s’il n’est pas indiqué dans l’entrée. Utilisé exclusivement dans les calculs relatifs aux prairies. Pourcentage sous forme de nombre (0-100). (doit être calculé à l’aide de make_inputs.c s’il n’est pas donné)</td>
+<td>Pourcentage de combustibles végétaux fanés (morts) dans les prairies, généré automatiquement s'il manque dans les intrants. Utilisé exclusivement dans les calculs relatifs aux prairies. Pourcentage sous forme de nombre (0-100). (doit être calculé à l'aide de make_inputs.c s'il n'est pas fourni)</td>
 </tr>
 <tr>
 <td><code>grass_fuel_load</code></td>
-<td>La quantité de combustible herbacé standard est intégrée aux codes Python et R, soit 0,35 kg/m2. (doit être calculée à l’aide de make_inputs.c si elle n’est pas donnée, elle génère une colonne associée à la valeur standard)</td>
+<td>La charge standard de combustible herbacé est intégrée dans le code Python et R, 0,35 kg/m^2. (doit être calculé à l'aide de make_inputs.c s'il n'est pas fourni, génère une colonne avec la valeur standard)</td>
 </tr>
 <tr>
 <td><code>ffmc</code></td>
-<td>Indice du combustible léger (ICL)</td>
+<td>Indice du combustible léger (ICL, nombre)</td>
 </tr>
 <tr>
 <td><code>dmc</code></td>
-<td>Indice de l'humus (IH)</td>
+<td>Indice de l'humus (IH, nombre)</td>
 </tr>
 <tr>
 <td><code>dc</code></td>
-<td>Indice de sécheresse (IS)</td>
+<td>Indice de sécheresse (IS, nombre)</td>
 </tr>
 <tr>
 <td><code>isi</code></td>
-<td>Indice de propagation initiale (IPI)</td>
+<td>Indice de propagation initiale (IPI, nombre)</td>
 </tr>
 <tr>
 <td><code>bui</code></td>
-<td>Indice du combustible disponible (ICD)</td>
+<td>Indice du combustible disponible (ICD, nombre)</td>
 </tr>
 <tr>
 <td><code>fwi</code></td>
-<td>Indice forêt-météo (IFM)</td>
+<td>Indice forêt-météo (IFM, nombre)</td>
 </tr>
 <tr>
 <td><code>dsr</code></td>
-<td></td>
+<td>Indice journalier de sévérité (DSR, nombre)</td>
 </tr>
 <tr>
 <td><code>gfmc</code></td>
-<td>Indice d'humidité de l'herbe (IHH)</td>
+<td>Indice d'humidité de l'herbe, similaire à l'ICL (IHH, nombre 0-101)</td>
 </tr>
 <tr>
 <td><code>gsi</code></td>
-<td>Indice de propagation dans l'herbe (IPH)</td>
+<td>Indice de propagation dans l'herbe (IPH, nombre)</td>
 </tr>
 <tr>
 <td><code>gfwi</code></td>
-<td>Indice du danger d'incendie pour l'herbe (IDIH)</td>
+<td>Indice du danger d'incendie pour l'herbe (IDIH, nombre)</td>
 </tr>
 </tbody>
 </table>
-<p>Les résultats horaires d’IFM2025 peuvent être résumés de différentes manières, et pour inciter les utilisateurs à réfléchir aux résumés qui seraient pertinents dans leur situation, une fonction du fichier « util » résume la journée en quelques mesures de base. </p>
-<p>Fonction permettant de générer des résumés quotidiens : </p>
-<p>R (trouvé dans util.r) :</p>
-<pre><code class="language-r">generate_daily_summaries &lt;- function(hourly_data) {} 
+<h4 id="resumes-quotidiens">Résumés quotidiens</h4>
+<p>Les résultats horaires de l'IFM peuvent être résumés de différentes manières en fonction de l'utilisation et des besoins. Ces résumés se trouvent dans le script « daily_summaries ». <code>generate_daily_summaries()</code> résume les données horaires en quelques indicateurs quotidiens.  </p>
+<h5 id="donnees-dintrant">Données d'intrant</h5>
+<p>Le seul intrant de <code>generate_daily_summaries()</code> est le résultat de <code>hFWI()</code>.</p>
+<h5 id="parametres-de-la-fonction_1">Paramètres de la fonction</h5>
+<p>R:  </p>
+<pre><code class="language-r">generate_daily_summaries &lt;- function(hourly_data) {}
 </code></pre>
-<p>Lorsque : hourly_data = le cadre de données de sortie généré par NG_FWI  </p>
-<p>Python (trouvé dans util.py) : </p>
+<p>Python: </p>
 <pre><code class="language-python">def generate_daily_summaries(hourly_data): 
 </code></pre>
-<p>Lorsque : hourly_data = les données de sortie générées par NG_FWI  </p>
-<p>C (trouvé dans util.h) :</p>
-<pre><code class="language-c">hourly_data = le cadre de données de sortie généré par NG_FWI
+<p>C: </p>
+<pre><code class="language-c">hourly_data = the output dataframe generated by NG_FWI
 </code></pre>
-<p>Résumé quotidien des sorties : </p>
+<h5 id="description-des-resultats_1">Description des résultats</h5>
 <table>
 <thead>
 <tr>
@@ -477,88 +471,88 @@ C : stdlib.h, stdbool.h, string.h </p>
 <tbody>
 <tr>
 <td><code>wstnid</code></td>
-<td>identifiant de la station météorologique, ou identifiant unique de la station météorologique</td>
+<td>Identifiant de la station météorologique ou identifiant unique de la station météorologique</td>
 </tr>
 <tr>
 <td><code>year</code></td>
-<td>année, AAAA, en chiffre (p. ex. 2024)</td>
+<td>Année, AAAA, nombre (par ex. 2024)</td>
 </tr>
 <tr>
 <td><code>mon</code></td>
-<td>mois, M, en chiffre (p. ex. 3)</td>
+<td>Mois, M, nombre (par ex. 3)</td>
 </tr>
 <tr>
 <td><code>day</code></td>
-<td>jour, J, en chiffre (p. ex. 8)</td>
+<td>Jour, J, nombre (par ex. 8)</td>
 </tr>
 <tr>
 <td><code>sunrise</code></td>
-<td>Heure du lever du soleil. Format de l’horodatage HH:MM:SS, en heure militaire (p. ex. 06:30:55)</td>
+<td>Heure du lever du soleil. Format d'horodatage HH:MM:SS en heure militaire (par ex. 06:30:55)</td>
 </tr>
 <tr>
 <td><code>sunset</code></td>
-<td>Heure du coucher du soleil. Format de l’horodatage HH:MM:SS, en heure militaire (p. ex. 19:45:05)</td>
+<td>Heure du coucher du soleil. Format d'horodatage HH:MM:SS en heure militaire (par ex. 19:45:05)</td>
 </tr>
 <tr>
 <td><code>peak_time</code></td>
-<td>Heure, H, en heure militaire (0-23), en format numérique. Heure à laquelle on peut s’attendre à un comportement maximal du feu, exprimé par un indice de propagation initiale (IPI) modifié (voir les définitions de wind_speed_smoothed et peak_isi_smoothed cidessous). Si l’IPI de pointe (du champ peak_isi_smoothed) est inférieur à cinq, l’heure de pointe est fixée à 17 heures</td>
+<td>L'heure (hr) en format militaire (0-23), format numérique. L'heure à laquelle on peut s'attendre à un comportement maximal du feu, tel qu'exprimé par un IPI modifié (voir les définitions de wind_speed_smoothed et peak_isi_smoothed ci-dessous). Si l'IPI maximal (provenant du champ peak_isi_smoothed) est inférieur à cinq, le peak_time est fixé à 17 heures</td>
 </tr>
 <tr>
 <td><code>duration</code></td>
-<td>nombre d’heures, en format numérique. Peut également être appelé durée d’une fenêtre de combustion. Il s’agit du nombre d’heures dans la journée où l’on peut s’attendre à un incendie actif (lorsque l’IPI modifié est égal ou supérieur à cinq). Si l’IPI n’a pas atteint 5 ou plus, la valeur de la durée de la fenêtre de coombustion est de zéro</td>
+<td>Nombre d'heures (hr), format numérique. Peut également être appelé durée d'une fenêtre de brûlage, nombre d'heures dans la journée où l'on peut s'attendre à un feu actif (où un IPI modifié est égal ou supérieur à cinq). Si l'IPI n'a pas atteint 5 ou plus, la durée est zéro</td>
 </tr>
 <tr>
 <td><code>wind_speed_smoothed</code></td>
-<td>Vitesse du vent (km/h), double précision. La vitesse horaire du vent enregistrée en fonction d’une moyenne de 10 minutes peut être erronée d’une heure à l’autre, ce qui rend difficile l’estimation de la durée d’une fenêtre de brûlage. Pour estimer la durée d’une fenêtre de brûlage et l’heure de pointe, la vitesse du vent horaire est ajustée et l’PSI est recalculé en fonction de la vitesse du vent ajustée et de l’ICLitesse du vent (km/h), double précision. La vitesse horaire du vent enregistrée en fonction d’une moyenne de 10 minutes peut être erronée d’une heure à l’autre, ce qui rend difficile l’estimation de la durée d’une fenêtre de brûlage. Pour estimer la durée d’une fenêtre de brûlage et l’heure de pointe, la vitesse du vent horaire est ajustée et l’PSI est recalculé en fonction de la vitesse du vent ajustée et de l’ICL</td>
+<td>Vitesse du vent en kilomètres par heure (km/h), double précision. La vitesse du vent enregistrée toutes les heures sur la base d'une moyenne de 10 minutes peut être bruyante d'une heure à l'autre, ce qui rend difficile l'estimation de la durée d'une fenêtre de brûlage. Pour estimer la durée d'une fenêtre de brûlage et l'heure de pointe, la vitesse du vent horaire est lissée et l'IPI est recalculé sur la base de la vitesse du vent lissée et de l'ICL</td>
 </tr>
 <tr>
 <td><code>peak_isi_smoothed</code></td>
-<td>Indice de propagation initiale (IPI) maximal recalculé en fonction de l’ICL et de la vitesse du vent ajustée à partir de wind_speed_smoothed; en chiffre pour une double précision. En chiffre, double précision</td>
+<td>Indice de propagation initiale maximale (IPI) recalculé à partir de l'ICL et de la vitesse du vent lissée à partir de « wind_speed_smoothed », nombre à double précision. Nombre, double précision</td>
 </tr>
 <tr>
 <td><code>ffmc</code></td>
-<td>Indice du combustible léger correspondant l’ICL à l’heure de pointe. En chiffre, double précision</td>
+<td>Indice du combustible léger correspondant à l'ICL à l'heure du pic. Nombre, double précision</td>
 </tr>
 <tr>
 <td><code>dmc</code></td>
-<td>Indice de l'humus (IH)</td>
+<td>Indice d'humidité de l'humus correspondant à l'IH à l'heure du pic. Nombre, double précision</td>
 </tr>
 <tr>
 <td><code>dc</code></td>
-<td>Indice de sécheresse (IS)</td>
+<td>Indice de sécheresse correspondant à l'IS à l'heure de pointe. Nombre, double précision</td>
 </tr>
 <tr>
 <td><code>isi</code></td>
-<td>Indice de propagation initiale (IPI)</td>
+<td>Indice de propagation initiale correspondant à l'IPI à l'heure de pointe. Nombre, double précision</td>
 </tr>
 <tr>
 <td><code>bui</code></td>
-<td>Indice du combustible disponible (ICD)</td>
+<td>Indice de combustible disponible correspondant à l'ICD à l'heure de pointe. Nombre, double précision</td>
 </tr>
 <tr>
 <td><code>fwi</code></td>
-<td>Indice forêt-météo (IFM)</td>
+<td>Indice forêt-météo correspondant à l'IFM à l'heure de pointe. Nombre, double précision</td>
 </tr>
 <tr>
 <td><code>dsr</code></td>
-<td></td>
+<td>Indice journalier de sévérité correspondant au DSR à l'heure de pointe. Nombre, double précision</td>
 </tr>
 <tr>
 <td><code>gfmc</code></td>
-<td>Indice d'humidité de l'herbe (IHH)</td>
+<td>Indice d'humidité de l'herbe correspondant au IHH à l'heure de pointe. Nombre, double précision</td>
 </tr>
 <tr>
 <td><code>gsi</code></td>
-<td>Indice de propagation dans l'herbe (IPH)</td>
+<td>Indice de propagation dans l'herbe correspondant à l'IPH à l'heure de pointe. Nombre, double précision</td>
 </tr>
 <tr>
 <td><code>gfwi</code></td>
-<td>Indice du danger d'incendie pour l'herbe (IDIH)</td>
+<td>Indice du danger d'incendie pour l'herbe correspondant à l'IDIH à l'heure de pointe. Nombre, double précision</td>
 </tr>
 </tbody>
 </table>
 <h2 id="licence">Licence</h2>
-<p><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main?tab=GPL-2.0-1-ov-file#readme">GPL-2.0 Licence</a> (en anglais)</p></div>
+<p>Les <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng">scripts NG-CFFDRS</a> sont sous licence GNU General Public License version 2 (GPL-2.0). Une copie de la licence est disponible sur le <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main?tab=GPL-2.0-1-ov-file#readme">référentiel GitHub</a> (en anglais).</p></div>
             </div>
         </div>
 
