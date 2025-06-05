@@ -2,7 +2,7 @@
 
 # Nous joindre
 
-La MCEDIF-PG est en cours de mise à jour par le Groupe sur les risques d'incendie du [Service canadien des forêts](https://ressources-naturelles.canada.ca/organisation/corporate-overview/services-forestier-canada). Pour toute question relative au code, veuillez consulter la section « Feedback and Bug Reports » (Commentaires et rapports de bogues) du [fichier README du référentiel](https://github.com/nrcan-cfs-fire/cffdrs-ng?tab=readme-ov-file#readme) (en anglais). 
+La MCEDIF-PG est en cours de mise à jour par le Groupe sur les risques d'incendie du [Service canadien des forêts](https://ressources-naturelles.canada.ca/organisation/corporate-overview/services-forestier-canada). Pour commentaires et rapports de bogues, veuillez consulter le [fichier **CONTRIBUTING.md** sur référentiel GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CONTRIBUTING.md) (en anglais).  
 
 Pour toute autre question d'ordre scientifique ou général, ou pour tout commentaire sur le site Web, veuillez envoyer un courriel à :
 
