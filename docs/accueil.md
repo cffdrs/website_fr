@@ -32,10 +32,15 @@ L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](ht
 
 ## Annonces
 
-### Mai 2025
-Natasha Jurko et Sam LaCarte ont animé un webinaire présentant les composantes d'herbes de l'IFM (IFM2025) le 22 mai. Il s'agissait du premier d'une série de webinaires destinés à faciliter les discussions avec le groupe sur les risques d'incendie. L'enregistrement sera mis à la disposition du public sur ce site web au début du mois de juin. En attendant, veuillez nous <a href="../contacter" target="_self">envoyer un courriel</a> si vous souhaitez avoir accès à l'enregistrement.
+### Juin 2025
+Nous avons récemment mis à jour le référentiel GitHub cffdrs-ng [README](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main?tab=readme-ov-file#readme) (en anglais) et les [directives de contribution](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CONTRIBUTING.md) (comment fournir des commentaires sur le code et signaler des bogues, en englais). Nous publierons prochainement notre liste de fonctionnalités, une FAQ et une feuille de route détaillant notre processus de mise à jour du code pour MCEDIF2025. Comme toujours, vous pouvez nous contacter pour nous faire part de vos idées et questions générales à l'adresse courriel de notre équipe :  
+
+[firedanger-dangerincendie@nrcan-rncan.gc.ca](mailto:firedanger-dangerincendie@nrcan-rncan.gc.ca)
 
 ## Annonces précédentes
+
+### Mai 2025
+Natasha Jurko et Sam LaCarte ont animé un webinaire présentant les composantes d'herbes de l'IFM (IFM2025) le 22 mai. Il s'agissait du premier d'une série de webinaires destinés à faciliter les discussions avec le groupe sur les risques d'incendie. L'enregistrement sera mis à la disposition du public sur ce site web au début du mois de juin. En attendant, veuillez nous <a href="../contacter" target="_self">envoyer un courriel</a> si vous souhaitez avoir accès à l'enregistrement.
 
 ### Mars 2025
 Le 
