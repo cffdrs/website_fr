@@ -11,6 +11,7 @@ Pour recevoir nos bulletins directement dans votre boîte de réception, remplis
 [Formulaire de bulletin (Microsoft Forms)](https://forms.office.com/r/jmT8HVrsK8)
 
 ## Série de séminaires
+Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à établir un lien direct avec les agences de gestion des incendies et les autres utilisateurs finaux du MCEDIF pour leur communiquer les nouvelles mises à jour et les mises à jour en cours. Tout le monde est invité à y participer. Pour être informé de la date de notre prochain séminaire, inscris-toi à notre liste de diffusion en remplissant le formulaire ci-dessus. Les vidéos des séminaires précédents seront disponibles ici peu de temps après chaque session. Les séminaires sont seulement disponibles en anglais pour le moment.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7Lja-CeO11E?rel=0&hl=fr-ca" title="Grasslands seminar YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer" allowfullscreen></iframe>
 

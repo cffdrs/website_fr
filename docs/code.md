@@ -10,7 +10,7 @@ Voir le [README du référentiel](https://github.com/nrcan-cfs-fire/cffdrs-ng?ta
 
 ## Capacités
 - Calculer les codes et indices IFM toutes les heures
-- Calcule les résumés quotidiens des paramètres IFM au moment du pic de brûlage.
+- Calcule les résumés quotidiens des paramètres IFM au moment du pic de brûlage
 - Calculer le code et les indices des prairies toutes les heures
 - Calculer le lever et le coucher du soleil à partir de la date et du lieu, ainsi que le rayonnement solaire supplémentaire à partir des données météorologiques locales
 - Convertir les données météorologiques quotidiennes traditionnelles de midi en données météorologiques quotidiennes minimales/maximales
