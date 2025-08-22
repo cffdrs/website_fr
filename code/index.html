@@ -107,6 +107,11 @@
                 </ul>
             </li>
             <li class="nav-item" data-bs-level="2">
+                    <a href="#capacites" class="nav-link" target="_self">Capacités</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2">
                     <a href="#indice-foret-meteo-2025" class="nav-link" target="_self">Indice forêt-météo 2025</a>
                 <ul class="nav flex-column">
             <li class="nav-item" data-bs-level="3">
@@ -151,7 +156,17 @@
 <p><a href="https://cffdrs.github.io/website_en/code/" target="_self" style="float: right;"> English </a></p>
 <h1 id="code">Code</h1>
 <h2 id="referentiel">Référentiel</h2>
-<p>Le <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main">référentiel GitHub cffdrs-ng</a> (en anglais) contient le code à jour des modules MCEDIF2025 dans trois langages de programmation : R, Python et C. Les trois langages contiennent les mêmes équations et effectuent les mêmes tâches. Vous pouvez choisir celui qui vous convient le mieux en fonction de la configuration de votre système.</p>
+<p>Le <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main">référentiel GitHub cffdrs-ng</a> (en anglais) contient le code à jour des modules MCEDIF2025 dans trois langages de programmation : <em>R</em>, <em>Python</em> et <em>C</em> (<strong>tout le code C est encore en cours de développement</strong>). Ces trois versions sont écrites pour produire les mêmes résultats, de sorte que les utilisateurs peuvent choisir la version qui correspond à leurs propres systèmes logiciels.</p>
+<p>Voir le <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng?tab=readme-ov-file#readme">README du référentiel</a> (en anglais) pour plus d'informations sur la façon de fournir des rapports de bogues, la structure du référentiel, et notre processus de mise à jour. Pour les notifications par courriel concernant les mises à jour du code, tu peux spécifier le type de mises à jour à recevoir lorsque tu <a href="../ressources/#inscription" target="_self">joins notre liste de diffusion</a>.</p>
+<h2 id="capacites">Capacités</h2>
+<ul>
+<li>Calculer les codes et indices IFM toutes les heures</li>
+<li>Calcule les résumés quotidiens des paramètres IFM au moment du pic de brûlage.</li>
+<li>Calculer le code et les indices des prairies toutes les heures</li>
+<li>Calculer le lever et le coucher du soleil à partir de la date et du lieu, ainsi que le rayonnement solaire supplémentaire à partir des données météorologiques locales</li>
+<li>Convertir les données météorologiques quotidiennes traditionnelles de midi en données météorologiques quotidiennes minimales/maximales</li>
+<li>Convertir les données météorologiques quotidiennes minimales/maximales en données météorologiques horaires</li>
+</ul>
 <h2 id="indice-foret-meteo-2025">Indice forêt-météo 2025</h2>
 <p><a href="https://cwfis.cfs.nrcan.gc.ca/renseignements/sommaire/fwi">L'indice canadien de risque d'incendie de forêt (IFM)</a> est un sous-système important du MCEDIF. L'IFM2025 est la prochaine génération de la méthode IFM correspondant au MCEDIF2025. On décrit ci-après les fichiers, les intrants, les paramètres et les résultats de manière générale pour les trois langues, en soulignant les variations propres à chacune.</p>
 <h3 id="scripts">Scripts</h3>
