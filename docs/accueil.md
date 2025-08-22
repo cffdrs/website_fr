@@ -32,15 +32,20 @@ L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](ht
 
 ## Annonces
 
-### Mai 2025
-Natasha Jurko et Sam LaCarte ont animé un webinaire présentant les composantes d'herbes de l'IFM (IFM2025) le 22 mai. Il s'agissait du premier d'une série de webinaires destinés à faciliter les discussions avec le groupe sur les risques d'incendie. L'enregistrement sera mis à la disposition du public sur ce site web au début du mois de juin. En attendant, veuillez nous <a href="../contacter" target="_self">envoyer un courriel</a> si vous souhaitez avoir accès à l'enregistrement.
+### Août 2025
+Une mise à jour mineure a été publiée dans le dépôt GitHub MCEDIF. Les changements spécifiques peuvent être trouvés dans le [changelog de GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md) (en anglais), qui comprend également des informations supplémentaires sur la prochaine mise à jour (à venir). Une <a href="../code/#capacites" target="_self">liste des habiletés</a> est maintenant disponible.
 
-## Annonces précédentes
+Natasha Jurko et Gabrielle Ayres ont animé le deuxième webinaire du Groupe sur le danger des incendies, discutant des nouvelles modifications de l'IFM2025 par rapport à la version IFM1987. L'enregistrement est disponible sur la <a href="../ressources/#serie-de-seminaires" target="_self">page Ressources</a>.
 
-### Mars 2025
+### Annonces précédentes
+
+#### Mai 2025
+Natasha Jurko et Sam LaCarte ont animé un webinaire présentant les composantes d'herbes de l'IFM (IFM2025) le 22 mai. Il s'agissait du premier d'une série de webinaires destinés à faciliter les discussions avec le groupe sur les risques d'incendie. L'enregistrement sera mis à la disposition du public <a href="../ressources/#serie-de-seminaires" target="_self">sur ce site web</a> au début du mois de juin. En attendant, veuillez nous <a href="../contacter" target="_self">envoyer un courriel</a> si vous souhaitez avoir accès à l'enregistrement.
+
+#### Mars 2025
 Le 
 <a href="../ressources/#bulletin" target="_self">premier bulletin</a>
 est désormais disponible. Il présente les nouvelles fonctionnalités de l'indice Forêt-Météo (IFM2025), notamment l'utilisation de données horaires et les nouveaux intrants et indices pour le danger d'incendie dans les prairies.
 
-### Janvier 2025
+#### Janvier 2025
 Le module du système d’indice forêt-météo (IFM) écrit en Python et en R peut actuellement être testé par les utilisateurs (le travail sur le langage C est en cours). La publication des autres modules de la MCEDIF (p. ex. systèmes PCI, AHC, et FIF) est provisoirement prévue pour l’automne 2025. 

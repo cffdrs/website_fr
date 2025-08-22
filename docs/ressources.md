@@ -10,6 +10,16 @@ Pour recevoir nos bulletins directement dans votre boîte de réception, remplis
 
 [Formulaire de bulletin (Microsoft Forms)](https://forms.office.com/r/jmT8HVrsK8)
 
+## Série de séminaires
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7Lja-CeO11E?rel=0&hl=fr-ca" title="Grasslands seminar YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer" allowfullscreen></iframe>
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AiXcUh-n2Ow?rel=0&cc_load_policy=1&hl=fr-ca" title="Shift to Hourly seminar YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer" allowfullscreen></iframe>
+
+<br>
+
 ## Rapports
 [Prochaine generation MCEDIF (PG-MCEDIF)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245411)
 

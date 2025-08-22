@@ -4,7 +4,17 @@
 
 ## Référentiel
 
-Le [référentiel GitHub cffdrs-ng](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main) (en anglais) contient le code à jour des modules MCEDIF2025 dans trois langages de programmation : R, Python et C. Les trois langages contiennent les mêmes équations et effectuent les mêmes tâches. Vous pouvez choisir celui qui vous convient le mieux en fonction de la configuration de votre système.
+Le [référentiel GitHub cffdrs-ng](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main) (en anglais) contient le code à jour des modules MCEDIF2025 dans trois langages de programmation : *R*, *Python* et *C* (**tout le code C est encore en cours de développement**). Ces trois versions sont écrites pour produire les mêmes résultats, de sorte que les utilisateurs peuvent choisir la version qui correspond à leurs propres systèmes logiciels.
+
+Voir le [README du référentiel](https://github.com/nrcan-cfs-fire/cffdrs-ng?tab=readme-ov-file#readme) (en anglais) pour plus d'informations sur la façon de fournir des rapports de bogues, la structure du référentiel, et notre processus de mise à jour. Pour les notifications par courriel concernant les mises à jour du code, tu peux spécifier le type de mises à jour à recevoir lorsque tu <a href="../ressources/#inscription" target="_self">joins notre liste de diffusion</a>.
+
+## Capacités
+- Calculer les codes et indices IFM toutes les heures
+- Calcule les résumés quotidiens des paramètres IFM au moment du pic de brûlage.
+- Calculer le code et les indices des prairies toutes les heures
+- Calculer le lever et le coucher du soleil à partir de la date et du lieu, ainsi que le rayonnement solaire supplémentaire à partir des données météorologiques locales
+- Convertir les données météorologiques quotidiennes traditionnelles de midi en données météorologiques quotidiennes minimales/maximales
+- Convertir les données météorologiques quotidiennes minimales/maximales en données météorologiques horaires
 
 ## Indice forêt-météo 2025
 
