@@ -4,6 +4,7 @@
 
 ## Bulletin
 - [Volume 1, Bulletin 1 (Mars 2025)](../documents/Newsletter1_FR_FWI2025_final.pdf)📥
+- [Volume 1, Bulletin 2 - Prairies (Août 2025)](../documents/BulletinProchaineGeneration_2_Prairies.pdf)📥
 
 ### Inscription
 Pour recevoir nos bulletins directement dans votre boîte de réception, remplissez le formulaire ci-dessous. Nous ne partagerons pas vos données et ne vous enverrons que des informations relatives à la MCEDIF.
