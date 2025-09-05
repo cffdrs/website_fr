@@ -13,12 +13,12 @@ Tous vos commentaires visant à améliorer cette ressource sont les bienvenus!
 ## Membres du groupe de risque d'incendie
 **Gabrielle Ayres** (she, her | elle, elle)  
 Analyste de la mobilisation de la recherche  
-<a href="../contacter/Gabrielle_Ayres" target="_self">Biographie</a>  
+<a href="../contact/Gabrielle_Ayres" target="_self">Biographie</a>  
 [gabrielle.ayres@nrcan-rncan.gc.ca](mailto:gabrielle.ayres@nrcan-rncan.gc.ca)  
 
 **Jonathan Boucher**  
 Chercheur scientifique sur les feux de végétation  
-<a href="../contacter/Jonathan_Boucher" target="_self">Biographie</a>  
+<a href="../contact/Jonathan_Boucher" target="_self">Biographie</a>  
 [jonathan.boucher@nrcan-rncan.gc.ca](mailto:jonathan.boucher@NRCan-RNCan.gc.ca)  
 
 **Luke Collins**  
@@ -27,17 +27,17 @@ Research Scientist
 
 **Anne Cotton-Gagnon** (elle, elle | she, her)  
 Agente de recherche sur les feux de végétation  
-<a href="../contacter/Anne_Cotton-Gagnon" target="_self">Biographie</a>  
+<a href="../contact/Anne_Cotton-Gagnon" target="_self">Biographie</a>  
 [anne.cotton-gagnon@nrcan-rncan.gc.ca](mailto:anne.cotton-gagnon@NRCan-RNCan.gc.ca)  
 
 **Patrick Deane** (he, him | il, lui)  
 Forest Fire Research Specialist   
-<a href="../contacter/Patrick_Deane" target="_self">Biographie</a>  
+<a href="../contact/Patrick_Deane" target="_self">Biographie</a>  
 [patrick.deane@nrcan-rncan.gc.ca](mailto:Patrick.Deane@NRCan-RNCan.gc.ca)  
 
 **Chelene Hanes**  
 Chercheuse scientifique en feux de forêt  
-<a href="../contacter/Chelene_Hanes" target="_self">Biographie</a>  
+<a href="../contact/Chelene_Hanes" target="_self">Biographie</a>  
 [chelene.hanes@nrcan-rncan.gc.ca](mailto:chelene.hanes@nrcan-rncan.gc.ca)  
 
 **Natasha Jurko**  
@@ -58,7 +58,7 @@ IT Analyst
 
 **Kevin Siu** (he, him | il, lui)  
 Programmeur analyste en incendie  
-<a href="../contacter/Kevin_Siu" target="_self">Biographie</a>  
+<a href="../contact/Kevin_Siu" target="_self">Biographie</a>  
 [kevin.siu@nrcan-rncan.gc.ca](mailto:kevin.siu@nrcan-rncan.gc.ca)
 
 **Steve Taylor**  

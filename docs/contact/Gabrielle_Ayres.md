@@ -1,4 +1,6 @@
+<a href="../../contact" target="_self" style="float: left;"> retour à Contact </a>
 <a href="https://cffdrs.github.io/website_en/contact/Gabrielle_Ayres/" target="_self" style="float: right;"> English </a>
+<br>
 
 ## Gabrielle Ayres
 (she, her | elle, elle)  

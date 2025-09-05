@@ -4,10 +4,10 @@ nav:
     - Code: code.md
     - Tutoriels: tutoriels.md
     - Ressources: ressources.md
-    - Contact: contacter.md
+    - Contact: contact.md
 not_in_nav: |
     index.md
-    contacter/*
+    contact/*
     code/*
 theme:
     name: mkdocs
