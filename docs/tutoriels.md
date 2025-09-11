@@ -5,7 +5,7 @@
 ## (sous construction)
 
 <div class="text-center">
-	<button disabled class="btn btn-dark"">IFM horaire<br> Tutoriel <br> C <br> (sous construction)</button>
+	<button disabled class="btn btn-dark">IFM horaire<br> Tutoriel <br> C <br> (sous construction)</button>
 	&emsp;
     <button class="btn btn-dark" onclick="location.href='../tutoriels/IFM_horaire_python'">IFM horaire<br> Tutoriel <br> Python</button>
 	&emsp;
