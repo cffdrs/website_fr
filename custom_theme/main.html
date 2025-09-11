@@ -19,7 +19,7 @@
         {%- for nav_item in nav %}
         {%- if nav_item.children %}
             <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle{% if nav_item.active %} active" aria-current="page{% endif %}" role="button" data-bs-toggle="dropdown"  aria-expanded="false" target="_self">{{ nav_item.title }}</a>
+                <a href="#" class="nav-link dropdown-toggle{% if nav_item.active %} active" aria-current="page{% elif nav_item.url|url == '../' %} active{% endif %}" role="button" data-bs-toggle="dropdown"  aria-expanded="false" target="_self">{{ nav_item.title }}</a>
                 <ul class="dropdown-menu">
                 {%- for nav_item in nav_item.children %}
                     {% include "nav-sub.html" %}

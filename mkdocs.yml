@@ -9,6 +9,7 @@ not_in_nav: |
     index.md
     contact/*
     code/*
+    tutoriels/*
 theme:
     name: mkdocs
     custom_dir: custom_theme/
