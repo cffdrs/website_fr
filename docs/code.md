@@ -19,7 +19,7 @@ Voir le [README du référentiel](https://github.com/nrcan-cfs-fire/cffdrs-ng?ta
 ## IFM2025
 
 <div class="text-center">
-	<button disabled class="btn btn-dark"">IFM2025 <br> C <br> (sous construction)</button>
+	<button disabled class="btn btn-dark"">IFM2025 <br> C <br> en cours de construction</button>
 	&emsp;
     <button class="btn btn-dark" onclick="location.href='../code/IFM2025_Python'">IFM2025 <br> Python</button>
 	&emsp;

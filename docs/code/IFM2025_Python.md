@@ -4,4 +4,4 @@
 
 # IFM2025 - Python
 
-## (sous construction)
+## < en cours de construction \>
