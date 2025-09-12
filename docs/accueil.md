@@ -4,7 +4,7 @@
 
 ## À propos
 
-La [Méthode canadienne d’évaluation des dangers d’incendie de forêt (MCEDIF)](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/methode-canadienne-evaluation-dangers-incendie-foret) est la principale source d’information sur les incendies à la disposition de toutes les [agences de gestion des incendies de forêt](https://ciffc.ca/mobilization-stats/member-agencies) (en anglais) au Canada. Elle est largement utilisée comme outil de sécurité et de sensibilisation, tant à l’échelle régionale qu’en bordure de feu. La MCEDIF fait l’objet de révisions approfondies sous le nom de [MCEDIF de prochaine génération (PG-MCEDIF)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245410). Elle sera mise à la disposition des praticiens en 2024, 2025 et les années suivantes. L’objectif principal est de répondre aux besoins évolutifs des utilisateurs avancés, tout en conservant sa simplicité et son efficacité.
+La [Méthode canadienne d’évaluation des dangers d’incendie de forêt (MCEDIF)](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/methode-canadienne-evaluation-dangers-incendie-foret) est la principale source d’information sur les incendies à la disposition de toutes les [agences de gestion des incendies de forêt](https://ciffc.ca/mobilization-stats/member-agencies) (en anglais) au Canada. Elle est largement utilisée comme outil de sécurité et de sensibilisation, tant à l’échelle régionale qu’en bordure de feu. La MCEDIF fait l’objet de révisions approfondies sous le nom de [MCEDIF de prochaine génération (PG-MCEDIF)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245410). Le déploiement auprès des praticiens se passe présentement.  L'objectif principal est de mettre à jour le système pour permettre l'utilisation de technologies et de sources de données modernes tout en conservant sa simplicité et son efficacité initiales.  
 
 Ce site web est destiné à :
 
@@ -12,7 +12,7 @@ Ce site web est destiné à :
 - centraliser l’accès au code et à la documentation
 - héberger des tutoriels pour les nouveaux utilisateurs
 
-Inscrivez-vous à <a href="../ressources/#inscription" target="_self">notre liste de diffusion</a> pour recevoir par courriel les dernières nouvelles concernant la MCEDIF 2025.
+Rejoignez notre <a href="../ressources/#inscription" target="_self">liste de diffusion</a> des mises à jour par e-mail sur les derniers développements de MCEDIF2025.
 
 Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations officielles sur les incendies forestiers au Canada, consultez les pages officielles du gouvernement du Canada sous la rubrique <a href="../ressources/#apercu" target="_self">Ressources#Aperçu</a>. 
 
@@ -32,12 +32,15 @@ L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](ht
 
 ## Annonces
 
-### Août 2025
+### Septembre 2025
+Une mise à jour majeure du code de IFM2025 a été publiée sur le [dépôt GitHub cffdrs-ng](https://github.com/nrcan-cfs-fire/cffdrs-ng) (en anglais). Elle inclut des changements dans les options lors de l'exécution de `hFWI()`, la structure des fichiers du dépôt, et la façon dont l'IH et le rayonnement solaire sont calculés. Plus de détails et le reste des changements peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md) (en anglais). Ce site web a également été mis à jour afin de disposer d'une documentation actualisée dans les sections <a href="../code" target="_self">Code</a> et <a href="../tutoriels" target="_self">Tutoriels</a>.
+
+### Annonces précédentes
+
+#### Août 2025
 Une mise à jour mineure a été publiée dans le dépôt GitHub MCEDIF. Les changements spécifiques peuvent être trouvés dans le [changelog de GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md) (en anglais), qui comprend également des informations supplémentaires sur la prochaine mise à jour (à venir). Une <a href="../code/#capacites" target="_self">liste des habiletés</a> est maintenant disponible.
 
 Natasha Jurko et Gabrielle Ayres ont animé le deuxième webinaire du Groupe sur le danger des incendies, discutant des nouvelles modifications de l'IFM2025 par rapport à la version IFM1987. L'enregistrement est disponible sur la <a href="../ressources/#serie-de-seminaires" target="_self">page Ressources</a>.
-
-### Annonces précédentes
 
 #### Juin 2025
 Nous avons récemment mis à jour le référentiel GitHub cffdrs-ng [README](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main?tab=readme-ov-file#readme) (en anglais) et les [directives de contribution](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CONTRIBUTING.md) (comment fournir des commentaires sur le code et signaler des bogues, en anglais). Nous publierons prochainement notre liste de fonctionnalités, une FAQ et une feuille de route détaillant notre processus de mise à jour du code pour MCEDIF2025. Comme toujours, vous pouvez nous contacter pour nous faire part de vos idées et questions générales à l'adresse courriel de notre équipe :  
@@ -45,7 +48,7 @@ Nous avons récemment mis à jour le référentiel GitHub cffdrs-ng [README](htt
 [firedanger-dangerincendie@nrcan-rncan.gc.ca](mailto:firedanger-dangerincendie@nrcan-rncan.gc.ca)
 
 #### Mai 2025
-Natasha Jurko et Sam LaCarte ont animé un webinaire présentant les composantes d'herbes de l'IFM (IFM2025) le 22 mai. Il s'agissait du premier d'une série de webinaires destinés à faciliter les discussions avec le groupe sur les risques d'incendie. L'enregistrement sera mis à la disposition du public sur ce site web au début du mois de juin. En attendant, veuillez nous <a href="../contact" target="_self">envoyer un courriel</a> si vous souhaitez avoir accès à l'enregistrement.
+Natasha Jurko et Sam LaCarte ont animé un <a href="../ressources/#grasslands-in-the-fire-weather-index-system-mai-2025" target="_self">webinaire</a> présentant les composantes d'herbes de l'IFM (IFM2025) le 22 mai. Il s'agissait du premier d'une série de webinaires destinés à faciliter les discussions avec le groupe sur les risques d'incendie. L'enregistrement sera mis à la disposition du public sur ce site web au début du mois de juin. En attendant, veuillez nous <a href="../contact" target="_self">envoyer un courriel</a> si vous souhaitez avoir accès à l'enregistrement.
 
 #### Mars 2025
 Le <a href="../ressources/#bulletin" target="_self">premier bulletin</a>
