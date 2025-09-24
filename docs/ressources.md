@@ -31,6 +31,7 @@ Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à
 ## Rapports
 [Prochaine generation MCEDIF (PG-MCEDIF)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245411)
 
+- [IFM2025 structure, changements, et interprétation (GLC-X-42)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/347501)
 - [MCEDIF2025 rayonnement solaire IFM (draft)](../documents/MCEDIF2025_rayonnement-solaire-IFM.pdf)📥
 
 Guides de terrain
