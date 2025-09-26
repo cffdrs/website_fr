@@ -29,24 +29,24 @@ Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à
 <br>
 
 ## Rapports
-[Prochaine generation MCEDIF (PG-MCEDIF)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245411)
+PG-MCEDIF
 
+- [PG-MCEDIF aperçu (GLC-X-26)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245410)
 - [IFM2025 structure, changements, et interprétation (GLC-X-42)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/347501)
 - [MCEDIF2025 rayonnement solaire IFM (draft)](../documents/MCEDIF2025_rayonnement-solaire-IFM.pdf)📥
 
 Guides de terrain
 
-- [Manuel terrain : L'échantillonnage des combustibles dans le contexte de la PG-MCEDIF](https://ca.nfis.org/fss/fss?command=retrieveByName&fileName=Field_Guide_of_NG_Protocol_french.pdf&fileNameSpace=docs/nfi&format=xml&promptToSave=true)📥
-- [Guide de la méthode canadienne de PCI 3ème édition (livre rouge)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/222604)
-- [Guide pratique pour prédire le comportement des incendies dans les prairies à herbes hautes de l'Ontario (livre jaune)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/246080) (en anglais)
-- [Guide sur les conditions météorologiques de la MCEDIF](https://ostrnrcan-dostrncan.canada.ca/handle/1845/219568) (en anglais)
-
+- [L'échantillonnage des combustibles dans le contexte de la PG-MCEDIF](https://ca.nfis.org/fss/fss?command=retrieveByName&fileName=Field_Guide_of_NG_Protocol_french.pdf&fileNameSpace=docs/nfi&format=xml&promptToSave=true)📥
+- [La méthode canadienne de PCI 3ème édition (livre rouge)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/222604)
+- [Prédire le comportement des incendies dans les prairies à herbes hautes de l'Ontario (livre jaune)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/246080) (en anglais)
 
 MCEDIF1992
 
-- [IFM1987 élaboration et structure](https://ostrnrcan-dostrncan.canada.ca/handle/1845/228434)
-- [PCI1992 élaboration et structure (ST-X-3)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/235421)
-- [PCI1992 mises à jour et révisions (GLC-X-10)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/247839)
+- [IFM1987 élaboration et structure](https://ostrnrcan-dostrncan.canada.ca/handle/1845/228436)
+- [PCI1992 élaboration et structure (ST-X-3)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/235438)
+- [PCI1992 mises à jour et révisions (GLC-X-10)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/247839) (en anglais)
+- [Guide sur les conditions météorologiques de la MCEDIF](https://ostrnrcan-dostrncan.canada.ca/handle/1845/219568) (en anglais)
 
 Documentation MCEDIF plus actuelle et historique peut être trouvée sur le  
 [dépôt ouvert des sciences et technologie (DOST) de RNCan](https://ostrnrcan-dostrncan.canada.ca/accueil).
