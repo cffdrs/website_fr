@@ -14,21 +14,7 @@ Ce site web est destiné à :
 
 Rejoignez notre <a href="../ressources/#inscription" target="_self">liste de diffusion</a> des mises à jour par e-mail sur les derniers développements de MCEDIF2025.
 
-Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations officielles sur les incendies forestiers au Canada, consultez les pages officielles du gouvernement du Canada sous la rubrique <a href="../ressources/#apercu" target="_self">Ressources#Aperçu</a>. 
-
-<img 
-    style="display: block;
-           width: 75px;
-           padding: 4px;
-           margin: 10px 25px 0px 0px;
-           float: left;
-           border-radius: 5px;
-           background-color: #FFFFFF!important"
-    src="../img/CFFDRS logoFRE.png" 
-    alt="CFFDRS1992 logo">
-</img>
-
-L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](https://github.com/cffdrs) (en anglais), tandis que la documentation R se trouve sur la [page CRAN de la MCEDIF](https://cran.r-project.org/web/packages/cffdrs/) (en anglais).
+Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations officielles sur les incendies forestiers au Canada, consultez les pages officielles du gouvernement du Canada sous la rubrique <a href="../ressources/#liens-web" target="_self">Ressources#Liens Web</a>. 
 
 ## Annonces
 

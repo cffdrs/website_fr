@@ -2,6 +2,6 @@
 <a href="https://cffdrs.github.io/website_en/tutorials/Hourly_FWI_R" target="_self" style="float: right;"> English </a>
 <br>
 
-# IFM - Python
+# IFM - R
 
 ## < en cours de construction \>

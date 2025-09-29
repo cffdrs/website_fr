@@ -11,7 +11,9 @@ Pour recevoir nos bulletins directement dans votre boîte de réception, remplis
 
 [Formulaire de bulletin (Microsoft Forms)](https://forms.office.com/r/jmT8HVrsK8)
 
-## Série de séminaires
+## Vidéos
+
+### Série de séminaires
 Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à établir un lien direct avec les agences de gestion des incendies et les autres utilisateurs finaux du MCEDIF pour leur communiquer les nouvelles mises à jour et les mises à jour en cours. Tout le monde est invité à y participer. Pour être informé de la date de notre prochain séminaire, inscris-toi à notre liste de diffusion en remplissant le formulaire ci-dessus. Les vidéos des séminaires précédents seront disponibles ici peu de temps après chaque session. Les séminaires sont seulement disponibles en anglais pour le moment.
 
 *Si vous rencontrez des problèmes avec le lecteur vidéo, essayez d'actualiser cette page. Si le problème persiste, cliquez sur « Regarder la vidéo sur YouTube » dans l'espace du lecteur.*
@@ -51,22 +53,15 @@ MCEDIF1992
 Documentation MCEDIF plus actuelle et historique peut être trouvée sur le  
 [dépôt ouvert des sciences et technologie (DOST) de RNCan](https://ostrnrcan-dostrncan.canada.ca/accueil).
 
-## Cartes
-[Système canadien d'information sur les feux de végétation (SCIFV)](https://cwfis.cfs.nrcan.gc.ca/accueil)  
-[Centre interservices des feux de forêt du Canada (CIFFC)](https://ciffc.net)  
-[Atlas forestier du système national d'information sur les forêts (SNIF)](https://ca.nfis.org/map/atlas.html?language=fr)  
-[Global Wildfire Information System (GWIS)](https://gwis.jrc.ec.europa.eu/) (en anglais)
+## Liens Web
 
-## Aperçu
-[Feux de forêt](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/feux-foret)  
-[Gestion des feux](https://ressources-naturelles.canada.ca/forets-foresterie/insectes-perturbations-forets/gestion-feux)
-
-Méthode canadienne d'évaluation des dangers d'incendie de forêt (MCEDIF)
+MCEDIF
 
 - [Gouvernement du Canada](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/methode-canadienne-evaluation-dangers-incendie-foret)  
 - [Ressources naturelles Canada](https://cwfis.cfs.nrcan.gc.ca/renseignements/sommaire/fdr)
 
 Centre de liens Web
 
+- [Système canadien d'information sur les feux de végétation (SCIFV)](https://cwfis.cfs.nrcan.gc.ca/accueil) 
 - [Feux de végétation](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation)  
 - [Aperçu des feux de forêt](https://www.canada.ca/fr/securite-publique-canada/campagnes/feux-de-foret.html)
