@@ -64,4 +64,4 @@ Centre de liens Web
 
 - [Système canadien d'information sur les feux de végétation (SCIFV)](https://cwfis.cfs.nrcan.gc.ca/accueil) 
 - [Feux de végétation](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation)  
-- [Aperçu des feux de forêt](https://www.canada.ca/fr/securite-publique-canada/campagnes/feux-de-foret.html)
+- [Feux de forêt : intervention fédérale](https://www.canada.ca/fr/securite-publique-canada/campagnes/feux-de-foret.html)
