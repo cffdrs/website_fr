@@ -4,7 +4,7 @@
 
 ## Référentiel
 
-Le [référentiel GitHub cffdrs-ng](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main) (en anglais) contient le code à jour des modules MCEDIF2025 dans trois langages de programmation : *R*, *Python* et *C* (**tout le code C est encore en cours de développement**). Ces trois versions sont écrites pour produire les mêmes résultats, de sorte que les utilisateurs peuvent choisir la version qui correspond à leurs propres systèmes logiciels.
+Le [référentiel GitHub cffdrs-ng](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main) (en anglais) contient le code à jour des modules MCEDIF2025 dans trois langages de programmation : *R*, *Python* et *C*. Ces trois versions sont écrites pour produire les mêmes résultats, de sorte que les utilisateurs peuvent choisir la version qui correspond à leurs propres systèmes logiciels.
 
 Voir le [README du référentiel](https://github.com/nrcan-cfs-fire/cffdrs-ng?tab=readme-ov-file#readme) (en anglais) pour plus d'informations sur la façon de fournir des rapports de bogues, la structure du référentiel, et notre processus de mise à jour. Pour les notifications par courriel concernant les mises à jour du code, tu peux spécifier le type de mises à jour à recevoir lorsque tu <a href="../ressources/#inscription" target="_self">joins notre liste de diffusion</a>.
 
