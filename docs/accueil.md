@@ -18,10 +18,15 @@ Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations offi
 
 ## Annonces
 
-### Septembre 2025
-Une mise à jour majeure du code de IFM2025 a été publiée sur le [dépôt GitHub cffdrs-ng](https://github.com/nrcan-cfs-fire/cffdrs-ng) (en anglais). Elle inclut des changements dans les options lors de l'exécution de `hFWI()`, la structure des fichiers du dépôt, et la façon dont l'IH et le rayonnement solaire sont calculés. Plus de détails et le reste des changements peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-09-10) (en anglais). Ce site web a également été mis à jour afin de disposer d'une documentation actualisée dans les sections <a href="../code" target="_self">Code</a> et <a href="../tutoriels" target="_self">Tutoriels</a>.
+### Octobre 2025
+Le rapport d'information IFM2025 a été publié, il est intitulé <a href="../ressources/#rapports" target="_self">La mise à jour 2025 de la Méthode IFM : Structure, changements et interprétation</a> (GLC-X-42). Il fournit des informations sur l'IFM2025 et les modifications apportées à la version précédente, l'IFM1987, et peut être consulté sur le site [RNCan Open S&T Repository](https://ostrnrcan-dostrncan.canada.ca/accueil). En outre, une nouvelle vidéo informative qui explique l'IFM2025 en général est maintenant disponible sur la <a href="../ressources/#explicatives" target="_self">page des ressources</a>.  
+
+Le code C a été mis à jour pour correspondre aux versions Python et R. Les détails peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-10-02) (en anglais) ainsi que des corrections de bugs mineurs plus récents.
 
 ### Annonces précédentes
+
+#### Septembre 2025
+Une mise à jour majeure du code de IFM2025 a été publiée sur le [dépôt GitHub cffdrs-ng](https://github.com/nrcan-cfs-fire/cffdrs-ng) (en anglais). Elle inclut des changements dans les options lors de l'exécution de `hFWI()`, la structure des fichiers du dépôt, et la façon dont l'IH et le rayonnement solaire sont calculés. Plus de détails et le reste des changements peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-09-10) (en anglais). Ce site web a également été mis à jour afin de disposer d'une documentation actualisée dans les sections <a href="../code" target="_self">Code</a> et <a href="../tutoriels" target="_self">Tutoriels</a>.
 
 #### Août 2025
 Une mise à jour mineure a été publiée dans le dépôt GitHub MCEDIF. Les changements spécifiques peuvent être trouvés dans le [changelog de GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-08-22) (en anglais), qui comprend également des informations supplémentaires sur la prochaine mise à jour (à venir). Une <a href="../code/#capacites" target="_self">liste des habiletés</a> est maintenant disponible.
