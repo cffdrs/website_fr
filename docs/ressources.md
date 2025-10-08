@@ -33,7 +33,9 @@ Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à
 
 #### Overview of the Updates in the Fire Weather Index System (Octobre 2025)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8LNpvOEbNAA?rel=0&cc_load_policy=1" title="Overview of FWI Updates YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8LNpvOEbNAA?rel=0&cc_load_policy=1&hl=fr-ca" title="Overview of FWI Updates YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer" allowfullscreen></iframe>
+
+<br>
 
 ## Rapports
 PG-MCEDIF
