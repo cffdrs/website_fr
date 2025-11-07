@@ -12,20 +12,22 @@ Pour recevoir nos bulletins directement dans votre boîte de réception, remplis
 [Formulaire de bulletin (Microsoft Forms)](https://forms.office.com/r/jmT8HVrsK8)
 
 ## Vidéos
-*Si vous rencontrez des problèmes avec un lecteur vidéo, essayez d'actualiser cette page. Si le problème persiste, cliquez sur « Regarder la vidéo sur YouTube » dans l'espace du lecteur.*
+*Si vous rencontrez des problèmes avec un lecteur vidéo, essayez d'actualiser cette page. Si le problème persiste, cliquez sur « Regarder la vidéo sur YouTube » dans l'espace du lecteur.*  
+
+Les vidéos sont seulement disponibles en anglais pour le moment.
 
 ### Série de séminaires
-Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à établir un lien direct avec les agences de gestion des incendies et les autres utilisateurs finaux du MCEDIF pour leur communiquer les nouvelles mises à jour et les mises à jour en cours. Tout le monde est invité à y participer. Pour être informé de la date de notre prochain séminaire, inscris-toi à notre liste de diffusion en remplissant le formulaire ci-dessus. Les vidéos des séminaires précédents seront disponibles ici peu de temps après chaque session. Les séminaires sont seulement disponibles en anglais pour le moment.
+Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à établir un lien direct avec les agences de gestion des incendies et les autres utilisateurs finaux du MCEDIF pour leur communiquer les nouvelles mises à jour et les mises à jour en cours. Tout le monde est invité à y participer. Pour être informé de la date de notre prochain séminaire, inscris-toi à notre liste de diffusion en remplissant le formulaire ci-dessus. Les vidéos des séminaires précédents seront disponibles ici peu de temps après chaque session.
 
 #### Grasslands in the Fire Weather Index System (Mai 2025)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7Lja-CeO11E?rel=0&hl=fr-ca" title="Grasslands Seminar YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7Lja-CeO11E?rel=0&hl=fr-ca" title="Grasslands Seminar YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br>
 
 #### Interpreting Outputs and the Shift to Hourly Weather Inputs (Août 2025)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AiXcUh-n2Ow?rel=0&cc_load_policy=1&hl=fr-ca" title="Shift to Hourly Seminar YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AiXcUh-n2Ow?rel=0&cc_load_policy=1&hl=fr-ca" title="Shift to Hourly Seminar YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br>
 
@@ -33,7 +35,7 @@ Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à
 
 #### Overview of the Updates in the Fire Weather Index System (Octobre 2025)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8LNpvOEbNAA?rel=0&cc_load_policy=1&hl=fr-ca" title="Overview of FWI Updates YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8LNpvOEbNAA?rel=0&cc_load_policy=1&hl=fr-ca" title="Overview of FWI Updates YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br>
 
