@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>IFM horaire python - PG-MCEDIF</title>
+        <title>IFM horaire R - PG-MCEDIF</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/fontawesome.min.css" rel="stylesheet">
         <link href="../../css/brands.min.css" rel="stylesheet">
@@ -102,7 +102,7 @@
                     <a href="#" class="nav-link" target="_self"> (Début) </a>
                 <ul class="nav flex-column">
             <li class="nav-item" data-bs-level="2">
-                    <a href="#python-files" class="nav-link" target="_self">Python files</a>
+                    <a href="#r-files" class="nav-link" target="_self">R files</a>
                 <ul class="nav flex-column">
                 </ul>
             </li>
@@ -115,7 +115,7 @@
                     <a href="#steps" class="nav-link" target="_self">Steps</a>
                 <ul class="nav flex-column">
             <li class="nav-item" data-bs-level="3">
-                    <a href="#load-packages" class="nav-link" target="_self">Load packages</a>
+                    <a href="#load-libraries" class="nav-link" target="_self">Load libraries</a>
                 <ul class="nav flex-column">
                 </ul>
             </li>
@@ -149,28 +149,28 @@
     <div class="col-md-9" role="main">
 
 <p><a href="../../tutoriels#ifm2025" target="_self" style="float: left;"> retour à Tutoriels </a>
-<a href="https://cffdrs.github.io/website_en/tutorials/Hourly_FWI_Python" target="_self" style="float: right;"> English </a></p>
+<a href="https://cffdrs.github.io/website_en/tutorials/Hourly_FWI_R" target="_self" style="float: right;"> English </a></p>
 <h3 style="text-align: center; font-style: italic;"> Traduction en cours </h3>
 
 <p><br></p>
-<h1 id="hourly-fwi-tutorial-python">Hourly FWI Tutorial - Python</h1>
+<h1 id="hourly-fwi-tutorial-r">Hourly FWI Tutorial - R</h1>
 <p><em>Last updated: December 10th, 2025</em></p>
-<h2 id="python-files">Python files</h2>
-<p>The following files can be found on the <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main">cffdrs-ng GitHub repository</a>:  </p>
+<h2 id="r-files">R files</h2>
+<p>The following files can be found on the <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main">cffdrs-ng GitHub repository</a>: </p>
 <ul>
 <li>data/<ul>
 <li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/PRF2007_hourly_wx.csv"><strong>PRF2007_hourly_wx.csv</strong></a></li>
 </ul>
 </li>
 <li>FWI/<ul>
-<li>Python/<ul>
+<li>R/<ul>
 <li>tutorial/<ul>
-<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/Python/tutorial/tutorial_hourly_FWI.py"><strong>tutorial_hourly_FWI.py</strong></a></li>
+<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/R/tutorial/tutorial_hourly_FWI.R"><strong>tutorial_hourly_FWI.r</strong></a></li>
 </ul>
 </li>
-<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/Python/NG_FWI.py"><strong>NG_FWI.py</strong></a></li>
-<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/Python/util.py"><strong>util.py</strong></a></li>
-<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/Python/daily_summaries.py"><strong>daily_summaries.py</strong></a></li>
+<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/R/NG_FWI.r"><strong>NG_FWI.r</strong></a></li>
+<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/R/util.r"><strong>util.r</strong></a></li>
+<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/R/daily_summaries.r"><strong>daily_summaries.r</strong></a></li>
 </ul>
 </li>
 </ul>
@@ -183,68 +183,52 @@
 <li><em>Clone</em> the whole repository to your computer with Git. See the <a href="https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github">GitHub documentation</a> for more information.</li>
 <li><em>Fork</em> the repository to create a new repository on GitHub. See the <a href="https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github">GitHub documentation</a> for more information.</li>
 </ol>
-<p>Besides the files, ensure you have the required Python packages, which are listed at <a href="../../code/FWI2025_Python#packages" target="_self">FWI2025_Python#packages</a>.</p>
+<p>Besides the files, ensure you have the required R packages, which are listed at <a href="../../code/FWI2025_R#packages" target="_self">FWI2025_R#packages</a>.</p>
 <h2 id="data">Data</h2>
 <p><strong>PRF2007_hourly_wx.csv</strong> contains hourly weather recorded from a Petawawa Research Forest (PRF) weather station during the 2007 field season. The data has no gaps and is sorted sequentially by time, which is a requirement for FWI2025 input data.</p>
 <p>The column headers are those required for hourly FWI calculations, details of which can be found in the [code documentation]. Grassland fuel load (<code>grass_fuel_load</code>), grassland curing (<code>percent_cured</code>) and solar radiation (<code>solrad</code>) are not included, but these are optional inputs and they will be automatically calculated if not provided. There is a column for UTC offset (<code>timezone</code>) which will be used by default in the <code>hFWI()</code> function.</p>
 <h2 id="steps">Steps</h2>
-<p>Open the <strong>tutorial_hourly_FWI.py</strong> code file. You can either follow the code and comments in the file or continue on this page (both include the same code and content).</p>
-<h3 id="load-packages">Load packages</h3>
-<p>Run <code>pip install</code> to install any you are missing.</p>
-<pre><code class="language-py">import pandas as pd
-from datetime import datetime
+<p>Open the <strong>tutorial_hourly_FWI.r</strong> code file. You can either follow the code and comments in the file or continue on this page (both include the same code and content).</p>
+<h3 id="load-libraries">Load libraries</h3>
+<p>Run <code>install.packages()</code> to install any you are missing</p>
+<pre><code class="language-r">library(lubridate)
+library(data.table)
 </code></pre>
 <h3 id="load-functions-and-data">Load functions and data</h3>
-<p>If the working directory is different from where you saved the FWI2025 scripts, you can add the path to the scripts with the sys package and <code>sys.path.append()</code>.</p>
-<pre><code class="language-py">import sys
-sys.path.append(&quot;CHANGE/PATH/TO/cffdrs-ng/FWI/Python&quot;)
+<p>Check your current working directory</p>
+<pre><code class="language-r">getwd()
 </code></pre>
-<p>Load the files containing the variables and functions to calculate FWI2025.</p>
-<pre><code class="language-py">from NG_FWI import hFWI
-from daily_summaries import generate_daily_summaries
+<p>If the working directory is different from where you saved the FWI2025 scripts, change the working directory with <code>setwd()</code> to that folder.  </p>
+<p>Load the files containing the functions and variables to calculate FWI2025.</p>
+<pre><code class="language-r">source(&quot;NG_FWI.r&quot;)
+source(&quot;util.r&quot;)
+source(&quot;daily_summaries.r&quot;)
 </code></pre>
 <p>Load the input weather station data file. The path below is specified based on the layout in the GitHub repository. Change the file path for <strong>PRF2007_hourly_wx.csv</strong> if your structure is different.</p>
-<pre><code class="language-py">data = pd.read_csv(&quot;../../data/PRF2007_hourly_wx.csv&quot;)
+<pre><code class="language-r">data &lt;- read.csv(&quot;../../data/PRF2007_hourly_wx.csv&quot;)
 </code></pre>
-<p>Print the column names, data should contain 12 columns.</p>
-<pre><code class="language-py">print(data.columns)
+<p>Print the column names, data should contain 12 columns</p>
+<pre><code class="language-r">print(names(data))
 </code></pre>
-<pre><code class="language-py">Index(['id', 'lat', 'long', 'timezone', 'yr', 'mon', 'day', 'hr', 'temp', 'rh', 
-       'ws', 'prec'],
-      dtype='object')
+<pre><code class="language-r"> [1] &quot;id&quot;       &quot;lat&quot;      &quot;long&quot;     &quot;timezone&quot; &quot;yr&quot;       &quot;mon&quot;
+ [7] &quot;day&quot;      &quot;hr&quot;       &quot;temp&quot;     &quot;rh&quot;       &quot;ws&quot;       &quot;prec&quot;
 </code></pre>
 <p>Previously, the UTC offset (<code>timezone</code> column) was a function parameter and could be calculated from latitude and longitude. Now it is a data frame column and provided. See the <a href="#appendix-timezones" target="_self">appendix of this tutorial</a> for extra information on how to calculate the timezone, along with the extra information required about the dataset.</p>
 <h3 id="run-fwi2025">Run FWI2025</h3>
-<p><code>hFWI()</code> is the function that calculates hourly FWI codes in FWI2025. Details about it can be found in the [code documentation]. It can handle multiple stations and years/fire seasons (not shown in this tutorial). For details you can run the help.</p>
-<pre><code class="language-py">help(hFWI)
+<p><code>hFWI()</code> is the function that calculates hourly FWI codes in FWI2025. Details about it can be found in the [code documentation]. It can handle multiple stations and years/fire seasons (not shown in this tutorial). For the arguments you can run <code>args()</code>.</p>
+<pre><code class="language-r">args(hFWI)
 </code></pre>
-<pre><code class="language-py">Help on function hFWI in module NG_FWI:
-
-hFWI(
-    df_wx,
-    timezone=None,
-    ffmc_old=85.0,
-    mcffmc_old=None,
-    dmc_old=6.0,
-    dc_old=15.0,
-    mcgfmc_matted_old=16.3075131042516,
-    mcgfmc_standing_old=16.3075131042516,
-    prec_cumulative=0.0,
-    canopy_drying=0,
-    silent=False,
-    round_out=4
-)
-    ##
-    # Calculate hourly FWI indices from hourly weather stream.
-    #
-    # @param    df_wx               hourly values weather stream
+<pre><code class="language-r">function (df_wx, timezone = NA, ffmc_old = FFMC_DEFAULT, mcffmc_old = NA, 
+    dmc_old = DMC_DEFAULT, dc_old = DC_DEFAULT, mcgfmc_matted_old = ffmc_to_mcffmc(FFMC_DEFAULT),
+    mcgfmc_standing_old = ffmc_to_mcffmc(FFMC_DEFAULT), prec_cumulative = 0,
+    canopy_drying = 0, silent = FALSE, round_out = 4)
 </code></pre>
 <p>For this tutorial, we will leave all the optional parameters to default.</p>
-<pre><code class="language-py">data_fwi = hFWI(data)
+<pre><code class="language-r">data_fwi &lt;- hFWI(data)
 </code></pre>
-<pre><code class="language-py">########
+<pre><code class="language-r">########
 Startup values used:
-FFMC = 85.0 or mcffmc = None %
+FFMC = 85.0 or mcffmc = NA %
 DMC = 6.0 and DC = 15.0
 mcgfmc matted = 16.3075 % and standing = 16.3075 %
 cumulative precipitation = 0.0 mm and canopy drying = 0
@@ -252,99 +236,79 @@ cumulative precipitation = 0.0 mm and canopy drying = 0
 Running PRF for 2007
 ########
 </code></pre>
-<p>Output is a DataFrame, with FWI calculations appended after the input columns. Save the output as a CSV file (overrides any preexisting file).</p>
-<pre><code class="language-py">data_fwi.to_csv(&quot;PRF2007_hourly_FWI.csv&quot;, index = False)
+<p>Output is a data.frame (matching input class), with FWI calculations appended after the input columns. Save the output as a CSV file (overrides any preexisting file).</p>
+<pre><code class="language-r">write.csv(data_fwi, &quot;PRF2007_hourly_FWI.csv&quot;, row.names = FALSE)
 </code></pre>
 <p>Print the last two rows of the standard moisture codes and fire behaviour indices.</p>
-<pre><code class="language-py">standard_components = ['ffmc', 'dmc', 'dc', 'isi', 'bui', 'fwi']
-print(data_fwi.loc[:, standard_components].tail(2))
+<pre><code class="language-r">standard_components &lt;- c(&quot;ffmc&quot;, &quot;dmc&quot;, &quot;dc&quot;, &quot;isi&quot;, &quot;bui&quot;, &quot;fwi&quot;)
+tail(data_fwi[standard_components], 2)
 </code></pre>
-<pre><code class="language-py">         ffmc     dmc        dc     isi     bui     fwi
-2621  80.2669  3.0924  219.5169  1.6423  5.9745  0.7650
-2622  82.1759  3.3503  220.0533  2.1462  6.4550  1.2023
+<pre><code class="language-r">        ffmc    dmc       dc    isi    bui    fwi
+2622 80.2669 3.0924 219.5169 1.6423 5.9745 0.7650
+2623 82.1759 3.3503 220.0533 2.1462 6.4550 1.2023
 </code></pre>
 <p>Print a simple summary of the standard FWI components.</p>
-<pre><code class="language-py">print(data_fwi.loc[:, standard_components].describe())
+<pre><code class="language-r">summary(data_fwi[standard_components])
 </code></pre>
-<pre><code class="language-py">              ffmc          dmc           dc          isi          bui          fwi
-count  2623.000000  2623.000000  2623.000000  2623.000000  2623.000000  2623.000000
-mean     70.622770    17.487231   136.122169     2.158163    23.971546     3.877128
-std      22.973326    13.331302    76.454242     2.233486    17.499332     4.438263
-min       0.000000     0.000000    15.409200     0.000000     0.000000     0.000000
-25%      67.866500     5.924600    72.276400     0.787700     8.407750     0.422050
-50%      79.377900    16.460900   133.062700     1.395800    22.623400     2.407500
-75%      85.177050    26.511200   188.638500     2.978500    34.605350     5.929900
-max      94.397300    50.174000   292.950100    17.595800    66.148100    25.135200
+<pre><code class="language-r">      ffmc            dmc               dc              isi
+ Min.   : 0.00   Min.   : 0.000   Min.   : 15.41   Min.   : 0.0000
+ 1st Qu.:67.87   1st Qu.: 5.925   1st Qu.: 72.28   1st Qu.: 0.7877
+ Median :79.38   Median :16.461   Median :133.06   Median : 1.3958
+ Mean   :70.62   Mean   :17.487   Mean   :136.12   Mean   : 2.1582
+ 3rd Qu.:85.18   3rd Qu.:26.511   3rd Qu.:188.64   3rd Qu.: 2.9785
+ Max.   :94.40   Max.   :50.174   Max.   :292.95   Max.   :17.5958
+      bui              fwi
+ Min.   : 0.000   Min.   : 0.000
+ 1st Qu.: 8.408   1st Qu.: 0.422
+ Median :22.623   Median : 2.408
+ Mean   :23.972   Mean   : 3.877
+ 3rd Qu.:34.605   3rd Qu.: 5.930
+ Max.   :66.148   Max.   :25.135
 </code></pre>
 <p>Compare your outputs with our standard outputs in <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/PRF2007_standard_hourly_FWI.csv"><strong>PRF2007_standard_hourly_FWI.csv</strong></a>.</p>
 <h3 id="calculate-daily-summaries">Calculate daily summaries</h3>
 <p>Calculate outputs like peak burn time and number of hours of spread potential. Details about the daily summaries function can be found in the [code documentation].</p>
-<pre><code class="language-py">report = generate_daily_summaries(data_fwi)
+<pre><code class="language-r">report &lt;- generate_daily_summaries(data_fwi)
 </code></pre>
 <p>Print a simple summary of the daily report.</p>
-<pre><code class="language-py">daily_components = [&quot;peak_hr&quot;, &quot;duration&quot;, &quot;isi_smooth&quot;, &quot;dsr&quot;]
-print(report[daily_components].describe())
+<pre><code class="language-r">daily_components &lt;- c(&quot;peak_hr&quot;, &quot;duration&quot;, &quot;isi_smooth&quot;, &quot;dsr&quot;)
+summary(report[daily_components])
 </code></pre>
-<pre><code class="language-py">          peak_hr    duration  isi_smooth         dsr
-count  109.000000  109.000000  109.000000  109.000000
-mean    17.293578    2.697248    4.324269    1.553256
-std      1.271502    3.818824    3.220367    1.762854
-min     13.000000    0.000000    0.000000    0.000000
-25%     17.000000    0.000000    1.234300    0.033800
-50%     17.000000    0.000000    4.031900    0.991300
-75%     18.000000    5.000000    6.495300    2.594000
-max     23.000000   14.000000   15.770700    6.948600
-</code></pre>
-<p>View a distribution of the hour of daily peak burn, which looks like this:</p>
-<pre><code class="language-py">print(report['peak_hr'].value_counts().sort_index())
-</code></pre>
-<pre><code class="language-py">peak_time
-13     1
-14     2
-15     4
-16    10
-17    53
-18    23
-19    14
-20     1
-23     1
-Name: count, dtype: int64
+<pre><code class="language-r">    peak_hr         duration        isi_smooth          dsr
+ Min.   :13.00   Min.   : 0.000   Min.   : 0.000   Min.   :0.0000
+ 1st Qu.:17.00   1st Qu.: 0.000   1st Qu.: 1.234   1st Qu.:0.0338
+ Median :17.00   Median : 0.000   Median : 4.032   Median :0.9913
+ Mean   :17.29   Mean   : 2.697   Mean   : 4.324   Mean   :1.5533
+ 3rd Qu.:18.00   3rd Qu.: 5.000   3rd Qu.: 6.495   3rd Qu.:2.5940
+ Max.   :23.00   Max.   :14.000   Max.   :15.771   Max.   :6.9486
 </code></pre>
 <p>From here, the outputs can be converted to any datatype for further analysis or plotted for visualization.</p>
 <h2 id="appendix-timezones">Appendix: Timezones</h2>
 <p>This section will cover how to calculate a timezone based on a location (latitude and longitude) and date. Note that this is not necessarily a substitute for actual information about the time used in a dataset. The <a href="https://ostrnrcan-dostrncan.canada.ca/handle/1845/219568">CFFDRS Weather Guide</a> specifies to collect data by local standard time, which is different in many places due to the shift to daylight time in summer months (daylight savings).</p>
-<p>The 'timezonefinder' and 'pytz' packages have functions to get the timezone of the weather station based on latitude and longitude.</p>
-<pre><code class="language-py">from timezonefinder import TimezoneFinder
-from pytz import timezone
+<p>The 'lutz' library has functions to get the timezone of the weather station based on latitude and longitude.</p>
+<pre><code class="language-r">library(lutz)
 </code></pre>
 <p>First, make a dataframe of stations with unique ID, latitude, and longitude.</p>
-<pre><code class="language-py">stations = data.loc[:, ['id', 'lat', 'long']].drop_duplicates()
+<pre><code class="language-r">stations &lt;- unique(data[c(&quot;id&quot;, &quot;lat&quot;, &quot;long&quot;)])
 </code></pre>
 <p>Print the unique station IDs and coordinates. For this dataset the only station is at Petawawa Research Forest (PRF).</p>
-<pre><code class="language-py">print(stations)
+<pre><code class="language-r">&gt; stations
+   id    lat    long
+1 PRF 45.996 -77.427
 </code></pre>
-<pre><code class="language-py">    id     lat    long
-0  PRF  45.996 -77.427
+<p>Find the timezone based on latitude and longitude, this can take some time. You may need to download the package 'sf' for method = "accurate".</p>
+<pre><code class="language-r">tz_loc &lt;- tz_lookup_coords(stations$lat, stations$long, method = &quot;accurate&quot;)
 </code></pre>
-<p>Find the timezone based on latitude and longitude.</p>
-<pre><code class="language-py">tf = TimezoneFinder()
-tz_loc = tf.timezone_at(lat = stations.at[0, 'lat'], lng = stations.at[0, 'long'])
-</code></pre>
-<p>Print timezone location. PRF is equivalent to "America/Toronto".</p>
-<pre><code class="language-py">print(tz_loc)
-</code></pre>
-<pre><code class="language-py">'America/Toronto'
+<p>Print the timezone location. PRF is equivalent to "America/Toronto".</p>
+<pre><code class="language-r">&gt; tz_loc
+[1] &quot;America/Toronto&quot;
 </code></pre>
 <p>The UTC offset can then be determined from the timezone location.</p>
-<pre><code class="language-py">utc = timezone(tz_loc).localize(datetime(2007, 5, 10)).strftime('%z')
+<pre><code class="language-r">utc &lt;- tz_offset(&quot;2007-05-10&quot;, tz_loc)[[5]]
 </code></pre>
-<p>Print UTC offset, PRF in May is in Eastern Daylight Time (EDT)</p>
-<pre><code class="language-py">print(utc)
-</code></pre>
-<pre><code class="language-py">'-0400'
-</code></pre>
-<p>The UTC offset is expected as integer hours, so we can set it to -4.</p>
-<pre><code class="language-py">utc = -4
+<p>Print the UTC offset.</p>
+<pre><code class="language-r">&gt; utc
+[1] -4
 </code></pre>
 <p>Since May 10, 2007 is during daylight savings the UTC offset calculated above corresponds to Eastern Daylight Time (EDT), UTC-4. This matches the timezone column provided since this data was collected using EDT. For Eastern Standard Time (EST), the UTC offset would be UTC-5.</p></div>
             </div>
