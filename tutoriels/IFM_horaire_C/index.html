@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>IFM horaire C - PG-MCEDIF</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" disabled>
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" >
+        <link href="../../style.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+    <base target="_blank">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400&family=Roboto+Mono&display=swap');
+    </style>
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+    <a class="navbar-brand" href="../.." target="_self">PG-MCEDIF</a>
+    <a class="navbar-brand" href="../.." target="_self"> <img style="height: 40px; margin: 0px; padding: 0px;" src="/website_fr/img/CFFDRS_Black_4.png" alt="CFFDRS logo"> </img> </a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+        <!-- Main navigation -->
+        <ul class="nav navbar-nav">
+            <li class="nav-item">
+                <a href="../../accueil/" class="nav-link" target="_self">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a href="../../code/" class="nav-link" target="_self">Code</a>
+            </li>
+            <li class="nav-item">
+                <a href="../" class="nav-link active" target="_self">Tutoriels</a>
+            </li>
+            <li class="nav-item">
+                <a href="../../ressources/" class="nav-link" target="_self">Ressources</a>
+            </li>
+            <li class="nav-item">
+                <a href="../../contact/" class="nav-link" target="_self">Contact</a>
+            </li>
+        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Rechercher
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="../../js/darkmode.js"></script>
+
+        <div class="container">
+            <div class="row">
+    <!-- Construction Sign -->
+    <style>
+        div.construction p {
+            text-align: center;
+            font-family: Times;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    </style>
+
+    <!-- <div class="construction">
+        <p>Le site Web est toujours en développement. Les problèmes ou commentaires peuvent être envoyés à <a href="mailto:kevin.siu@nrcan-rncan.gc.ca" target="_self">kevin.siu@nrcan-rncan.gc.ca</a></p>
+    </div> -->
+    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table des matières">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1">
+                    <a href="#" class="nav-link" target="_self"> (Début) </a>
+                <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2">
+                    <a href="#c-files" class="nav-link" target="_self">C files</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2">
+                    <a href="#data" class="nav-link" target="_self">Data</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2">
+                    <a href="#steps" class="nav-link" target="_self">Steps</a>
+                <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#open-a-terminal" class="nav-link" target="_self">Open a terminal</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#compile-fwi2025" class="nav-link" target="_self">Compile FWI2025</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#run-fwi2025" class="nav-link" target="_self">Run FWI2025</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3">
+                    <a href="#calculate-daily-summaries" class="nav-link" target="_self">Calculate daily summaries</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+                </ul>
+            </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+    <div class="col-md-9" role="main">
+
+<p><a href="../../tutoriels#ifm2025" target="_self" style="float: left;"> retour à Tutoriels </a>
+<a href="https://cffdrs.github.io/website_en/tutorials/Hourly_FWI_C" target="_self" style="float: right;"> English </a></p>
+<h3 style="text-align: center; font-style: italic;"> Traduction en cours </h3>
+
+<p><br></p>
+<h1 id="hourly-fwi-tutorial-c">Hourly FWI Tutorial - C</h1>
+<p><em>Last updated: December 10th, 2025</em></p>
+<h2 id="c-files">C files</h2>
+<p>This tutorial will show you how to compile the FWI2025 C code and run the executable with an example hourly weather dataset in a Windows environment. This can be done in PowerShell or Command Prompt, which are included with Windows. The tutorial code and file are written in PowerShell, although the commands in this tutorial can be used for either.  </p>
+<p>The following files can be found on the <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main">cffdrs-ng GitHub repository</a>:  </p>
+<ul>
+<li>data/<ul>
+<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/PRF2007_hourly_wx_C-format.csv"><strong>PRF2007_hourly_wx_C-format.csv</strong></a></li>
+</ul>
+</li>
+<li>FWI/<ul>
+<li>C/<ul>
+<li>tutorial/<ul>
+<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/C/tutorial/tutorial_hourly_FWI.ps1"><strong>tutorial_hourly_FWI.ps1</strong></a></li>
+</ul>
+</li>
+<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/C/NG_FWI_main.c"><strong>NG_FWI_main.c</strong></a></li>
+<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/C/NG_FWI.c"><strong>NG_FWI.c</strong></a></li>
+<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/C/NG_FWI.h"><strong>NG_FWI.h</strong></a></li>
+<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/C/util.c"><strong>util.c</strong></a></li>
+<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/C/util.h"><strong>util.h</strong></a></li>
+<li><a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/FWI/C/daily_summaries.c"><strong>daily_summaries.c</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>If you are unfamiliar with GitHub, there are many options for you to retrieve the code and data files:</p>
+<ol>
+<li><em>Download each file</em> to your computer individually. On the file's GitHub page (e.g. <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/PRF2007_hourly_wx_C-format.csv"><strong>PRF2007_hourly_wx_C-format.csv</strong></a>), find the "More file actions" button at the top-right side of the website (denoted "..."), and select "Download". This will begin downloading based on your browser settings. Repeat this for every file.</li>
+<li><em>Download the whole repository</em> to your computer. See the <a href="https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github">GitHub documentation</a> for more information.</li>
+<li><em>Clone</em> the whole repository to your computer with Git. See the <a href="https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github">GitHub documentation</a> for more information.</li>
+<li><em>Fork</em> the repository to create a new repository on GitHub. See the <a href="https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github">GitHub documentation</a> for more information.</li>
+</ol>
+<h2 id="data">Data</h2>
+<p><strong>NOTE: The C version can only handle one station for one continuous season at a time!</strong> See the Python or R versions to be able to run multiple stations with multiple years at once.  </p>
+<p><strong>PRF2007_hourly_wx_C-format.csv</strong> contains hourly weather recorded from a Petawawa Research Forest (PRF) weather station during the 2007 field season. The data has no gaps and is sorted sequentially by time, which is a requirement for FWI2025 input data. If you would like guidance on how to fill in missing weather data for your situation, check the <a href="https://ostrnrcan-dostrncan.canada.ca/handle/1845/219568">CFFDRS Weather Guide</a> or <a href="../../contact">reach out to us</a>! Grassland fuel load (<code>grass_fuel_load</code>), grassland curing (<code>percent_cured</code>), and solar radiation (<code>solrad</code>) are not included, but these are optional inputs and they will be automatically set/calculated if not provided.</p>
+<p>The <strong>C-format</strong> version differs from <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/PRF2007_hourly_wx.csv"><strong>PRF2007_hourly_wx.csv</strong></a> due to the strict requirements in the C version for column names, order, and case. Details can be found in the [code documentation].</p>
+<h2 id="steps">Steps</h2>
+<h3 id="open-a-terminal">Open a terminal</h3>
+<p>To run the C code in Windows, it first needs to be compiled into an executable (.exe) file. This can be done in <a href="https://aka.ms/terminal">Windows Terminal</a>, which is a default Windows application.  </p>
+<p>By default, it should open a Windows PowerShell tab/profile where we will run commands for the rest of the tutorial. First, notice that the path next to the prompt should be to your Windows user folder.</p>
+<pre><code class="language-ps">PS C:\Users\username&gt;
+</code></pre>
+<p>Navigate from here to the folder where the .c and .h code files are located with <code>cd</code> (change directory) and <code>dir</code> (list current directory contents) commands. Otherwise, you will need to specify the location of each file every time one is called.  </p>
+<h3 id="compile-fwi2025">Compile FWI2025</h3>
+<p>To calculate hourly FWI, the code files to compile are: <strong>NG_FWI_main.c</strong>, <strong>NG_FWI.c</strong>, and <strong>util.c</strong>. The corresponding <strong>NG_FWI.h</strong> and <strong>util.h</strong> header files need to be in the same folder, but do not need to be invoked directly. One compiler option is <a href="https://gcc.gnu.org/"><code>gcc</code></a></p>
+<pre><code class="language-ps">gcc -o NG_FWI NG_FWI_main.c NG_FWI.c util.c
+</code></pre>
+<p>The prompt should return with no comments if the code was compiled successfully, and a new file should be created in the current folder named <strong>NG_FWI.exe</strong>. The name of the executable (.exe) file is specified after the <code>-o</code> option above.</p>
+<h3 id="run-fwi2025">Run FWI2025</h3>
+<p>The <strong>NG_FWI.exe</strong> file does not have to be run with all function arguments if you want to use default season startup values. The only required parameters are the input data file, an output file location/name, and timezone (UTC offset). Details can be found in the [code documentation] or by running the compiled executable with no arguments.</p>
+<pre><code class="language-ps">./NG_FWI.exe
+</code></pre>
+<pre><code class="language-ps">########
+help/usage:
+path\to\code\folder\NG_FWI.exe input output timezone
+[ffmc_old] [mcffmc_old] [dmc_old] [dc_old] [mcgfmc_matted_old] [mcgfmc_standing_old]
+[prec_cumulative] [canopy_drying]
+
+positional arguments:
+input                 Input csv data file
+...
+</code></pre>
+<p>For this tutorial, we will leave all the optional parameters to default. The UTC offset for the sample PRF2007 dataset is -4 (for Eastern Daylight Time).</p>
+<pre><code class="language-ps">./NG_FWI.exe ../../data/PRF2007_hourly_wx_C-format.csv PRF2007_hourly_FWI.csv -4
+</code></pre>
+<pre><code class="language-ps">Opening input file &gt;&gt;&gt; ../../data/PRF2007_hourly_wx_C-format.csv
+Saving outputs to file &gt;&gt;&gt; PRF2007_hourly_FWI.csv
+
+########
+Startup values used:
+FFMC = 85.0 or mcffmc = -1.0 %
+DMC = 6.0 and DC = 15.0
+mcgfmc matted = 16.3075 % and standing = 16.3075 %
+cumulative precipitation = 0.0 mm and canopy drying = 0
+########
+</code></pre>
+<p>This will place our outputs in a new CSV file called <strong>PRF2007_hourly_FWI.csv</strong>. Compare your outputs with our standard outputs in <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/PRF2007_standard_hourly_FWI.csv"><strong>PRF2007_standard_hourly_FWI.csv</strong></a>.</p>
+<blockquote>
+<p>Tip: if the CSV data file is in a different folder than the code and executable file, you can specify a relative path with ".." indicating one folder up in the hierarchy. In the case of the <a href="https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main">cffdrs-ng GitHub repository</a> structure, from the <strong>C</strong> folder the relative path of the data file can be specified as <strong>../../data/PRF2007_hourly_wx.csv</strong>, which is shown above. This indicates to go up one folder to <strong>FWI</strong>, and then another folder to <strong>cffdrs-ng</strong> where the <strong>data</strong> folder and file resides.</p>
+</blockquote>
+<h3 id="calculate-daily-summaries">Calculate daily summaries</h3>
+<p>Calculate outputs like peak burn time and number of hours of spread potential. Going through the process again, the files to compile to calculate daily summaries are: <strong>daily_summaries.c</strong>, <strong>NG_FWI.c</strong>, and <strong>util.c</strong>. Ensure the corresponding <strong>NG_FWI.h</strong> and <strong>util.h</strong> header files are in the same folder.</p>
+<pre><code class="language-ps">gcc -o daily_summaries daily_summaries.c NG_FWI.c util.c
+</code></pre>
+<p>The required parameters for <strong>daily_summaries.exe</strong> are the input data file (output of <strong>NG_FWI.exe</strong>) and an output file location/name. Details of the optional <code>reset_hr</code> parameter can be found in the code documentation page at <a aria-disabled="true" target="_self"> FWI2025 - C#daily-summaries</a>.</p>
+<pre><code class="language-ps">./daily_summaries.exe PRF2007_hourly_FWI.csv PRF2007_daily_report.csv
+</code></pre>
+<p>From here, the output CSV files can be opened and converted for further analysis or plotted for visualization.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation générée avec <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Rechercher</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+                <p>Ici vous pouvez chercher dans les documents. Entrez votre recherche ci-dessous.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Rechercher..." id="mkdocs-search-query" title="Tapez vos mots clés ici">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="Aucun résultat trouvé"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Raccourcis Clavier</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Touches</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Ouvrir l'aide</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Page suivante</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Page précédente</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Rechercher</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -146,21 +146,73 @@
 </img></p>
 <p>L'ancien code MCEDIF1992 est toujours disponible sur le <a href="https://github.com/cffdrs">GitHub de la MCEDIF</a> (en anglais), tandis que la documentation R se trouve sur la <a href="https://cran.r-project.org/web/packages/cffdrs/">page CRAN de la MCEDIF</a> (en anglais).</p>
 <h2 id="capacites">Capacités</h2>
-<ul>
-<li>Calculer les codes et indices IFM toutes les heures</li>
-<li>Calcule les résumés quotidiens des paramètres IFM au moment du pic de brûlage</li>
-<li>Calculer le code et les indices des prairies toutes les heures</li>
-<li>Calculer le lever et le coucher du soleil à partir de la date et du lieu, ainsi que le rayonnement solaire supplémentaire à partir des données météorologiques locales</li>
-<li>Convertir les données météorologiques quotidiennes traditionnelles de midi en données météorologiques quotidiennes minimales/maximales</li>
-<li>Convertir les données météorologiques quotidiennes minimales/maximales en données météorologiques horaires</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Langages de programmation</th>
+<th style="text-align: center;">C</th>
+<th style="text-align: center;">Python</th>
+<th style="text-align: center;">R</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Calculer les codes et indices IFM toutes les heures</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+</tr>
+<tr>
+<td>Calculer le lever et le coucher du soleil, ainsi que le rayonnement solaire.</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+</tr>
+<tr>
+<td>Calculer le code et les indices des prairies toutes les heures</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+</tr>
+<tr>
+<td>Calculer les résumés quotidiens et un moment du pic de brûlage</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+</tr>
+<tr>
+<td>Convertir les données quotidiennes de midi en données météorologiques quotidiennes minimales/maximales</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+</tr>
+<tr>
+<td>Convertir les données quotidiennes minimales/maximales en données météorologiques horaires</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+</tr>
+<tr>
+<td>Accepte plusieurs stations simultanément</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+</tr>
+<tr>
+<td>Fractionnement des données pour les entrées sur plusieurs années à la fois</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">✔️</td>
+<td style="text-align: center;">✔️</td>
+</tr>
+</tbody>
+</table>
 <h2 id="ifm2025">IFM2025</h2>
 <div class="text-center">
-    <button disabled class="btn btn-dark"">IFM2025 <br> C <br> en cours de construction</button>
+    <button class="btn btn-dark" onclick="location.href='../code/IFM2025_C'">IFM2025 <br> C <br> (en anglais)</button>
     &emsp;
-    <button class="btn btn-dark" onclick="location.href='../code/IFM2025_Python'">IFM2025 <br> Python</button>
+    <button class="btn btn-dark" onclick="location.href='../code/IFM2025_Python'">IFM2025 <br> Python <br> (en anglais)</button>
     &emsp;
-    <button class="btn btn-dark" onclick="location.href='../code/IFM2025_R'">IFM2025 <br> R</button>
+    <button class="btn btn-dark" onclick="location.href='../code/IFM2025_R'">IFM2025 <br> R <br> (en anglais)</button>
 </div>
 
 <h2 id="licence">Licence</h2>

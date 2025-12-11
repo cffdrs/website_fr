@@ -102,7 +102,12 @@
                     <a href="#" class="nav-link" target="_self"> (Début) </a>
                 <ul class="nav flex-column">
             <li class="nav-item" data-bs-level="2">
-                    <a href="#en-cours-de-construction" class="nav-link" target="_self">&lt; en cours de construction ></a>
+                    <a href="#hourly-fwi" class="nav-link" target="_self">Hourly FWI</a>
+                <ul class="nav flex-column">
+                </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2">
+                    <a href="#upcoming-tutorials" class="nav-link" target="_self">Upcoming Tutorials</a>
                 <ul class="nav flex-column">
                 </ul>
             </li>
@@ -114,16 +119,25 @@
     <div class="col-md-9" role="main">
 
 <p><a href="https://cffdrs.github.io/website_en/tutorials/" target="_self" style="float: right;"> English </a></p>
-<h1 id="tutoriels">Tutoriels</h1>
-<h2 id="en-cours-de-construction">&lt; en cours de construction &gt;</h2>
+<h3 style="text-align: center; font-style: italic;"> Traduction en cours </h3>
+
+<p><br></p>
+<h1 id="tutorials">Tutorials</h1>
+<h2 id="hourly-fwi">Hourly FWI</h2>
+<p>This tutorial is a simple example of how to produce hourly <a href="https://cwfis.cfs.nrcan.gc.ca/background/summary/fwi">Fire Weather Index (FWI)</a> moisture codes and fire behaviour indices. A sample hourly weather dataset is provided that is complete and sequential with all the required variables. You can follow along with the steps on this website in a corresponding terminal, or download and run the tutorial script provided. Select a programming language to begin:</p>
 <div class="text-center">
-    <button disabled class="btn btn-dark">IFM horaire<br> Tutoriel <br> C <br> en cours de construction</button>
+    <button class="btn btn-dark" onclick="location.href='../tutoriels/IFM_horaire_C'">HOURLY FWI <br> Tutorial <br> C</button>
     &emsp;
-    <button class="btn btn-dark" onclick="location.href='../tutoriels/IFM_horaire_python'">IFM horaire<br> Tutoriel <br> Python</button>
+    <button class="btn btn-dark" onclick="location.href='../tutoriels/IFM_horaire_Python'">HOURLY FWI <br> Tutorial <br> Python</button>
     &emsp;
-    <button class="btn btn-dark" onclick="location.href='../tutoriels/IFM_horaire_r'">IFM horaire<br> Tutoriel <br> R</button>
+    <button class="btn btn-dark" onclick="location.href='../tutoriels/IFM_horaire_R'">HOURLY FWI <br> Tutorial <br> R</button>
 </div>
-<p><br></p></div>
+<p><br></p>
+<h2 id="upcoming-tutorials">Upcoming Tutorials</h2>
+<ul>
+<li>How to convert daily minimum and maximum weather data into hourly data using <code>make_hourly()</code></li>
+<li>Basic plotting of FWI codes and indices</li>
+</ul></div>
             </div>
         </div>
 
