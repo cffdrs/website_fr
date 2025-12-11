@@ -23,21 +23,27 @@ Voir le [README du référentiel](https://github.com/nrcan-cfs-fire/cffdrs-ng?ta
 L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](https://github.com/cffdrs) (en anglais), tandis que la documentation R se trouve sur la [page CRAN de la MCEDIF](https://cran.r-project.org/web/packages/cffdrs/) (en anglais).
 
 ## Capacités
-- Calculer les codes et indices IFM toutes les heures
-- Calcule les résumés quotidiens des paramètres IFM au moment du pic de brûlage
-- Calculer le code et les indices des prairies toutes les heures
-- Calculer le lever et le coucher du soleil à partir de la date et du lieu, ainsi que le rayonnement solaire supplémentaire à partir des données météorologiques locales
-- Convertir les données météorologiques quotidiennes traditionnelles de midi en données météorologiques quotidiennes minimales/maximales
-- Convertir les données météorologiques quotidiennes minimales/maximales en données météorologiques horaires
+
+| Langages de programmation                                                    | C   | Python | R   |
+| ---------------------------------------------------------------------------- | :-: | :----: | :-: |
+| Calculer les codes et indices IFM toutes les heures                          | ✔️ | ✔️     | ✔️ |
+| Calculer le lever et le coucher du soleil, ainsi que le rayonnement solaire. | ✔️ | ✔️     | ✔️ |
+| Calculer le code et les indices des prairies toutes les heures               | ✔️ | ✔️     | ✔️ |
+| Calculer les résumés quotidiens et un moment du pic de brûlage               | ✔️ | ✔️     | ✔️ |
+| Convertir les données quotidiennes de midi en données météorologiques quotidiennes minimales/maximales | ✔️ | ✔️     | ✔️ |
+| Convertir les données quotidiennes minimales/maximales en données météorologiques horaires | ✔️ | ✔️ | ✔️ |
+| Accepte plusieurs stations simultanément                                     | ❌ | ✔️     | ✔️ |
+| Fractionnement des données pour les entrées sur plusieurs années à la fois   | ❌ | ✔️     | ✔️ |
+
 
 ## IFM2025
 
 <div class="text-center">
-	<button disabled class="btn btn-dark"">IFM2025 <br> C <br> en cours de construction</button>
+	<button class="btn btn-dark" onclick="location.href='../code/IFM2025_C'">IFM2025 <br> C <br> (en anglais)</button>
 	&emsp;
-    <button class="btn btn-dark" onclick="location.href='../code/IFM2025_Python'">IFM2025 <br> Python</button>
+    <button class="btn btn-dark" onclick="location.href='../code/IFM2025_Python'">IFM2025 <br> Python <br> (en anglais)</button>
 	&emsp;
-	<button class="btn btn-dark" onclick="location.href='../code/IFM2025_R'">IFM2025 <br> R</button>
+	<button class="btn btn-dark" onclick="location.href='../code/IFM2025_R'">IFM2025 <br> R <br> (en anglais)</button>
 </div>
 
 ## Licence
