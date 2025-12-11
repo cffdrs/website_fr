@@ -18,7 +18,7 @@ Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations offi
 
 ## Annonces
 
-### Decembre 2025
+### Décembre 2025
 Une mise à jour du code a été publiée afin que tous les calculs prennent désormais en compte les années bissextiles et que les dates de transition saisonnière ne soient plus définies comme une date julienne mais comme une date calendaire. La version C a également été améliorée pour correspondre aux versions Python et R. Vous trouverez des détails sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-12-10), y compris de nouvelles options pour exécuter en continu sur plusieurs années et ne pas faire passer les herbes de l'état d'aplaties à l'état de debout.
 
 Parallèlement à cette mise à jour du code, la version C dispose désormais d'une <a href="../code" target="_self">page de code</a> sur ce site web, ainsi que d'un <a href="../tutoriels" target="_self">tutoriel</a> pour calculer l'IFM horaire.
