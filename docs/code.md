@@ -27,7 +27,7 @@ L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](ht
 | Langages de programmation                                                    | C   | Python | R   |
 | ---------------------------------------------------------------------------- | :-: | :----: | :-: |
 | Calculer les codes et indices IFM toutes les heures                          | ✔️ | ✔️     | ✔️ |
-| Calculer le lever et le coucher du soleil, ainsi que le rayonnement solaire. | ✔️ | ✔️     | ✔️ |
+| Calculer le lever et le coucher du soleil, ainsi que le rayonnement solaire | ✔️ | ✔️     | ✔️ |
 | Calculer le code et les indices des prairies toutes les heures               | ✔️ | ✔️     | ✔️ |
 | Calculer les résumés quotidiens et un moment du pic de brûlage               | ✔️ | ✔️     | ✔️ |
 | Convertir les données quotidiennes de midi en données météorologiques quotidiennes minimales/maximales | ✔️ | ✔️     | ✔️ |

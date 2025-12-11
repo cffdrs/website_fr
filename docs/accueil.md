@@ -18,12 +18,17 @@ Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations offi
 
 ## Annonces
 
-### Octobre 2025
+### Decembre 2025
+Une mise à jour du code a été publiée afin que tous les calculs prennent désormais en compte les années bissextiles et que les dates de transition saisonnière ne soient plus définies comme une date julienne mais comme une date calendaire. La version C a également été améliorée pour correspondre aux versions Python et R. Vous trouverez des détails sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-12-10), y compris de nouvelles options pour exécuter en continu sur plusieurs années et ne pas faire passer les herbes de l'état d'aplaties à l'état de debout.
+
+Parallèlement à cette mise à jour du code, la version C dispose désormais d'une <a href="../code" target="_self">page de code</a> sur ce site web, ainsi que d'un <a href="../tutoriels" target="_self">tutoriel</a> pour calculer l'IFM horaire.
+
+### Annonces précédentes
+
+#### Octobre 2025
 Le rapport d'information IFM2025 a été publié, il est intitulé <a href="../ressources/#rapports" target="_self">La mise à jour 2025 de la Méthode IFM : Structure, changements et interprétation</a> (GLC-X-42). Il fournit des informations sur l'IFM2025 et les modifications apportées à la version précédente, l'IFM1987, et peut être consulté sur le site [RNCan Open S&T Repository](https://ostrnrcan-dostrncan.canada.ca/accueil). En outre, une nouvelle vidéo informative qui explique l'IFM2025 en général est maintenant disponible sur la <a href="../ressources/#explicatives" target="_self">page des ressources</a>.  
 
 Le code C a été mis à jour pour correspondre aux versions Python et R. Les détails peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-10-02) (en anglais) ainsi que des corrections de bugs mineurs plus récents.
-
-### Annonces précédentes
 
 #### Septembre 2025
 Une mise à jour majeure du code de IFM2025 a été publiée sur le [dépôt GitHub cffdrs-ng](https://github.com/nrcan-cfs-fire/cffdrs-ng) (en anglais). Elle inclut des changements dans les options lors de l'exécution de `hFWI()`, la structure des fichiers du dépôt, et la façon dont l'IH et le rayonnement solaire sont calculés. Plus de détails et le reste des changements peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-09-10) (en anglais). Ce site web a également été mis à jour afin de disposer d'une documentation actualisée dans les sections <a href="../code" target="_self">Code</a> et <a href="../tutoriels" target="_self">Tutoriels</a>.
