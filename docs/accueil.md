@@ -16,14 +16,21 @@ Rejoignez notre <a href="../ressources/#inscription" target="_self">liste de dif
 
 Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations officielles sur les incendies forestiers au Canada, consultez les pages officielles du gouvernement du Canada sous la rubrique <a href="../ressources/#liens-web" target="_self">Ressources#Liens Web</a>. 
 
+---
+
 ## Annonces
 
-### Décembre 2025
-Une mise à jour du code a été publiée afin que tous les calculs prennent désormais en compte les années bissextiles et que les dates de transition saisonnière ne soient plus définies comme une date julienne mais comme une date calendaire. La version C a également été améliorée pour correspondre aux versions Python et R. Vous trouverez des détails sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-12-10), y compris de nouvelles options pour exécuter en continu sur plusieurs années et ne pas faire passer les herbes de l'état d'aplaties à l'état de debout.
+### Fevrier 2026
+Au cours des six dernières semaines, le Groupe sur le danger d'incendie a organisé trois ateliers en personne sur l'IFM2025 à travers le pays. Chaque session s'est concentrée sur la présentation des mises à jour de la Méthode, l'introduction des nouvelles composantes du danger d'incendie de la prairie et le partage d'une proposition de méthode de classification nationale du danger d'incendie.
 
-Parallèlement à cette mise à jour du code, la version C dispose désormais d'une <a href="../code" target="_self">page de code</a> sur ce site web, ainsi que d'un <a href="../tutoriels" target="_self">tutoriel</a> pour calculer l'IFM horaire.
+Une mise à jour du code a été publiée afin de mettre à jour les méthodes de conversion des données météorologiques quotidiennes en données horaires. Un nouveau tutoriel est disponible <a href="../../tutoriels/#daily-to-hourly" target="_self">ici</a> (en anglais). Plus de détails sur la mise à jour peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2026-02-27) (en anglais).
 
 ### Annonces précédentes
+
+#### Décembre 2025
+Une mise à jour du code a été publiée afin que tous les calculs prennent désormais en compte les années bissextiles et que les dates de transition saisonnière ne soient plus définies comme une date julienne mais comme une date calendaire. La version C a également été améliorée pour correspondre aux versions Python et R. Vous trouverez des détails sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-12-10) (en anglais), y compris de nouvelles options pour exécuter en continu sur plusieurs années et ne pas faire passer les herbes de l'état d'aplaties à l'état de debout.
+
+Parallèlement à cette mise à jour du code, la version C dispose désormais d'une <a href="../code" target="_self">page de code</a> sur ce site web, ainsi que d'un <a href="../tutoriels" target="_self">tutoriel</a> pour calculer l'IFM horaire.
 
 #### Octobre 2025
 Le rapport d'information IFM2025 a été publié, il est intitulé <a href="../ressources/#rapports" target="_self">La mise à jour 2025 de la Méthode IFM : Structure, changements et interprétation</a> (GLC-X-42). Il fournit des informations sur l'IFM2025 et les modifications apportées à la version précédente, l'IFM1987, et peut être consulté sur le site [RNCan Open S&T Repository](https://ostrnrcan-dostrncan.canada.ca/accueil). En outre, une nouvelle vidéo informative qui explique l'IFM2025 en général est maintenant disponible sur la <a href="../ressources/#explicatives" target="_self">page des ressources</a>.  

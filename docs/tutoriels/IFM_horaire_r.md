@@ -1,4 +1,4 @@
-<a href="../../tutoriels#ifm2025" target="_self" style="float: left;"> retour à Tutoriels </a>
+<a href="../../tutoriels#hourly-fwi" target="_self" style="float: left;"> retour à Tutoriels </a>
 <a href="https://cffdrs.github.io/website_en/tutorials/Hourly_FWI_R" target="_self" style="float: right;"> English </a>
 
 <h3 style="text-align: center; font-style: italic;"> Traduction en cours </h3>
@@ -6,7 +6,7 @@
 <br>
 
 # Hourly FWI Tutorial - R
-*Last updated: December 10th, 2025*
+*Last updated: February 27th, 2026*
 
 ## R files
 
@@ -29,12 +29,12 @@ If you are unfamiliar with GitHub, there are many options for you to retrieve th
 3. *Clone* the whole repository to your computer with Git. See the [GitHub documentation](https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github) for more information.
 4. *Fork* the repository to create a new repository on GitHub. See the [GitHub documentation](https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github) for more information.
 
-Besides the files, ensure you have the required R packages, which are listed at <a href="../../code/FWI2025_R#packages" target="_self">FWI2025_R#packages</a>.
+Besides the files, ensure you have the required R packages, which are listed in the <a href="../../code/IFM2025_R#packages" target="_self">code documentation</a>.
 
 ## Data
 **PRF2007_hourly_wx.csv** contains hourly weather recorded from a Petawawa Research Forest (PRF) weather station during the 2007 field season. The data has no gaps and is sorted sequentially by time, which is a requirement for FWI2025 input data.
 
-The column headers are those required for hourly FWI calculations, details of which can be found in the [code documentation]. Grassland fuel load (`grass_fuel_load`), grassland curing (`percent_cured`) and solar radiation (`solrad`) are not included, but these are optional inputs and they will be automatically calculated if not provided. There is a column for UTC offset (`timezone`) which will be used by default in the `hFWI()` function.
+The column headers are those required for hourly FWI calculations, details of which can be found in the <a href="../../code/IFM2025_R#input-data" target="_self">code documentation</a>. Grassland fuel load (`grass_fuel_load`), grassland curing (`percent_cured`) and solar radiation (`solrad`) are not included, but these are optional inputs and they will be automatically calculated if not provided. There is a column for UTC offset (`timezone`) which will be used by default in the `hFWI()` function.
 
 ## Steps
 Open the **tutorial_hourly_FWI.r** code file. You can either follow the code and comments in the file or continue on this page (both include the same code and content).
@@ -74,10 +74,8 @@ print(names(data))
  [7] "day"      "hr"       "temp"     "rh"       "ws"       "prec"
 ```
 
-Previously, the UTC offset (`timezone` column) was a function parameter and could be calculated from latitude and longitude. Now it is a data frame column and provided. See the <a href="#appendix-timezones" target="_self">appendix of this tutorial</a> for extra information on how to calculate the timezone, along with the extra information required about the dataset.
-
 ### Run FWI2025
-`hFWI()` is the function that calculates hourly FWI codes in FWI2025. Details about it can be found in the [code documentation]. It can handle multiple stations and years/fire seasons (not shown in this tutorial). For the arguments you can run `args()`.
+`hFWI()` is the function that calculates hourly FWI codes in FWI2025. Details about it can be found in the <a href="../../code/IFM2025_R/#parameters" target="_self">code documentation</a>. It can handle multiple stations and years/fire seasons (not shown in this tutorial). For the arguments you can run `args()`.
 ```r
 args(hFWI)
 ```
@@ -112,7 +110,7 @@ write.csv(data_fwi, "PRF2007_hourly_FWI.csv", row.names = FALSE)
 Print the last two rows of the standard moisture codes and fire behaviour indices.
 ```r
 standard_components <- c("ffmc", "dmc", "dc", "isi", "bui", "fwi")
-tail(data_fwi[standard_components], 2)
+print(tail(data_fwi[standard_components], 2))
 ```
 ```r
         ffmc    dmc       dc    isi    bui    fwi
@@ -144,7 +142,8 @@ summary(data_fwi[standard_components])
 Compare your outputs with our standard outputs in [**PRF2007_standard_hourly_FWI.csv**](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/PRF2007_standard_hourly_FWI.csv).
 
 ### Calculate daily summaries
-Calculate outputs like peak burn time and number of hours of spread potential. Details about the daily summaries function can be found in the [code documentation].
+Calculate outputs like peak burn time and number of hours of spread potential. Details about the daily summaries function can be found in the 
+<a href="../../code/IFM2025_R/#daily-summaries" target="_self">code documentation</a>.
 ```r
 report <- generate_daily_summaries(data_fwi)
 ```
@@ -167,8 +166,8 @@ summary(report[daily_components])
 
 From here, the outputs can be converted to any datatype for further analysis or plotted for visualization.
 
-## Appendix: Timezones
-This section will cover how to calculate a timezone based on a location (latitude and longitude) and date. Note that this is not necessarily a substitute for actual information about the time used in a dataset. The [CFFDRS Weather Guide](https://ostrnrcan-dostrncan.canada.ca/handle/1845/219568) specifies to collect data by local standard time, which is different in many places due to the shift to daylight time in summer months (daylight savings).
+## Appendix: Timezone
+This section will cover how to determine the UTC offset of a Local Standard Time (LST) based on a date and location (latitude and longitude). This only applies to datasets that are *known to be recorded using LST*, and is **not** a substitute in cases where a dataset's UTC offset is unknown.  
 
 The 'lutz' library has functions to get the timezone of the weather station based on latitude and longitude.
 ```r
@@ -183,7 +182,9 @@ stations <- unique(data[c("id", "lat", "long")])
 
 Print the unique station IDs and coordinates. For this dataset the only station is at Petawawa Research Forest (PRF).
 ```r
-> stations
+print(stations)
+```
+```r
    id    lat    long
 1 PRF 45.996 -77.427
 ```
@@ -195,19 +196,23 @@ tz_loc <- tz_lookup_coords(stations$lat, stations$long, method = "accurate")
 
 Print the timezone location. PRF is equivalent to "America/Toronto".
 ```r
-> tz_loc
+print(tz_loc)
+```
+```r
 [1] "America/Toronto"
 ```
 
-The UTC offset can then be determined from the timezone location.
+The UTC offset can then be determined from the timezone location and a date. To guarantee the UTC offset for LST, use a date in winter (e.g. January 1st in the Northern hemisphere or July 1st in the Southern hemisphere).
 ```r
-utc <- tz_offset("2007-05-10", tz_loc)[[5]]
+utc <- tz_offset("2007-01-01", tz_loc)[[5]]
 ```
 
 Print the UTC offset.
 ```r
-> utc
-[1] -4
+print(utc)
+```
+```r
+[1] -5
 ```
 
-Since May 10, 2007 is during daylight savings the UTC offset calculated above corresponds to Eastern Daylight Time (EDT), UTC-4. This matches the timezone column provided since this data was collected using EDT. For Eastern Standard Time (EST), the UTC offset would be UTC-5.
+The provided [PRF dataset](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/data/PRF2007_hourly_wx.csv) is actually not recorded in LST, but Local Daylight Time (Eastern Daylight Time). This is why the `timezone` parameter is set to -4, and why this process is not a substitute for actual information about a dataset.
