@@ -11,6 +11,8 @@ Pour recevoir nos bulletins directement dans votre boîte de réception, remplis
 
 [Formulaire de bulletin (Microsoft Forms)](https://forms.office.com/r/jmT8HVrsK8)
 
+---
+
 ## Vidéos
 *Si vous rencontrez des problèmes avec un lecteur vidéo, essayez d'actualiser cette page. Si le problème persiste, cliquez sur « Regarder la vidéo sur YouTube » dans l'espace du lecteur.*  
 
@@ -39,6 +41,8 @@ Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à
 
 <br>
 
+---
+
 ## Rapports
 PG-MCEDIF
 
@@ -61,6 +65,8 @@ MCEDIF1992
 
 Documentation MCEDIF plus actuelle et historique peut être trouvée sur le  
 [dépôt ouvert des sciences et technologie (DOST) de RNCan](https://ostrnrcan-dostrncan.canada.ca/accueil).
+
+---
 
 ## Liens Web
 

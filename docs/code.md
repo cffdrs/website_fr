@@ -10,9 +10,9 @@ Voir le [README du référentiel](https://github.com/nrcan-cfs-fire/cffdrs-ng?ta
 
 <img 
     style="display: block;
-           width: 75px;
-           padding: 4px;
-           margin: 10px 25px 0px 0px;
+           width: 50px;
+           padding: 5px;
+           margin: 5px 25px 0px 0px;
            float: left;
            border-radius: 5px;
            background-color: #FFFFFF!important"
@@ -21,6 +21,8 @@ Voir le [README du référentiel](https://github.com/nrcan-cfs-fire/cffdrs-ng?ta
 </img>
 
 L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](https://github.com/cffdrs) (en anglais), tandis que la documentation R se trouve sur la [page CRAN de la MCEDIF](https://cran.r-project.org/web/packages/cffdrs/) (en anglais).
+
+---
 
 ## Capacités
 
@@ -35,6 +37,7 @@ L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](ht
 | Accepte plusieurs stations simultanément                                     | ❌ | ✔️     | ✔️ |
 | Fractionnement des données pour les entrées sur plusieurs années à la fois   | ❌ | ✔️     | ✔️ |
 
+---
 
 ## IFM2025
 
@@ -47,6 +50,8 @@ L'indice canadien forêt-météo (IFM) est un système majeur de la MCEDIF. IFM2
 	&emsp;
 	<button class="btn btn-dark" onclick="location.href='../code/IFM2025_R'">IFM2025 <br> R <br> (en anglais)</button>
 </div>
+
+---
 
 ## Licence
 
