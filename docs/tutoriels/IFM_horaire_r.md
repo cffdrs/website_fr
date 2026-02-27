@@ -92,6 +92,8 @@ data_fwi <- hFWI(data)
 ```
 ```r
 ########
+FWI2025 (YYYY-MM-DD)
+
 Startup values used:
 FFMC = 85.0 or mcffmc = NA %
 DMC = 6.0 and DC = 15.0
@@ -146,6 +148,13 @@ Calculate outputs like peak burn time and number of hours of spread potential. D
 <a href="../../code/IFM2025_R/#daily-summaries" target="_self">code documentation</a>.
 ```r
 report <- generate_daily_summaries(data_fwi)
+```
+```r
+########
+FWI2025: Daily Summaries (YYYY-MM-DD)
+
+Summarizing PRF to daily
+########
 ```
 
 Print a simple summary of the daily report.
