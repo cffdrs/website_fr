@@ -39,7 +39,9 @@ L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](ht
 
 ---
 
-## IFM2025
+## Documentation
+
+### IFM2025
 
 L'indice canadien forêt-météo (IFM) est un système majeur de la MCEDIF. IFM2025 est la méthode IFM de la prochaine génération que l'on trouve dans le MCEDIF2025. Sélectionnez un langage de programmation ci-dessous pour obtenir une description des fichiers de code et des données intrantes nécessaires, ainsi qu'une documentation sur les principales fonctions.
 
@@ -55,4 +57,4 @@ L'indice canadien forêt-météo (IFM) est un système majeur de la MCEDIF. IFM2
 
 ## Licence
 
-Les [scripts NG-CFFDRS](https://github.com/nrcan-cfs-fire/cffdrs-ng) sont sous licence GNU General Public License version 2 (GPL-2.0). Une copie de la licence est disponible sur le [référentiel GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main?tab=GPL-2.0-1-ov-file#readme) (en anglais).
+Les [scripts NG-CFFDRS](https://github.com/nrcan-cfs-fire/cffdrs-ng) (en anglais) sont sous licence GNU General Public License version 2 (GPL-2.0). Une copie de la licence est disponible sur le [référentiel GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main?tab=GPL-2.0-1-ov-file#readme) (en anglais).
