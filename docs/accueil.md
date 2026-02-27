@@ -23,7 +23,7 @@ Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations offi
 ### Fevrier 2026
 Au cours des six dernières semaines, le Groupe sur le danger d'incendie a organisé trois ateliers en personne sur l'IFM2025 à travers le pays. Chaque session s'est concentrée sur la présentation des mises à jour de la Méthode, l'introduction des nouvelles composantes du danger d'incendie de la prairie et le partage d'une proposition de méthode de classification nationale du danger d'incendie.
 
-Une mise à jour du code a été publiée afin de mettre à jour les méthodes de conversion des données météorologiques quotidiennes en données horaires. Un nouveau tutoriel est disponible <a href="../../tutoriels/#daily-to-hourly" target="_self">ici</a> (en anglais). Plus de détails sur la mise à jour peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2026-02-27) (en anglais).
+Une mise à jour du code a été publiée afin de mettre à jour les méthodes de conversion des données météorologiques quotidiennes en données horaires. Un nouveau tutoriel est disponible <a href="../tutoriels/#daily-to-hourly" target="_self">ici</a> (en anglais). Plus de détails sur la mise à jour peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2026-02-27) (en anglais).
 
 ### Annonces précédentes
 
