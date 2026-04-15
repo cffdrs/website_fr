@@ -41,6 +41,21 @@ Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à
 
 <br>
 
+#### FWI2025 Excel Calculators Quick Start (April 2026)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MYF_ybbVdKg?rel=0&cc_load_policy=1&hl=fr-ca" title="FWI2025 Excel Calculators Quick Start" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br>
+
+---
+
+## Les calculatrices Excel
+Les calculatrices IFM2025 (en anglais seulement) se trouvent dans un chiffrier Excel pour offrir aux utilisateurs une façon simple et intéractive pour explorer l'IFM2025. Allez voir le manuel pour plus d'information sur comment les utiliser. Un guide est disponsible dans le manuel en format text ou en format vidéo.
+
+- [Manuel d'utilisation de la calculatrice Excel IFM2025](../documents/FWI2025_calculator_manual.pdf)📥 (en anglais)
+- [Calculatrice Excel standard IFM2025](../documents/FWI2025_calculator.xlsx)📥 (en anglais)
+- [Calculatrice Excel SpotWx IFM2025](../documents/FWI2025_calculator_spotwx.xlsx)📥 (en anglais)
+
 ---
 
 ## Rapports
@@ -48,7 +63,7 @@ PG-MCEDIF
 
 - [PG-MCEDIF aperçu (GLC-X-26)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245410)
 - [IFM2025 structure, changements, et interprétation (GLC-X-42)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/347501)
-- [MCEDIF2025 rayonnement solaire IFM (draft)](../documents/MCEDIF2025_rayonnement-solaire-IFM.pdf)📥
+- [*Projet de note* : Le rayonnement solaire en tant qu'intrant de l’IFM2025](../documents/CFFDRS2025_DraftSolarRadiation_v2.pdf)📥 (en anglais)
 
 Guides de terrain
 
