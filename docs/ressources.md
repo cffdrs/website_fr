@@ -41,7 +41,7 @@ Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à
 
 <br>
 
-#### FWI2025 Excel Calculators Quick Start (April 2026)
+#### FWI2025 Excel Calculators Quick Start (Avril 2026)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MYF_ybbVdKg?rel=0&cc_load_policy=1&hl=fr-ca" title="FWI2025 Excel Calculators Quick Start" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
