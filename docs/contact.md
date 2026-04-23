@@ -21,11 +21,7 @@ Analyste de la mobilisation de la recherche
 **Jonathan Boucher**  
 Chercheur scientifique sur les feux de végétation  
 <a href="../contact/Jonathan_Boucher" target="_self">Biographie (en anglais)</a>  
-[jonathan.boucher@nrcan-rncan.gc.ca](mailto:jonathan.boucher@NRCan-RNCan.gc.ca)  
-
-**Luke Collins**  
-Research Scientist  
-[luke.collins@nrcan-rncan.gc.ca](mailto:Luke.Collins@NRCan-RNCan.gc.ca)  
+[jonathan.boucher@nrcan-rncan.gc.ca](mailto:jonathan.boucher@NRCan-RNCan.gc.ca)   
 
 **Anne Cotton-Gagnon** (elle, elle | she, her)  
 Agente de recherche sur les feux de végétation  
