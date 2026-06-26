@@ -1,0 +1,37 @@
+<a href="../../accueil#annonces" target="_self">retour à Acceuil</a>
+<a href="https://cffdrs.github.io/website_en/home/2025_announcements" target="_self" style="float: right;"> English </a>
+
+# Annonces 2025
+
+### Décembre 2025
+Une mise à jour du code a été publiée afin que tous les calculs prennent désormais en compte les années bissextiles et que les dates de transition saisonnière ne soient plus définies comme une date julienne mais comme une date calendaire. La version C a également été améliorée pour correspondre aux versions Python et R. Vous trouverez des détails sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-12-10) (en anglais), y compris de nouvelles options pour exécuter en continu sur plusieurs années et ne pas faire passer les herbes de l'état d'aplaties à l'état de debout.
+
+Parallèlement à cette mise à jour du code, la version C dispose désormais d'une <a href="../../code" target="_self">page de code</a> sur ce site web, ainsi que d'un <a href="../../tutoriels" target="_self">tutoriel</a> pour calculer l'IFM horaire.
+
+### Octobre 2025
+Le rapport d'information IFM2025 a été publié, il est intitulé <a href="../../ressources/#rapports" target="_self">La mise à jour 2025 de la Méthode IFM : Structure, changements et interprétation</a> (GLC-X-42). Il fournit des informations sur l'IFM2025 et les modifications apportées à la version précédente, l'IFM1987, et peut être consulté sur le site [RNCan Open S&T Repository](https://ostrnrcan-dostrncan.canada.ca/accueil). En outre, une nouvelle vidéo informative qui explique l'IFM2025 en général est maintenant disponible sur la <a href="../../ressources/#explicatives" target="_self">page des ressources</a>.  
+
+Le code C a été mis à jour pour correspondre aux versions Python et R. Les détails peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-10-02) (en anglais) ainsi que des corrections de bugs mineurs plus récents.
+
+### Septembre 2025
+Une mise à jour majeure du code de IFM2025 a été publiée sur le [dépôt GitHub cffdrs-ng](https://github.com/nrcan-cfs-fire/cffdrs-ng) (en anglais). Elle inclut des changements dans les options lors de l'exécution de `hFWI()`, la structure des fichiers du dépôt, et la façon dont l'IH et le rayonnement solaire sont calculés. Plus de détails et le reste des changements peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-09-10) (en anglais). Ce site web a également été mis à jour afin de disposer d'une documentation actualisée dans les sections <a href="../../code" target="_self">Code</a> et <a href="../../tutoriels" target="_self">Tutoriels</a>.
+
+### Août 2025
+Une mise à jour mineure a été publiée dans le dépôt GitHub MCEDIF. Les changements spécifiques peuvent être trouvés dans le [changelog de GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-08-22) (en anglais), qui comprend également des informations supplémentaires sur la prochaine mise à jour (à venir). Une <a href="../../code/#capacites" target="_self">liste des habiletés</a> est maintenant disponible.
+
+Natasha Jurko et Gabrielle Ayres ont animé le deuxième webinaire du Groupe sur le danger des incendies, discutant des nouvelles modifications de l'IFM2025 par rapport à la version IFM1987. L'enregistrement est disponible sur la <a href="../../ressources/#serie-de-seminaires" target="_self">page Ressources</a>.
+
+### Juin 2025
+Nous avons récemment mis à jour le référentiel GitHub cffdrs-ng [README](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main?tab=readme-ov-file#readme) (en anglais) et les [directives de contribution](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CONTRIBUTING.md) (comment fournir des commentaires sur le code et signaler des bogues, en anglais). Nous publierons prochainement notre liste de fonctionnalités, une FAQ et une feuille de route détaillant notre processus de mise à jour du code pour MCEDIF2025. Comme toujours, vous pouvez nous contacter pour nous faire part de vos idées et questions générales à l'adresse courriel de notre équipe :  
+
+[firedanger-dangerincendie@nrcan-rncan.gc.ca](mailto:firedanger-dangerincendie@nrcan-rncan.gc.ca)
+
+### Mai 2025
+Natasha Jurko et Sam LaCarte ont animé un <a href="../../ressources/#grasslands-in-the-fire-weather-index-system-mai-2025" target="_self">webinaire</a> présentant les composantes d'herbes de l'IFM (IFM2025) le 22 mai. Il s'agissait du premier d'une série de webinaires destinés à faciliter les discussions avec le groupe sur les risques d'incendie. L'enregistrement sera mis à la disposition du public sur ce site web au début du mois de juin. En attendant, veuillez nous <a href="../../contact" target="_self">envoyer un courriel</a> si vous souhaitez avoir accès à l'enregistrement.
+
+### Mars 2025
+Le <a href="../../ressources/#bulletin" target="_self">premier bulletin</a>
+est désormais disponible. Il présente les nouvelles fonctionnalités de l'indice Forêt-Météo (IFM2025), notamment l'utilisation de données horaires et les nouveaux intrants et indices pour le danger d'incendie dans les prairies.
+
+### Janvier 2025
+Le module du système d’indice forêt-météo (IFM) écrit en Python et en R peut actuellement être testé par les utilisateurs (le travail sur le langage C est en cours). La publication des autres modules de la MCEDIF (p. ex. systèmes PCI, AHC, et FIF) est provisoirement prévue pour l’automne 2025. 

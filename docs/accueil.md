@@ -4,7 +4,7 @@
 
 ## À propos
 
-La [Méthode canadienne d’évaluation des dangers d’incendie de forêt (MCEDIF)](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/methode-canadienne-evaluation-dangers-incendie-foret) est la principale source d’information sur les incendies à la disposition de toutes les [agences de gestion des incendies de forêt](https://ciffc.ca/mobilization-stats/member-agencies) (en anglais) au Canada. Elle est largement utilisée comme outil de sécurité et de sensibilisation, tant à l’échelle régionale qu’en bordure de feu. La MCEDIF fait l’objet de révisions approfondies sous le nom de [MCEDIF de prochaine génération (PG-MCEDIF)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245410). Le déploiement auprès des praticiens se passe présentement.  L'objectif principal est de mettre à jour le système pour permettre l'utilisation de technologies et de sources de données modernes tout en conservant sa simplicité et son efficacité initiales.  
+La [Méthode canadienne d’évaluation des dangers d’incendie de forêt (MCEDIF)](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/methode-canadienne-evaluation-dangers-incendie-foret) est la principale source d’information sur les incendies à la disposition de toutes les [agences de gestion des incendies de forêt](https://www.canada.ca/fr/securite-publique-canada/campagnes/feux-de-foret/prov.html) au Canada. Elle est largement utilisée comme outil de sécurité et de sensibilisation, tant à l’échelle régionale qu’en bordure de feu. La MCEDIF fait l’objet de révisions approfondies sous le nom de [MCEDIF de prochaine génération (PG-MCEDIF)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245410). Le déploiement auprès des praticiens se passe présentement.  L'objectif principal est de mettre à jour le système pour permettre l'utilisation de technologies et de sources de données modernes tout en conservant sa simplicité et son efficacité initiales.  
 
 Ce site web est destiné à :
 
@@ -20,42 +20,49 @@ Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations offi
 
 ## Annonces
 
-### Fevrier 2026
+### Juin 2026
+Nous avons le plaisir de vous informer que des fichiers Excel contenant une calculatrice d'IFM2025 sont désormais à votre disposition. Ces fichiers constituent une méthode alternative aux calculs utilisant le code C, Python ou R. Ils offrent une interface visuelle simple pour l'entrée des données météorologiques d'une seule station. Veuillez vous référer à la page <a href="../ressources/#les-calculatrices-excel" target="_self">Ressources</a> pour y trouver le manuel d'utilisateur ainsi que les capsules video explicatives.
+
+### Annonces précédentes
+
+#### Fevrier 2026
 Au cours des six dernières semaines, le Groupe sur le danger d'incendie a organisé trois ateliers en personne sur l'IFM2025 à travers le pays. Chaque session s'est concentrée sur la présentation des mises à jour de la Méthode, l'introduction des nouvelles composantes du danger d'incendie de la prairie et le partage d'une proposition de méthode de classification nationale du danger d'incendie.
 
 Une mise à jour du code a été publiée afin de mettre à jour les méthodes de conversion des données météorologiques quotidiennes en données horaires. Un nouveau tutoriel est disponible <a href="../tutoriels/#daily-to-hourly" target="_self">ici</a> (en anglais). Plus de détails sur la mise à jour peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2026-02-27) (en anglais).
 
-### Annonces précédentes
+#### Archive
+- <a href="../accueil/annonces_2025" target="_self">2025</a>
 
-#### Décembre 2025
-Une mise à jour du code a été publiée afin que tous les calculs prennent désormais en compte les années bissextiles et que les dates de transition saisonnière ne soient plus définies comme une date julienne mais comme une date calendaire. La version C a également été améliorée pour correspondre aux versions Python et R. Vous trouverez des détails sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-12-10) (en anglais), y compris de nouvelles options pour exécuter en continu sur plusieurs années et ne pas faire passer les herbes de l'état d'aplaties à l'état de debout.
+---
 
-Parallèlement à cette mise à jour du code, la version C dispose désormais d'une <a href="../code" target="_self">page de code</a> sur ce site web, ainsi que d'un <a href="../tutoriels" target="_self">tutoriel</a> pour calculer l'IFM horaire.
+<h3 style="text-align: center; font-style: italic;"> Traduction en cours </h3>
+## FAQ
 
-#### Octobre 2025
-Le rapport d'information IFM2025 a été publié, il est intitulé <a href="../ressources/#rapports" target="_self">La mise à jour 2025 de la Méthode IFM : Structure, changements et interprétation</a> (GLC-X-42). Il fournit des informations sur l'IFM2025 et les modifications apportées à la version précédente, l'IFM1987, et peut être consulté sur le site [RNCan Open S&T Repository](https://ostrnrcan-dostrncan.canada.ca/accueil). En outre, une nouvelle vidéo informative qui explique l'IFM2025 en général est maintenant disponible sur la <a href="../ressources/#explicatives" target="_self">page des ressources</a>.  
+- <a href="#can-fwi2025-be-used-with-the-current-fbp-system" target="_self">Can FWI2025 be used with the current FBP system?</a>
+- <a href="#why-is-timezone-required-and-how-do-i-determine-it" target="_self">Why is timezone required and how do I determine it?</a>
 
-Le code C a été mis à jour pour correspondre aux versions Python et R. Les détails peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-10-02) (en anglais) ainsi que des corrections de bugs mineurs plus récents.
+<br>
 
-#### Septembre 2025
-Une mise à jour majeure du code de IFM2025 a été publiée sur le [dépôt GitHub cffdrs-ng](https://github.com/nrcan-cfs-fire/cffdrs-ng) (en anglais). Elle inclut des changements dans les options lors de l'exécution de `hFWI()`, la structure des fichiers du dépôt, et la façon dont l'IH et le rayonnement solaire sont calculés. Plus de détails et le reste des changements peuvent être trouvés sur le [changelog GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-09-10) (en anglais). Ce site web a également été mis à jour afin de disposer d'une documentation actualisée dans les sections <a href="../code" target="_self">Code</a> et <a href="../tutoriels" target="_self">Tutoriels</a>.
+#### Can FWI2025 be used with the current FBP system?
 
-#### Août 2025
-Une mise à jour mineure a été publiée dans le dépôt GitHub MCEDIF. Les changements spécifiques peuvent être trouvés dans le [changelog de GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2025-08-22) (en anglais), qui comprend également des informations supplémentaires sur la prochaine mise à jour (à venir). Une <a href="../code/#capacites" target="_self">liste des habiletés</a> est maintenant disponible.
+*As of February 2026:*
 
-Natasha Jurko et Gabrielle Ayres ont animé le deuxième webinaire du Groupe sur le danger des incendies, discutant des nouvelles modifications de l'IFM2025 par rapport à la version IFM1987. L'enregistrement est disponible sur la <a href="../ressources/#serie-de-seminaires" target="_self">page Ressources</a>.
+Feedback from users is crucial, and to that effect – we have heard valuable feedback on the compatibility between the Fire Weather Index 2025 (FWI2025) System and the current Fire Behaviour Prediction (FBP) System that needs to be addressed. FWI2025 is related to a new danger-rating system. It has not yet been linked to absolute (rather than relative) quantities of fire behaviour prediction and therefore should not be used with FBP1992 at this time. Linking of FWI2025 and fire behaviour prediction will come with (interim) iFBP2025. As for what agencies can do, they can implement FWI2025 in parallel with FWI1987 to take advantage of its new capabilities and help us with ongoing testing. Some of those new capabilities include:
 
-#### Juin 2025
-Nous avons récemment mis à jour le référentiel GitHub cffdrs-ng [README](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main?tab=readme-ov-file#readme) (en anglais) et les [directives de contribution](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CONTRIBUTING.md) (comment fournir des commentaires sur le code et signaler des bogues, en anglais). Nous publierons prochainement notre liste de fonctionnalités, une FAQ et une feuille de route détaillant notre processus de mise à jour du code pour MCEDIF2025. Comme toujours, vous pouvez nous contacter pour nous faire part de vos idées et questions générales à l'adresse courriel de notre équipe :  
+- Tracking moisture in fast drying fine fuels like the Fine Fuel Moisture Code
+- Provide indication of overnight burning
+- Better indicators for ignition, spread and intensity with the Grassland FWI System components (Grassland Fuel Moisture Code, Grassland Spread Index, Grassland Fire Weather Index)
+- Better indicator of peak fire danger with calculations of the FWI System components in near-real time
 
-[firedanger-dangerincendie@nrcan-rncan.gc.ca](mailto:firedanger-dangerincendie@nrcan-rncan.gc.ca)
+For FBP inputs, they should continue to use FWI1987 for operational decisions, though testing FWI2025 with FBP1992 and providing feedback would be valuable. Work is ongoing to quantify the differences between FWI2025 and FWI1987 in relation to the effect on fire behaviour using the current FBP System (FBP1992). We will communicate our findings this spring via our communication channels.  But, at this time, **FWI2025 should not be used as an input to the FBP System**.  
 
-#### Mai 2025
-Natasha Jurko et Sam LaCarte ont animé un <a href="../ressources/#grasslands-in-the-fire-weather-index-system-mai-2025" target="_self">webinaire</a> présentant les composantes d'herbes de l'IFM (IFM2025) le 22 mai. Il s'agissait du premier d'une série de webinaires destinés à faciliter les discussions avec le groupe sur les risques d'incendie. L'enregistrement sera mis à la disposition du public sur ce site web au début du mois de juin. En attendant, veuillez nous <a href="../contact" target="_self">envoyer un courriel</a> si vous souhaitez avoir accès à l'enregistrement.
+<br>
 
-#### Mars 2025
-Le <a href="../ressources/#bulletin" target="_self">premier bulletin</a>
-est désormais disponible. Il présente les nouvelles fonctionnalités de l'indice Forêt-Météo (IFM2025), notamment l'utilisation de données horaires et les nouveaux intrants et indices pour le danger d'incendie dans les prairies.
+#### Why is timezone required and how do I determine it?
+`timezone` is one of the required parameters to run FWI2025. More specifically, it is the UTC offset corresponding to the times in a dataset, and should be given in units of hours. It is required because it is an essential piece of information to be able to calculate sunrise and sunset times, along with latitude and longitude.  
 
-#### Janvier 2025
-Le module du système d’indice forêt-météo (IFM) écrit en Python et en R peut actuellement être testé par les utilisateurs (le travail sur le langage C est en cours). La publication des autres modules de la MCEDIF (p. ex. systèmes PCI, AHC, et FIF) est provisoirement prévue pour l’automne 2025. 
+If you know your weather data was collected in Local Standard Time (LST), the `timezone` parameter is simply the [UTC offset of the LST](https://en.wikipedia.org/wiki/List_of_UTC_offsets). This is true for any dataset that followed the [old CFFDRS standard](https://ostrnrcan-dostrncan.canada.ca/handle/1845/219568) of collecting daily weather data at noon LST. For example, [Eastern Standard Time](https://en.wikipedia.org/wiki/Eastern_Time_Zone) is 5 hours behind Coordinated Universal Time (UTC), which corresponds to a `timezone` input of -5. To find the UTC offset of a date and location programmatically, see the corresponding FWI2025 tutorial appendices for <a href="../tutoriels/IFM_horaire_Python/#appendix-timezone" target="_self">Python</a> and <a href="../tutoriels/IFM_horaire_R/#appendix-timezone" target="_self">R</a>.  
+
+The other common practise for weather data is to collect it in UTC. In this case, `timezone` should be set to 0. If you know a dataset was collected in Local Daylight Time (LDT), this should be one hour ahead of LST, so add 1 to the UTC offset of the LST.  
+
+If you do not know the UTC offset used for a dataset, the only thing you can do is guess what it is based on the diurnal fluctuations of the weather variables. Feel free to <a href="../contact" target = "_self">contact us</a> for more information or guidance.

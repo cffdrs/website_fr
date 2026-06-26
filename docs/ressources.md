@@ -50,11 +50,13 @@ Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à
 ---
 
 ## Les calculatrices Excel
-Les calculatrices IFM2025 (en anglais seulement) se trouvent dans un chiffrier Excel pour offrir aux utilisateurs une façon simple et intéractive pour explorer l'IFM2025. Allez voir le manuel pour plus d'information sur comment les utiliser. Un guide est disponsible dans le manuel en format text ou en format vidéo.
+Les calculatrices IFM2025 (en anglais) se trouvent dans un chiffrier Excel pour offrir aux utilisateurs une façon simple et intéractive pour explorer l'IFM2025. Allez voir le manuel pour plus d'information sur comment les utiliser. Un guide est disponsible dans le manuel en format text ou en format <a href="#explicatives" target="_self">vidéo</a>.
 
-- [Manuel d'utilisation de la calculatrice Excel IFM2025](../documents/FWI2025_calculator_manual.pdf)📥 (en anglais)
-- [Calculatrice Excel standard IFM2025](../documents/FWI2025_calculator.xlsx)📥 (en anglais)
-- [Calculatrice Excel SpotWx IFM2025](../documents/FWI2025_calculator_spotwx.xlsx)📥 (en anglais)
+*Dernière mise à jour : 24 juin 2026*
+
+- [Manuel d'utilisation de la calculatrice Excel](../documents/FWI2025_calculator_manual.pdf)📥 (en anglais)
+- [Version standard](../documents/FWI2025_calculator.xlsx)📥 (en anglais)
+- [Version SpotWx](../documents/FWI2025_calculator_spotwx.xlsx)📥 (en anglais)
 
 ---
 
@@ -88,10 +90,10 @@ Documentation MCEDIF plus actuelle et historique peut être trouvée sur le
 MCEDIF
 
 - [Gouvernement du Canada](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/methode-canadienne-evaluation-dangers-incendie-foret)  
-- [Ressources naturelles Canada](https://cwfis.cfs.nrcan.gc.ca/renseignements/sommaire/fdr)
+- [Ressources naturelles Canada](https://cwfis.cfs.nrcan.gc.ca/fr/renseignements)
 
 Centre de liens Web
 
-- [Système canadien d'information sur les feux de végétation (SCIFV)](https://cwfis.cfs.nrcan.gc.ca/accueil) 
+- [Système canadien d'information sur les feux de végétation (SCIFV)](https://cwfis.cfs.nrcan.gc.ca/fr) 
 - [Feux de végétation](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation)  
 - [Feux de forêt : intervention fédérale](https://www.canada.ca/fr/securite-publique-canada/campagnes/feux-de-foret.html)

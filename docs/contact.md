@@ -2,13 +2,15 @@
 
 # Nous joindre
 
-La MCEDIF-PG est en cours de mise à jour par le Groupe sur les risques d'incendie du [Service canadien des forêts](https://ressources-naturelles.canada.ca/organisation/corporate-overview/services-forestier-canada). Pour commentaires et rapports de bogues, veuillez consulter le [fichier **CONTRIBUTING.md** sur référentiel GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CONTRIBUTING.md) (en anglais).  
+La MCEDIF-PG est en cours de mise à jour par le Groupe sur les risques d'incendie du [Service canadien des forêts](https://ressources-naturelles.canada.ca/organisation/corporate-overview/services-forestier-canada). Tous vos commentaires visant à améliorer cette ressource sont les bienvenus !
 
-Pour toute autre question d'ordre scientifique ou général, ou pour tout commentaire sur le site Web, veuillez envoyer un courriel à :
+- Pour commentaires et rapports de bogues, veuillez consulter le [fichier **CONTRIBUTING.md** sur référentiel GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CONTRIBUTING.md) (en anglais).  
 
-[firedanger-dangerincendie@nrcan-rncan.gc.ca](mailto:firedanger-dangerincendie@nrcan-rncan.gc.ca)
+- Pour toute autre question (d'ordre scientifique, concernant le site Web, etc.), veuillez envoyer un courriel à :
 
-Tous vos commentaires visant à améliorer cette ressource sont les bienvenus!
+<p class="text-center">
+    <button class="btn btn-dark" onclick="location.href='mailto:firedanger-dangerincendie@nrcan-rncan.gc.ca'" style="text-transform: lowercase;font-size: 110%; padding: 14px;">firedanger-dangerincendie@nrcan-rncan.gc.ca</button>
+</p>
 
 ---
 
