@@ -65,6 +65,7 @@ PG-MCEDIF
 
 - [PG-MCEDIF aperçu (GLC-X-26)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/245410)
 - [IFM2025 structure, changements, et interprétation (GLC-X-42)](https://ostrnrcan-dostrncan.canada.ca/handle/1845/347501)
+- [Cartographie des types de combustibles utilisés pour la prévision du comportement des incendies de forêt](https://ostrnrcan-dostrncan.canada.ca/handle/1845/350452)
 - [*Projet de note* : Le rayonnement solaire en tant qu'intrant de l’IFM2025](../documents/CFFDRS2025_DraftSolarRadiation_v2.pdf)📥 (en anglais)
 
 Guides de terrain
