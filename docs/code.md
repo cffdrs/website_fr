@@ -43,7 +43,7 @@ L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](ht
 
 ### IFM2025
 
-L'indice canadien forêt-météo (IFM) est un système majeur de la MCEDIF. IFM2025 est la méthode IFM de la prochaine génération que l'on trouve dans le MCEDIF2025. Sélectionnez un langage de programmation ci-dessous pour obtenir une description des fichiers de code et des données intrantes nécessaires, ainsi qu'une documentation sur les principales fonctions.
+[L'indice canadien forêt-météo](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/methode-canadienne-indice-foret-meteo) (IFM) est un système majeur de la MCEDIF. IFM2025 est la méthode IFM de la prochaine génération que l'on trouve dans le MCEDIF2025. Sélectionnez un langage de programmation ci-dessous pour obtenir une description des fichiers de code et des données intrantes nécessaires, ainsi qu'une documentation sur les principales fonctions.
 
 <div class="text-center">
 	<button class="btn btn-dark" onclick="location.href='../code/IFM2025_C'">IFM2025 <br> C <br> (en anglais)</button>
