@@ -52,7 +52,7 @@ Lors de ces séminaires du Groupe sur le danger des incendies, nous cherchons à
 ## Les calculatrices Excel
 Les calculatrices IFM2025 (en anglais) se trouvent dans un chiffrier Excel pour offrir aux utilisateurs une façon simple et intéractive pour explorer l'IFM2025. Allez voir le manuel pour plus d'information sur comment les utiliser. Un guide est disponsible dans le manuel en format text ou en format <a href="#explicatives" target="_self">vidéo</a>.
 
-*Dernière mise à jour : 24 juin 2026*
+*Dernière mise à jour : 30 juin 2026*
 
 - [Manuel d'utilisation de la calculatrice Excel](../documents/FWI2025_calculator_manual.pdf)📥 (en anglais)
 - [Version standard](../documents/FWI2025_calculator.xlsx)📥 (en anglais)
