@@ -25,7 +25,7 @@ body.homepage>div.container>div.row>div.col-md-9 {
 
 /* Theming */
 
-div {
+div, footer {
     font-family: "Roboto Mono", monospace;
 }
 
@@ -205,4 +205,15 @@ iframe {
     border-color: #ff5e17;
     border-width: 2px;
     border-radius: 7px;
+}
+
+/* Footer List */
+footer ul li {
+    display: inline-block;
+    margin-inline-end: 10px;
+}
+
+footer ul li:not(:first-child)::before {
+    content: "•";
+    margin-inline-end: 14px;
 }

@@ -58,3 +58,5 @@ L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](ht
 ## Licence
 
 Les [scripts NG-CFFDRS](https://github.com/nrcan-cfs-fire/cffdrs-ng) (en anglais) sont sous licence GNU General Public License version 2 (GPL-2.0). Une copie de la licence est disponible sur le [référentiel GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/tree/main?tab=GPL-2.0-1-ov-file#readme) (en anglais).
+
+Dans la prochaine mise à jour, la licence passera à la [MPL 2.0](https://mozilla.org/MPL/2.0/) (en anglais).
