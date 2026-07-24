@@ -35,7 +35,9 @@ L'ancien code MCEDIF1992 est toujours disponible sur le [GitHub de la MCEDIF](ht
 | Convertir les données quotidiennes de midi en données météorologiques quotidiennes minimales/maximales | ✔️ | ✔️     | ✔️ |
 | Convertir les données quotidiennes minimales/maximales en données météorologiques horaires | ✔️ | ✔️ | ✔️ |
 | Accepte plusieurs stations simultanément                                     | ❌ | ✔️     | ✔️ |
-| Fractionnement des données pour les entrées sur plusieurs années à la fois   | ❌ | ✔️     | ✔️ |
+| Fractionnement des données pour les entrées sur plusieurs années   | ❌ | ✔️     | ✔️ |
+| Gère les colonnes d'entrée supplémentaires et les colonnes dont l'ordre est incorrect | ❌ | ✔️     | ✔️ |
+| Vitesses de calcul relatives | 🐇 | 🐇     | 🐢 |
 
 ---
 
