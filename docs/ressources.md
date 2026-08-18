@@ -90,8 +90,8 @@ Documentation MCEDIF plus actuelle et historique peut être trouvée sur le
 
 MCEDIF
 
-- [Gouvernement du Canada](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/methode-canadienne-evaluation-dangers-incendie-foret)  
-- [Ressources naturelles Canada](https://cwfis.cfs.nrcan.gc.ca/fr/renseignements)
+- [MCEDIF2025](https://ressources-naturelles.canada.ca/forets-foresterie/feux-vegetation/methode-canadienne-evaluation-dangers-incendie-foret-prochaine-generation)  
+- [Renseignements généraux](https://cwfis.cfs.nrcan.gc.ca/fr/renseignements)
 
 Centre de liens Web
 
