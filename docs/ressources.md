@@ -86,6 +86,26 @@ Documentation MCEDIF plus actuelle et historique peut être trouvée sur le
 
 ---
 
+## Publications récentes
+Thompson, D. K., Fusina, G., & Jackson, P. (2026). Evaluation of Ground-Based Smoke Sensors for Wildfire Detection and Monitoring in Canada. *Fire*, *9*(4), 141. [https://doi.org/10.3390/fire9040141](https://doi.org/10.3390/fire9040141)
+
+- Une étude canadienne a révélé que les réseaux de capteurs de fumée au sol peuvent détecter et suivre efficacement les feux de forêt de plus grande ampleur. Ils fournissent également des renseignements uniques sur la production persistante de fumée, particulièrement durant les phases de combustion lente et couvante de faible intensité, qui échappent souvent aux systèmes de détection par satellite.
+
+Liu, M., Greene, G., Perrakis, D. D. B., Roeser, D. (2026). Modelling fire behaviour in the lodgepole pine forests of interior British Columbia: An evaluation of models against field evidence. *Ecological Informatics*, *95*, Article 103789. [https://doi.org/10.1016/j.ecoinf.2026.103789](https://doi.org/10.1016/j.ecoinf.2026.103789)
+<!-- 103789, ISSN 1574-9541, -->
+
+- Une évaluation des modèles de comportement du feu dans les forêts de pin tordu à maturité de l’intérieur de la Colombie-Britannique a montré que le modèle Canadian Conifer Pyrometrics (ConPyro) reproduisait le plus fidèlement l’intensité des feux reconstituée à partir des observations de terrain. Toutefois, tous les modèles ont eu de la difficulté à prédire avec précision le comportement du feu dans les peuplements aménagés présentant des structures forestières plus complexes.
+
+Hanes, C. C., Swystun, T., Brookes, A., Jurko, N. & Thompson, D. (2026). Épaisseur de la couche organique et charge de combustible de la couche organique dans les régions forestières du Canada. Natural Resources Canada. [https://doi.org/10.4095/st000218](https://doi.org/10.4095/st000218)
+
+- Cette publication rassemble des estimations de l’épaisseur de la couche organique et de la charge de combustible de la couche organique dans les régions forestières du Canada. Elle fournit des données de référence importantes pour améliorer les prévisions du comportement des feux de forêt, de la consommation de combustible, des émissions et des effets écologiques. Les couches organiques constituent une composante essentielle des combustibles forestiers et du stockage du carbone, mais leurs caractéristiques varient considérablement selon les types de forêts et les conditions environnementales.
+
+Perrakis, D. D. B., Hebda, N. J. R., & Taylor, S. W. (2026). Simple Spread Models for Understory Surface Fires. *Fire*, *9*(7), 302. [https://doi.org/10.3390/fire9070302](https://doi.org/10.3390/fire9070302)
+
+- Une nouvelle étude a élaboré et évalué des modèles simples permettant de prédire la propagation des feux de surface dans le sous-bois des forêts nord-américaines. Les résultats montrent que la vitesse du vent et l’humidité des combustibles sont les principaux facteurs qui influencent la vitesse de propagation. Les nouveaux modèles ont généralement surpassé les approches existantes tout en conservant une précision suffisante pour une utilisation opérationnelle.
+
+---
+
 ## Liens Web
 
 MCEDIF
