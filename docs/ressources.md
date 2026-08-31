@@ -89,7 +89,7 @@ Documentation MCEDIF plus actuelle et historique peut être trouvée sur le
 ## Publications récentes
 Thompson, D. K., Fusina, G., & Jackson, P. (2026). Evaluation of Ground-Based Smoke Sensors for Wildfire Detection and Monitoring in Canada. *Fire*, *9*(4), 141. [https://doi.org/10.3390/fire9040141](https://doi.org/10.3390/fire9040141)
 
-- Une étude canadienne a révélé que les réseaux de capteurs de fumée au sol peuvent détecter et suivre efficacement les feux de forêt de plus grande ampleur. Ils fournissent également des renseignements uniques sur la production persistante de fumée, particulièrement durant les phases de combustion lente et couvante de faible intensité, qui échappent souvent aux systèmes de détection par satellite.
+- Cette analyse de brûlages dirigés et d’incendies de végétation dans les prairies de l’Alberta, du Québec et de la Colombie-Britannique illustre comment les composantes prairie de la méthode IFM2025 (c.-à-d. l’IHH, l’IPH et l’IDIH) réagissent lors d’événements d’allumage.
 
 Liu, M., Greene, G., Perrakis, D. D. B., Roeser, D. (2026). Modelling fire behaviour in the lodgepole pine forests of interior British Columbia: An evaluation of models against field evidence. *Ecological Informatics*, *95*, Article 103789. [https://doi.org/10.1016/j.ecoinf.2026.103789](https://doi.org/10.1016/j.ecoinf.2026.103789)
 <!-- 103789, ISSN 1574-9541, -->
