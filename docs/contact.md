@@ -6,7 +6,13 @@ La MCEDIF-PG est en cours de mise à jour par le Groupe sur les risques d'incend
 
 - Pour commentaires et rapports de bogues, veuillez consulter le [fichier **CONTRIBUTING.md** sur référentiel GitHub](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CONTRIBUTING.md) (en anglais).  
 
-- Pour toute autre question (d'ordre scientifique, concernant le site Web, etc.), veuillez envoyer un courriel à :
+- Pour toute remarque concernant le bulletin d'information et le site Web, veuillez compléter un court formulaire anonyme :
+
+<iframe width="560px" height="360px" src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=M1vJBcqQ1Um2RCiLkwuRK7SAfN5eDHROvyOeQI2KmgFUNFJLVVFIM1FCTFBaOFEzV0lFWU5YNjk4QiQlQCN0PWcu&embed=true&lang=fr-ca" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+<br>
+
+- Pour toute autre question (d'ordre scientifique, d'aide, etc.), veuillez envoyer un courriel à :
 
 <p class="text-center">
     <button class="btn btn-dark" onclick="location.href='mailto:firedanger-dangerincendie@nrcan-rncan.gc.ca'" style="text-transform: lowercase;font-size: 110%; padding: 14px;">firedanger-dangerincendie@nrcan-rncan.gc.ca</button>
