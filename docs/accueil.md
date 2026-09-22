@@ -20,6 +20,11 @@ Pour ceux qui ne connaissent pas la MCEDIF ou pour obtenir des informations offi
 
 ## Annonces
 
+### Septembre 2026
+Une mise à jour mineure du code a été publiée. Elle comprend des modifications à la licence de la méthode IFM2025, plusieurs changements aux noms de fonctions et diverses corrections de bogues. Consultez le [journal des modifications](https://github.com/nrcan-cfs-fire/cffdrs-ng/blob/main/CHANGELOG.md#2026-08-13) (en anglais) pour en savoir plus.
+
+Un nouvel article de [*La science, tout simplement*](https://ressources-naturelles.canada.ca/histoires/science-simplifiee/science-simplifiee-quelques-secondes-methode-canadienne-evaluation-dangers-incendie-foret-modernise) explique les mises à jour en cours et à venir de la Méthode canadienne d’évaluation des dangers d’incendie de forêt (MCEDIF). Il présente également au grand public un bref aperçu des nouvelles fonctionnalités de la méthode IFM2025.
+
 ### Juin 2026
 Nous avons le plaisir de vous informer que des fichiers Excel contenant une calculatrice d'IFM2025 sont désormais à votre disposition. Ces fichiers constituent une méthode alternative aux calculs utilisant le code C, Python ou R. Ils offrent une interface visuelle simple pour l'entrée des données météorologiques d'une seule station. Veuillez vous référer à la page <a href="../ressources/#les-calculatrices-excel" target="_self">Ressources</a> pour y trouver le manuel d'utilisateur ainsi que les capsules video explicatives.
 
